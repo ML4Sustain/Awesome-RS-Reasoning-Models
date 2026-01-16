@@ -28,9 +28,9 @@ Latest timeline shown above (auto-built from `data/survey.csv`).
 | 2025-09-26      | Geo-R1         | Zhejiang University                         | VLM+RL   | RSVLRM     | [2509.21976](https://arxiv.org/abs/2509.21976) |        |
 | 2025-09-26      | RSThinker      | Jilin University                            | VLM+RL   | RSVLRM     | [2509.22221](https://arxiv.org/abs/2509.22221) |        |
 | 2025-09-25      | GeoEvolve      | MIT                                         | VLM+RL   | RSVLRM     | [2509.21593](https://arxiv.org/abs/2509.21593) |        |
+| 2025-07-25      | RemoteReasoner | Hohai University                            | VLM+RL   | RSVLRM     | [2507.1928](https://arxiv.org/abs/2507.19280)  |        |
 | 2025-05-17      | TinyRS-R1      | Middle East Technical University            | VLM+RL   | RSVLRM     | [2505.12099](https://arxiv.org/abs/2505.12099) |        |
 | 2025-04-13      | SegEarth-R1    | Xi’an Jiaotong University                   | VLM+SFT  | RSVLRM     | [2504.09644](https://arxiv.org/abs/2504.09644) |        |
-|                 | RemoteReasoner | Hohai University                            | VLM+RL   | RSVLRM     | [2507.1928](https://arxiv.org/abs/2507.19280)  |        |
 
 <!-- AUTO_TABLE_END -->
 
