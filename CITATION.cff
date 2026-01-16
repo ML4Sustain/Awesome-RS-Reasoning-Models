@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+message: "If you use this survey, please cite it."
+title: "Remote Sensing Reasoning Models Survey"
+type: software
+authors:
+  - name: "Your Name"
+version: 0.1.0
+license: MIT

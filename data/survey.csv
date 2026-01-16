@@ -1,0 +1,18 @@
+paradigm,method,year,institution,title,model,arxiv_id,url,task,notes,github,bibtex,submitted_v1
+RSVLRM,VLM+SFT,2025,Xi’an Jiaotong University,SegEarth-R1: Segmentation Reasoning in Remote Sensing,SegEarth-R1,2504.09644,https://arxiv.org/abs/2504.09644,RS segmentation reasoning,,,,2025-04-13
+RSVLRM,VLM+RL,2025,Middle East Technical University,TinyRS-R1: Compact Vision-Language Reasoning for Remote Sensing,TinyRS-R1,2505.12099,https://arxiv.org/abs/2505.12099,RS reasoning,,,,2025-05-17
+RSVLRM,VLM+RL,2025,Hohai University,RemoteReasoner: Towards Reasoning-Centric Remote Sensing Foundation Models,RemoteReasoner,2507.1928,https://arxiv.org/abs/2507.19280,RS reasoning,,,,2025-07-25
+RSVLRM,VLM+RL,2025,MIT,GeoEvolve: Evolving Vision-Language Reasoning for Geospatial Intelligence,GeoEvolve,2509.21593,https://arxiv.org/abs/2509.21593,Geospatial reasoning,,,,2025-09-25
+RSVLRM,VLM+RL,2025,Zhejiang University,Geo-R1: Vision-Language Reasoning for Remote Sensing,Geo-R1,2509.21976,https://arxiv.org/abs/2509.21976,RS reasoning,,,,2025-09-26
+RSVLRM,VLM+RL,2025,Jilin University,Towards Faithful Vision-Language Reasoning in Remote Sensing,RSThinker,2509.22221,https://arxiv.org/abs/2509.22221,Faithful RS reasoning,,,,2025-09-26
+RSVLRM,VLM+RL,2025,Shanghai Artificial Intelligence Laboratory,Earth-Agent: An Agentic Foundation Model for Earth Observation,Earth-Agent,2509.23141,https://arxiv.org/abs/2509.23141,EO agent reasoning,,,,2025-09-27
+RSVLRM,VLM+RL,2025,IBM Research,GeoVLM-R1: Reinforced Vision-Language Reasoning for Geospatial Tasks,GeoVLM-R1,2509.25026,https://arxiv.org/abs/2509.25026,Geospatial reasoning,,,,2025-09-29
+RSVLRM,VLM+SFT,2025,IDEA Research,Rex-Omni: Detect Anything in Remote Sensing Images,Rex-Omni,2510.12798,https://arxiv.org/abs/2510.12798,General RS perception,,,,2025-10-14
+RSVLRM,VLM+RL,2025,Google Research,Earth AI: Towards General-Purpose Earth Observation Intelligence,Earth AI,2510.18318,https://arxiv.org/abs/2510.18318,EO reasoning agent,,,,2025-10-21
+RSVLRM,VLM+SFT,2025,Dalian University of Technology,FineRS: Fine-Grained Reasoning for Remote Sensing,FineRS,2510.21311,https://arxiv.org/abs/2510.21311,Fine-grained RS reasoning,,,,2025-10-24
+RSVLRM,VLM+RL,2025,KTH Royal Institute of Technology,Navigation in a Three-Dimensional Urban Flow Field,,2510.25679,https://arxiv.org/abs/2510.25679,Urban spatial reasoning,,,,2025-10-29
+RSVLRM,VLM+RL,2025,Xi’an Jiaotong University,Designing Domain-Specific Agents for Earth Observation,EarthAgent,2511.17198,https://arxiv.org/abs/2511.17198,EO agent reasoning,,,,2025-11-21
+RSVLRM,VLM+RL,2025,Central South University,Asking Like Socrates: Self-Questioning for Remote Sensing Reasoning,,2511.22396,https://arxiv.org/abs/2511.22396,Self-questioning RS reasoning,,,,2025-11-27
+RSVLRM,VLM+RL,2025,Wuhan University,GeoZero: Zero-Shot Vision-Language Reasoning for Geospatial Intelligence,GeoZero,2511.22645,https://arxiv.org/abs/2511.22645,Zero-shot geospatial reasoning,,,,2025-11-27
+RSVLRM,VLM+RL,2026,University of Technology Sydney,Vision-Language Reasoning for Geolocalization,Geo-R,2601.00388,https://arxiv.org/abs/2601.00388,Geolocalization reasoning,,,,2026-01-01
+RSVLRM,VLM+RL,2026,Chinese Academy of Sciences,GeoReason: Large Vision-Language Reasoning Model for Geospatial Tasks,GeoReason,2601.04118,https://arxiv.org/abs/2601.04118,Geospatial reasoning,,,,2026-01-07
