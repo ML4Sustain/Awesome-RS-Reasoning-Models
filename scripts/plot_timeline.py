@@ -14,6 +14,7 @@ ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / "data" / "survey.csv"
 METRICS = ROOT / "data" / "github_metrics.json"
 OUT = ROOT / "assets" / "timeline.svg"
+SITE_OUT = ROOT / "site" / "public" / "timeline.svg"
 
 WIDTH = 1600
 LEFT = 175
@@ -123,7 +124,10 @@ def main() -> None:
         '<text x="1450" y="4" text-anchor="end" fill="#799faa">generated from data/survey.csv</text>',
         '</g></g></svg>',
     ]
-    OUT.write_text("\n".join(parts) + "\n", encoding="utf-8")
+    rendered = "\n".join(parts) + "\n"
+    OUT.write_text(rendered, encoding="utf-8")
+    SITE_OUT.parent.mkdir(parents=True, exist_ok=True)
+    SITE_OUT.write_text(rendered, encoding="utf-8")
     print(f"Saved {OUT.relative_to(ROOT)} with {len(dated)} entries.")
 
 
