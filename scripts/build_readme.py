@@ -40,7 +40,13 @@ def link_badge(label: str, message: str, url: str, *, logo: str = "", color: str
     query = f"style=flat"
     if logo:
         query += f"&amp;logo={quote(logo)}"
-    badge = f'<img alt="{label}: {message}" height="20" src="https://img.shields.io/badge/{quote(message)}-{color}?{query}">'
+    native_widths = {
+        "arXiv": 57, "DOI": 49, "IEEE": 55, "Article": 65,
+        "Hugging Face": 103, "ModelScope": 88, "Baidu": 62,
+        "GitHub": 69, "Website": 72,
+    }
+    width = native_widths.get(message, 46 + max(0, len(message) - 2) * 6 if message.isdigit() else 76)
+    badge = f'<img alt="{label}: {message}" width="{width}" height="20" src="https://img.shields.io/badge/{quote(message)}-{color}?{query}">'
     return f'<a href="{url}">{badge}</a>'
 
 
