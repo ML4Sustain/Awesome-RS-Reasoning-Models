@@ -31,6 +31,20 @@ def md_link(label: str, url: str) -> str:
     return f"[{label}]({url})" if url else "—"
 
 
+def star_badge(stars: int, repo: str) -> str:
+    """Render a GitHub-style badge from the stored snapshot, never a live count."""
+    if not repo or repo == "No" or stars < 0:
+        return "—"
+    if stars >= 1_000_000:
+        label = f"{stars / 1_000_000:.1f}m".replace(".0m", "m")
+    elif stars >= 1_000:
+        label = f"{stars / 1_000:.1f}k".replace(".0k", "k")
+    else:
+        label = str(stars)
+    badge = f'<img alt="{stars:,} Stars" src="https://img.shields.io/static/v1?label=Stars&amp;message={label}&amp;logo=github&amp;style=social">'
+    return f'<a href="{repo.rstrip("/")}/stargazers">{badge}</a>'
+
+
 def paper_link(comments: str) -> str:
     """Extract the first paper/DOI URL stored in the audit notes."""
     match = re.search(r"(?:Paper:\s*)?(https?://(?:arxiv\.org/abs/|doi\.org/|ieeexplore\.ieee\.org/document/)[^\s;,]+)", comments)
@@ -89,7 +103,7 @@ def dashboard(df: pd.DataFrame, metrics: dict[str, dict]) -> tuple[str, dict]:
     rows = []
     for _, row in df.head(5).iterrows():
         code = md_link("Code", row["github"]) if row["github"] else "No public code"
-        star = f"{row['stars']:,}" if row["stars"] >= 0 else "—"
+        star = star_badge(int(row["stars"]), row["github"])
         rows.append([
             row["date"].strftime("%Y-%m-%d"),
             md_link(row["name"], row["url"]),
@@ -113,7 +127,7 @@ def catalog(df: pd.DataFrame) -> str:
         for _, row in group.iterrows():
             paper = md_link("Paper", row["url"])
             code = md_link("Code", row["github"]) if row["github"] else "—"
-            stars = f"**{row['stars']:,}**" if row["stars"] >= 0 else "—"
+            stars = star_badge(int(row["stars"]), row["github"])
             rows.append([
                 md_link(f"**{row['name']}**", row["url"]),
                 row["task"],
@@ -161,7 +175,7 @@ def ecosystem_catalog(df: pd.DataFrame, stars: dict[str, int], *, expanded: bool
             if row["ModelScope_Mirror"] and row["ModelScope_Mirror"] not in {"No", row["Download_Link2"]}:
                 downloads.append(md_link("ModelScope", row["ModelScope_Mirror"]))
             repo = md_link("Code", row["GitHub_Repo"]) if row["GitHub_Repo"] and row["GitHub_Repo"] != "No" else "—"
-            star = f"{int(row['_stars']):,}" if int(row["_stars"]) else "—"
+            star = star_badge(int(row["_stars"]), row["GitHub_Repo"])
             rows.append([f"**{row['Name']}**", f"{row['Year']} · {row['Venue']}", paper_link(row["Comments"]), " · ".join(downloads) or "—", repo, star])
         body = table(["Resource", "Year / Venue", "Paper", "Weights / Data", "Official code", "Stars"], rows)
         details_tag = "<details open>" if expanded else "<details>"
