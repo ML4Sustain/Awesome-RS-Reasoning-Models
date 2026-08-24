@@ -100,3 +100,12 @@ html[data-theme='light'] .timeline-controls { border-color:rgba(25,104,106,.14);
 .timeline-controls .filter-all.active { color:#073a42; border-color:#62d3d2; background:#62d3d2; }.timeline-controls .filter-supervised.active { color:#073a34; border-color:#55d1b9; background:#55d1b9; }.timeline-controls .filter-reinforcement.active { color:#453006; border-color:#ffc447; background:#ffc447; }.timeline-controls .filter-agentic-tools.active { color:#4b1221; border-color:#e47691; background:#e47691; }
 html[data-theme='light'] .month-axis span { color:#647f85; } html[data-theme='light'] .month-axis b { color:#173d47; } html[data-theme='light'] .month-line { background:rgba(25,104,106,.1); } html[data-theme='light'] .timeline-lane { border-color:rgba(25,104,106,.1); background:rgba(255,255,255,.46); } html[data-theme='light'] .timeline-lane>strong { color:#21444d; } html[data-theme='light'] .timeline-node { border-color:#edf7f3; box-shadow:0 4px 12px rgba(25,76,78,.2); } html[data-theme='light'] .node-label { color:#355d65; } html[data-theme='light'] .timeline-legend { color:#617e84; } html[data-theme='light'] .timeline-legend b { color:#466970; }
 @media (max-width:650px) { .timeline-controls{overflow-x:auto}.timeline-controls button{white-space:nowrap}.timeline-controls>span{display:none}.timeline-canvas{min-width:980px} }
+
+/* Explicit timeline surfaces for both color themes */
+html[data-theme='dark'] .interactive-timeline { background:radial-gradient(circle at 84% 8%,rgba(48,176,186,.16),transparent 28%),linear-gradient(145deg,#061827,#0d3442); border-color:rgba(126,205,217,.2); }
+html[data-theme='dark'] .timeline-lane { background:rgba(255,255,255,.028); border-color:rgba(170,218,225,.08); }
+html[data-theme='dark'] .node-popover { color:#eaf9fb; background:rgba(5,29,43,.98); border-color:rgba(119,206,213,.3); }
+html[data-theme='light'] .interactive-timeline { background:radial-gradient(circle at 84% 8%,rgba(59,188,177,.15),transparent 29%),linear-gradient(145deg,#f9fcfa,#e8f4f0); border-color:rgba(25,104,106,.18); box-shadow:0 22px 52px rgba(31,91,89,.11); }
+html[data-theme='light'] .timeline-lane { background:rgba(255,255,255,.72); border-color:rgba(25,104,106,.12); box-shadow:0 8px 24px rgba(32,91,89,.045); }
+html[data-theme='light'] .node-popover { color:#173d47; background:rgba(255,255,255,.98); border-color:rgba(25,126,127,.24); box-shadow:0 16px 38px rgba(29,82,82,.18); }
+html[data-theme='light'] .node-popover small { color:#6c858a; } html[data-theme='light'] .node-popover a { color:#137e82; }
