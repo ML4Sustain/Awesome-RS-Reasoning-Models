@@ -1,5 +1,6 @@
 import CatalogExplorer from './catalog-explorer';
 import payload from './catalog-data.json';
+import ThemeToggle from './theme-toggle';
 
 const tracks = [
   { number: '01', label: 'Supervised reasoning', count: 7, tone: 'mint' },
@@ -14,7 +15,7 @@ export default function Home() {
         <nav className="nav">
           <a className="brand" href="#top" aria-label="Awesome RS Reasoning home"><span className="brand-mark" aria-hidden="true"><i /></span><span><b>Awesome RS</b><small>Reasoning</small></span></a>
           <div className="nav-links"><a href="#systems">Systems</a><a href="#catalog">Catalog</a><a href="#foundations">Foundations</a></div>
-          <a className="repo-link" href="https://github.com/ML4Sustain/Awesome-RS-Reasoning-Models">GitHub ↗</a>
+          <div className="nav-actions"><ThemeToggle /><a className="repo-link" href="https://github.com/ML4Sustain/Awesome-RS-Reasoning-Models">GitHub ↗</a></div>
         </nav>
         <section className="hero">
           <div className="hero-content">
