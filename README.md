@@ -54,16 +54,6 @@ The tracks sit on top of enabling datasets and vision-language models, and suppo
 
 Repository Stars are stored snapshots refreshed daily by GitHub Actions. Last refresh: **2026-08-24**.
 
-#### Most starred official repositories
-
-| Resource | Category | Repository | Stars (snapshot) |
-| :---: | :---: | :---: | :---: |
-| RemoteCLIP | Contrastive VLMs | [Code](https://github.com/ChenDelong1999/RemoteCLIP) | 587 |
-| Falcon | Generative Large VLMs | [Code](https://github.com/TianHuiLab/Falcon) | 382 |
-| SatCLIP | Contrastive VLMs | [Code](https://github.com/microsoft/satclip) | 373 |
-| GeoRSCLIP | Contrastive VLMs | [Code](https://github.com/om-ai-lab/RS5M) | 314 |
-| LAE-DINO | Task-Specific VLMs | [Code](https://github.com/jaychempan/LAE-DINO) | 286 |
-
 <!-- AUTO_DASHBOARD_END -->
 
 <a id="publication-timeline"></a>
@@ -289,54 +279,54 @@ Following the paper's distinction, **general-purpose multimodal datasets** provi
 
 | Dataset / benchmark | Type | Companion model | Focus | Links |
 | :---: | :---: | :---: | :---: | :---: |
+| **Delta-QA** | Change-QA benchmark | Delta-LLaVA | Bi-temporal visual question answering | [Paper](https://arxiv.org/abs/2604.14044) |
+| **DisasterInsight** | Benchmark | Disaster-response VLMs | Disaster scene reasoning | [Paper](https://arxiv.org/abs/2601.18493) |
 | **EarthVLSet** | Dataset + benchmark | EarthVL | Earth vision-language understanding | [HuggingFace](https://huggingface.co/datasets/Kingdrone-Junjue/EarthVLSet) |
+| **GTPBD-MM** | Multimodal benchmark | Reasoning VLMs | Terraced parcel and boundary understanding | [Paper](https://arxiv.org/abs/2604.12315) |
 | **GeoChrono-Data** | Benchmark + instruction | GeoChrono | Long-term temporal understanding | [HuggingFace](https://huggingface.co/datasets/Davidup1/GeoChrono-Data) |
-| **GeoHeight-Bench** | Reasoning benchmark | GeoHeightChat | Height-aware multimodal reasoning | [Project/Paper](https://arxiv.org/abs/2603.25565) |
+| **GeoHeight-Bench** | Reasoning benchmark | GeoHeightChat | Height-aware multimodal reasoning | [Paper](https://arxiv.org/abs/2603.25565) |
+| **GeoMMBench** | Multimodal benchmark | GeoMMAgent | Geoscience and remote-sensing multimodal understanding | [Paper](https://arxiv.org/abs/2604.08896) |
 | **GeoReason-Bench** | Reasoning benchmark | GeoReason | Logical consistency reasoning | [HuggingFace](https://huggingface.co/datasets/WenshuaiLi/GeoReason-Bench) |
 | **GeoSeg-Bench** | Segmentation benchmark | UniGeoSeg | Open-world geospatial segmentation | [HuggingFace](https://huggingface.co/datasets/nishuo1999/GeoSeg-Bench) |
+| **GroundSet** | Grounding benchmark | Grounding VLMs | Cadastral-grounded spatial understanding | [Paper](https://arxiv.org/abs/2603.14609) |
+| **HM-Bench** | Reasoning benchmark | Reasoning VLMs | Hyperspectral multimodal reasoning | [Paper](https://arxiv.org/abs/2604.08884) |
 | **ME-RSRG** | Reasoning-grounding benchmark | EAR | Multi-entity reasoning and grounding | [GitHub](https://github.com/CV-ShuchangLyu/ME-RSRG) |
-| **MMRS-OneVision** | Instruction dataset | Earth-OneVision | Multi-sensor and multi-task instruction tuning | [Project/Paper](https://arxiv.org/abs/2606.10819) |
-| **RSFG-100k** | Alignment dataset | GeoAlignCLIP | Fine-grained region-text alignment | [Project/Paper](https://arxiv.org/abs/2603.09566) |
-| **TerraBench** | Reasoning benchmark | TerraScope | Earth-observation reasoning | [Project/Paper](https://arxiv.org/search/?query=TerraBench+remote+sensing&searchtype=all) |
+| **MMRS-OneVision** | Instruction dataset | Earth-OneVision | Multi-sensor and multi-task instruction tuning | [Paper](https://arxiv.org/abs/2606.10819) |
+| **NeSy-Route** | Neuro-symbolic benchmark | GeoSolver | Constrained route planning | [Paper](https://arxiv.org/abs/2603.16307) |
+| **OmniEarth** | Multimodal benchmark | Remote-sensing VLMs | Multi-task Earth observation evaluation | [Paper](https://arxiv.org/abs/2603.09471) |
+| **RSFG-100k** | Alignment dataset | GeoAlignCLIP | Fine-grained region-text alignment | [Paper](https://arxiv.org/abs/2603.09566) |
+| **RSME-Bench** | Reasoning benchmark | SkyNative | Multi-entity remote-sensing reasoning | [Paper](https://arxiv.org/abs/2605.17949) |
+| **RSRCC** | Change-reasoning benchmark | Change-reasoning models | Reasoning over bi-temporal change | [Paper](https://arxiv.org/abs/2604.20623) |
+| **TerraBench** | Agent benchmark | TerraAgent | Executable Earth-data workflows | [Paper](https://arxiv.org/abs/2606.13148) |
 | **UHR-CoZ** | Ultra-high-resolution benchmark | GeoEyes | Active zooming and compositional reasoning | [GitHub](https://github.com/nanocm/GeoEyes) |
-| **UHR-Micro** | Ultra-high-resolution benchmark | UHR reasoning models | Small-object perception and reasoning | [Project/Paper](https://arxiv.org/search/?query=UHR-Micro&searchtype=all) |
-| **Delta-QA** | Change-QA benchmark | Delta-LLaVA | Bi-temporal visual question answering | [Project/Paper](https://arxiv.org/search/?query=Delta-QA+remote+sensing&searchtype=all) |
-| **DisasterInsight** | Benchmark | Disaster-response VLMs | Disaster scene reasoning | [Project/Paper](https://arxiv.org/search/?query=DisasterInsight&searchtype=all) |
+| **UHR-Micro** | Ultra-high-resolution benchmark | MAP-Agent | Small-object perception and reasoning | [Paper](https://arxiv.org/abs/2605.12237) |
+| **VLRS-Bench** | Vision-language benchmark | Remote-sensing VLMs | Comprehensive vision-language reasoning | [Paper](https://arxiv.org/abs/2602.07045) |
+| **DisasterM3** | Dataset + benchmark | Disaster-response VLMs | Multimodal multi-hazard understanding | [Paper](https://arxiv.org/abs/2505.21089) |
 | **EarthReason** | Dataset + benchmark | SegEarth-R1 | Geospatial pixel reasoning | [HuggingFace](https://huggingface.co/datasets/earth-insights/EarthReason) |
 | **FINERS-4k** | Reasoning-segmentation dataset | FineRS (FINERS) | Fine-grained small-object reasoning and segmentation | [Project](https://iiau-zhanglu.github.io/FINERS/) |
-| **GAIA** | Instruction dataset | General-purpose VLMs | Geospatial instruction alignment | [Project/Paper](https://arxiv.org/search/?query=GAIA+remote+sensing+dataset&searchtype=all) |
-| **GTPBD-MM** | Multimodal benchmark | Reasoning VLMs | Geospatial planning and decision reasoning | [Project/Paper](https://arxiv.org/search/?query=GTPBD-MM&searchtype=all) |
-| **GeoMMBench** | Multimodal benchmark | Remote-sensing VLMs | Geospatial multimodal understanding | [Project/Paper](https://arxiv.org/search/?query=GeoMMBench&searchtype=all) |
+| **GAIA** | Instruction dataset | General-purpose VLMs | Geospatial instruction alignment | [Paper](https://arxiv.org/abs/2502.09598) |
 | **Git-10M** | Pretraining dataset | Text2Earth | Global text-to-Earth generation | [HuggingFace](https://huggingface.co/datasets/lcybuaa/Git-10M) |
-| **GroundSet** | Grounding benchmark | Grounding VLMs | Referring-expression grounding | [Project/Paper](https://arxiv.org/search/?query=GroundSet+remote+sensing&searchtype=all) |
-| **HM-Bench** | Reasoning benchmark | Reasoning VLMs | Hierarchical multimodal reasoning | [Project/Paper](https://arxiv.org/search/?query=HM-Bench+remote+sensing&searchtype=all) |
 | **KnowFlow-Bench** | Agent benchmark | CangLing-KnowFlow | Workflow generation and execution | [Project](https://cangling-agent.github.io/KnowFlow/) |
 | **LAE-1M** | Pretraining dataset | LAE-DINO | Language-aware object detection | [HuggingFace](https://huggingface.co/datasets/ML4Sustain/LAE-1M) |
 | **LaSeRS** | Reasoning benchmark | SegEarth-R2 | Complex-instruction segmentation | [HuggingFace](https://huggingface.co/datasets/earth-insights/LaSeRS) |
-| **Landsat30-AU** | Multimodal dataset | General-purpose VLMs | Global Landsat image-text understanding | [Project/Paper](https://arxiv.org/search/?query=Landsat30-AU&searchtype=all) |
-| **NeSy-Route** | Neuro-symbolic benchmark | GeoSolver | Route and spatial reasoning | [Project/Paper](https://arxiv.org/search/?query=NeSy-Route&searchtype=all) |
-| **OmniEarth** | Multimodal benchmark | Remote-sensing VLMs | Multi-task Earth observation evaluation | [Project/Paper](https://arxiv.org/search/?query=OmniEarth+benchmark&searchtype=all) |
-| **RSME-Bench** | Reasoning benchmark | Reasoning VLMs | Multi-entity remote-sensing reasoning | [Project/Paper](https://arxiv.org/search/?query=RSME-Bench&searchtype=all) |
+| **Landsat30-AU** | Multimodal dataset | General-purpose VLMs | Global Landsat image-text understanding | [Paper](https://arxiv.org/abs/2508.03127) |
 | **RemoteSAM270k** | Instruction dataset | RemoteSAM | Segmentation and recognition | [HuggingFace](https://huggingface.co/datasets/1e12Leon/RemoteSAM270k) |
-| **SAR-TEXT** | Image-text dataset | SAR VLMs | SAR image-language alignment | [Project/Paper](https://arxiv.org/search/?query=SAR-TEXT&searchtype=all) |
-| **SARLANG-1M** | Pretraining dataset | SAR VLMs | Million-scale SAR-language pretraining | [Project/Paper](https://arxiv.org/search/?query=SARLANG-1M&searchtype=all) |
+| **SAR-TEXT** | Image-text dataset | SAR VLMs | SAR image-language alignment | [Paper](https://arxiv.org/abs/2507.18743) |
+| **SARLANG-1M** | Pretraining dataset | SAR VLMs | Million-scale SAR-language pretraining | [Paper](https://arxiv.org/abs/2504.03254) |
 | **TEOChatlas** | Temporal dataset | TEOChat | Temporal Earth observation dialogue | [HuggingFace](https://huggingface.co/datasets/jirvin16/TEOChatlas) |
-| **VLRS-Bench** | Vision-language benchmark | Remote-sensing VLMs | Comprehensive vision-language evaluation | [Project/Paper](https://arxiv.org/search/?query=VLRS-Bench&searchtype=all) |
-| **BigEarthNet-MM** | Multimodal pretraining dataset | General-purpose VLMs | Multispectral image-text representation | [Project/Paper](https://arxiv.org/abs/2404.07043) |
-| **BigEarthNet.txt** | Caption dataset | General-purpose VLMs | Multilingual Earth-observation descriptions | [Project/Paper](https://arxiv.org/search/?query=BigEarthNet.txt&searchtype=all) |
-| **ChatEarthNet** | Instruction dataset | ChatEarthNet | Earth-observation dialogue and instruction tuning | [Project/Paper](https://arxiv.org/abs/2402.11325) |
-| **DisasterM3** | Dataset + benchmark | Disaster-response VLMs | Multimodal multi-hazard understanding | [Project/Paper](https://arxiv.org/search/?query=DisasterM3&searchtype=all) |
+| **BigEarthNet-MM** | Multimodal pretraining dataset | General-purpose VLMs | Multispectral image-text representation | [Paper](https://arxiv.org/abs/2404.07043) |
+| **BigEarthNet.txt** | Caption dataset | General-purpose VLMs | Multilingual Earth-observation descriptions | [Paper](https://arxiv.org/abs/2603.29630) |
+| **ChatEarthNet** | Instruction dataset | ChatEarthNet | Earth-observation dialogue and instruction tuning | [Paper](https://arxiv.org/abs/2402.11325) |
 | **FIT-RS** | Instruction dataset | SkySenseGPT | Fine-grained remote-sensing tasks | [HuggingFace](https://huggingface.co/datasets/ll-13/FIT-RS) |
 | **GeoChat-Instruct** | Instruction dataset | GeoChat | Grounded remote-sensing dialogue | [HuggingFace](https://huggingface.co/datasets/MBZUAI/GeoChat_Instruct) |
-| **LuoJiaHOG** | Multimodal dataset | General-purpose VLMs | Remote-sensing vision-language understanding | [Project/Paper](https://arxiv.org/search/?query=LuoJiaHOG&searchtype=all) |
+| **LuoJiaHOG** | Multimodal dataset | General-purpose VLMs | Remote-sensing vision-language understanding | [Paper](https://arxiv.org/abs/2403.10887) |
 | **REO-Instruct** | Instruction dataset | REO-VLM | Continuous Earth-observation regression | [GitHub](https://github.com/REO-VLM-anonymous/REO-VLM) |
 | **RS5M** | Pretraining dataset | GeoRSCLIP | Remote-sensing image-text alignment | [HuggingFace](https://huggingface.co/datasets/omlab/RS5M) |
-| **RSRCC** | Change-reasoning benchmark | Change-reasoning models | Reasoning over bi-temporal change | [Project/Paper](https://arxiv.org/search/?query=RSRCC+remote+sensing&searchtype=all) |
 | **SkyEye-968k** | Instruction dataset | SkyEyeGPT | Multi-task remote-sensing instruction | [HuggingFace](https://huggingface.co/datasets/ZhanYang-nwpu/SkyEye-968k) |
-| **SkyScript** | Pretraining dataset | RemoteCLIP | Large-scale image-text alignment | [Project/Paper](https://arxiv.org/abs/2312.11029) |
+| **SkyScript** | Pretraining dataset | RemoteCLIP | Large-scale image-text alignment | [Paper](https://arxiv.org/abs/2312.11029) |
 | **VRSBench** | Dataset + benchmark | General-purpose VLMs | Captioning VQA and grounding | [GitHub](https://github.com/lzw-lzw/VRSBench) |
 | **refGeo** | Grounding dataset | GeoGround | Multi-format visual grounding | [HuggingFace](https://huggingface.co/datasets/erenzhou/refGeo) |
-| **RSICap** | Caption dataset | RSGPT | Remote-sensing image captioning | [Project/Paper](https://arxiv.org/abs/2307.15266) |
+| **RSICap** | Caption dataset | RSGPT | Remote-sensing image captioning | [Paper](https://arxiv.org/abs/2307.15266) |
 | **SECOND-CC** | Change-caption dataset | Change-captioning models | Semantic change description | [GitHub](https://github.com/Chen-Yang-Liu/RSICC) |
 
 <!-- AUTO_DATASETS_END -->

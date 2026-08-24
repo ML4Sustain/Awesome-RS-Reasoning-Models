@@ -192,12 +192,8 @@ def ecosystem_dashboard(df: pd.DataFrame, stars: dict[str, int], metrics_updated
         ["🌍 Methods & models", "🧠 Reasoning", "🗃️ Data / benches", "💻 Official repos", "📦 Weights", "🔁 MS mirrors"],
         [[f"**{len(df)}**", f"**{reasoning}**", f"**{dataset_count}**", f"**{repos}**", f"**{weights}**", f"**{mirrors}**"]],
     )
-    top = df[df["GitHub_Repo"].str.strip().ne("")].copy()
-    top["_stars"] = top["GitHub_Repo"].map(lambda url: stars.get(url.rstrip("/"), 0))
-    top = top.sort_values("_stars", ascending=False).head(5)
-    rows = [[row["Name"], row["Cls2"], md_link("Code", row["GitHub_Repo"]), f"{int(row['_stars']):,}"] for _, row in top.iterrows()]
     note = f"Repository Stars are stored snapshots refreshed daily by GitHub Actions. Last refresh: **{metrics_updated}**."
-    return cards + "\n\n" + note + "\n\n#### Most starred official repositories\n\n" + table(["Resource", "Category", "Repository", "Stars (snapshot)"], rows), stats
+    return cards + "\n\n" + note, stats
 
 
 def dataset_catalog() -> str:
