@@ -62,7 +62,8 @@
   "https://github.com/wivizhang/EarthGPT": 160,
   "https://github.com/wivizhang/earthmarker": 46,
   "https://github.com/xuliu-cyber/RSUniVLM": 47,
-  "https://github.com/yida12345/FTransUNet": 1
+  "https://github.com/yida12345/FTransUNet": 1,
+  "https://github.com/yangyifremad/FUSAR-KLIP": 33
  },
  "canonical": {
   "https://github.com/1e12Leon/RemoteAgent": "https://github.com/1e12Leon/RemoteAgent",
@@ -127,6 +128,7 @@
   "https://github.com/wivizhang/EarthGPT": "https://github.com/wivizhang/EarthGPT",
   "https://github.com/wivizhang/earthmarker": "https://github.com/wivizhang/EarthMarker",
   "https://github.com/xuliu-cyber/RSUniVLM": "https://github.com/xuliu-cyber/RSUniVLM",
-  "https://github.com/yida12345/FTransUNet": "https://github.com/yida12345/FTransUNet"
+  "https://github.com/yida12345/FTransUNet": "https://github.com/yida12345/FTransUNet",
+  "https://github.com/yangyifremad/FUSAR-KLIP": "https://github.com/yangyifremad/FUSAR-KLIP"
  }
 }
