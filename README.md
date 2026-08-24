@@ -53,7 +53,7 @@ The tracks sit on top of enabling datasets and vision-language models, and suppo
 
 | 🌍 Methods & models | 🧠 Reasoning | 🗃️ Data / benches | 💻 Official repos | 📦 Weights | 🔁 MS mirrors |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| **90** | **37** | **49** | **69** | **44** | **11** |
+| **89** | **36** | **49** | **69** | **44** | **11** |
 
 Repository Stars are stored snapshots refreshed daily by GitHub Actions. Last refresh: **2026-08-24**.
 
@@ -119,7 +119,7 @@ These works satisfy the repository's operational reasoning criteria: evidence is
 </details>
 
 <details open>
-<summary><b>Reasoning Models › Agentic / Tool-Augmented Reasoning</b> · 11 resources</summary>
+<summary><b>Reasoning Models › Agentic / Tool-Augmented Reasoning</b> · 10 resources</summary>
 
 | Resource | Year / Venue | Paper | Weights / Data | Official code | Stars |
 | :---: | :---: | :---: | :---: | :---: | :---: |
@@ -129,7 +129,6 @@ These works satisfy the repository's operational reasoning criteria: evidence is
 | **EarthAgent** | 2025 · arXiv | [Paper](https://arxiv.org/abs/2511.17198) | — | [Code](https://github.com/earth-insights/EarthAgent) | <a href="https://github.com/earth-insights/EarthAgent/stargazers"><img alt="13 Stars" src="https://img.shields.io/static/v1?label=Stars&amp;message=13&amp;logo=github&amp;style=social"></a> |
 | **TerraAgent** | 2026 · arXiv | [Paper](https://arxiv.org/abs/2606.13148) | — | [Code](https://github.com/Takerdat23/TerraBench) | <a href="https://github.com/Takerdat23/TerraBench/stargazers"><img alt="4 Stars" src="https://img.shields.io/static/v1?label=Stars&amp;message=4&amp;logo=github&amp;style=social"></a> |
 | **MAP-Agent** | 2026 · arXiv | [Paper](https://arxiv.org/abs/2605.12237) | — | [Code](https://github.com/MiliLab/UHR-Micro) | <a href="https://github.com/MiliLab/UHR-Micro/stargazers"><img alt="1 Stars" src="https://img.shields.io/static/v1?label=Stars&amp;message=1&amp;logo=github&amp;style=social"></a> |
-| **PMMC** | 2026 · arXiv | [Paper](https://arxiv.org/abs/2608.00962) | — | — | — |
 | **Earth AI** | 2025 · arXiv | [Paper](https://arxiv.org/abs/2510.18318) | — | — | — |
 | **VRA** | 2025 · arXiv | [Paper](https://arxiv.org/abs/2509.16343) | — | — | — |
 | **GeoFlow** | 2025 · SIGSPATIAL | [Paper](https://doi.org/10.1145/3748636.3763217) | — | — | — |
