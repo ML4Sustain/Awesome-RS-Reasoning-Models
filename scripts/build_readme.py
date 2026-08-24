@@ -6,6 +6,7 @@ from __future__ import annotations
 import json
 import re
 from pathlib import Path
+from urllib.parse import quote
 import pandas as pd
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -31,6 +32,50 @@ def md_link(label: str, url: str) -> str:
     return f"[{label}]({url})" if url else "—"
 
 
+def link_badge(label: str, message: str, url: str, *, logo: str = "", color: str = "16858a") -> str:
+    if not url:
+        return "—"
+    query = f"label={quote(label)}&amp;message={quote(message)}&amp;color={color}&amp;style=flat-square"
+    if logo:
+        query += f"&amp;logo={quote(logo)}"
+    badge = f'<img alt="{label}: {message}" src="https://img.shields.io/static/v1?{query}">'
+    return f'<a href="{url}">{badge}</a>'
+
+
+def paper_badge(url: str) -> str:
+    if not url:
+        return "—"
+    if "arxiv.org" in url:
+        return link_badge("Paper", "arXiv", url, logo="arxiv", color="b31b1b")
+    if "doi.org" in url:
+        return link_badge("Paper", "DOI", url, logo="doi", color="4051b5")
+    if "ieeexplore.ieee.org" in url:
+        return link_badge("Paper", "IEEE", url, logo="ieee", color="00629b")
+    return link_badge("Paper", "Article", url, color="526d82")
+
+
+def code_badge(url: str) -> str:
+    return link_badge("Code", "GitHub", url, logo="github", color="24292f") if url and url != "No" else "—"
+
+
+def access_badge(platform: str, url: str, *, kind: str = "Weights") -> str:
+    platform = platform or kind
+    lower = platform.lower()
+    if "huggingface" in lower or "hugging face" in lower:
+        return link_badge(kind, "Hugging Face", url, logo="huggingface", color="f4b400")
+    if "modelscope" in lower:
+        return link_badge(kind, "ModelScope", url, color="624aff")
+    if "baidu" in lower:
+        return link_badge(kind, "Baidu", url, logo="baidu", color="1677ff")
+    if "github" in lower:
+        return link_badge(kind, "GitHub", url, logo="github", color="24292f")
+    if "paper" in lower:
+        return paper_badge(url)
+    if "project" in lower or "website" in lower:
+        return link_badge("Project", "Website", url, color="16858a")
+    return link_badge(kind, platform, url, color="526d82")
+
+
 def star_badge(stars: int, repo: str) -> str:
     """Render a GitHub-style badge from the stored snapshot, never a live count."""
     if not repo or repo == "No" or stars < 0:
@@ -48,7 +93,7 @@ def star_badge(stars: int, repo: str) -> str:
 def paper_link(comments: str) -> str:
     """Extract the first paper/DOI URL stored in the audit notes."""
     match = re.search(r"(?:Paper:\s*)?(https?://(?:arxiv\.org/abs/|doi\.org/|ieeexplore\.ieee\.org/document/)[^\s;,]+)", comments)
-    return md_link("Paper", match.group(1).rstrip(".)")) if match else "—"
+    return paper_badge(match.group(1).rstrip(".)")) if match else "—"
 
 
 def table(headers: list[str], rows: list[list[object]]) -> str:
@@ -125,8 +170,8 @@ def catalog(df: pd.DataFrame) -> str:
             continue
         rows = []
         for _, row in group.iterrows():
-            paper = md_link("Paper", row["url"])
-            code = md_link("Code", row["github"]) if row["github"] else "—"
+            paper = paper_badge(row["url"])
+            code = code_badge(row["github"])
             stars = star_badge(int(row["stars"]), row["github"])
             rows.append([
                 md_link(f"**{row['name']}**", row["url"]),
@@ -169,12 +214,12 @@ def ecosystem_catalog(df: pd.DataFrame, stars: dict[str, int], *, expanded: bool
         for _, row in ranked.iterrows():
             downloads = []
             if row["Download_Link1"]:
-                downloads.append(md_link(row["Platform1"] or "Weights", row["Download_Link1"]))
+                downloads.append(access_badge(row["Platform1"], row["Download_Link1"]))
             if row["Download_Link2"]:
-                downloads.append(md_link(row["Platform2"] or "Mirror", row["Download_Link2"]))
+                downloads.append(access_badge(row["Platform2"], row["Download_Link2"]))
             if row["ModelScope_Mirror"] and row["ModelScope_Mirror"] not in {"No", row["Download_Link2"]}:
-                downloads.append(md_link("ModelScope", row["ModelScope_Mirror"]))
-            repo = md_link("Code", row["GitHub_Repo"]) if row["GitHub_Repo"] and row["GitHub_Repo"] != "No" else "—"
+                downloads.append(access_badge("ModelScope", row["ModelScope_Mirror"]))
+            repo = code_badge(row["GitHub_Repo"])
             star = star_badge(int(row["_stars"]), row["GitHub_Repo"])
             rows.append([f"**{row['Name']}**", f"{row['Year']} · {row['Venue']}", paper_link(row["Comments"]), " · ".join(downloads) or "—", repo, star])
         body = table(["Resource", "Year / Venue", "Paper", "Weights / Data", "Official code", "Stars"], rows)
@@ -215,7 +260,7 @@ def dataset_catalog() -> str:
     rows = []
     for _, row in df.iterrows():
         link_label = row["platform"] or "Resource"
-        rows.append([f"**{row['name']}**", row["kind"], row["paired_model"], row["task"], md_link(link_label, row["url"])])
+        rows.append([f"**{row['name']}**", row["kind"], row["paired_model"], row["task"], access_badge(link_label, row["url"], kind="Data")])
     return table(["Dataset / benchmark", "Type", "Companion model", "Focus", "Links"], rows)
 
 
