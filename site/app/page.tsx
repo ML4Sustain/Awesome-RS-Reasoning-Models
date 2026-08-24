@@ -1,6 +1,7 @@
 import CatalogExplorer from './catalog-explorer';
 import payload from './catalog-data.json';
 import ThemeToggle from './theme-toggle';
+import ReasoningTimeline from './reasoning-timeline';
 
 const tracks = [
   { number: '01', label: 'Supervised reasoning', count: 7, tone: 'mint' },
@@ -46,7 +47,7 @@ export default function Home() {
       </section>
       <section className="timeline-section shell" id="timeline">
         <div className="timeline-heading"><div><p>The reasoning wave</p><h2>From first release<br />to a growing field</h2></div><div><p>Methods are arranged by first public release and dominant reasoning mechanism. Node size reflects the stored repository Star snapshot.</p><a href="./timeline.svg" target="_blank" rel="noreferrer">Open full timeline ↗</a></div></div>
-        <div className="timeline-viewport"><img src="./timeline.svg" alt="Timeline of remote sensing reasoning methods grouped into supervised, reinforcement, and agentic or tool-use paradigms" /></div>
+        <ReasoningTimeline />
       </section>
       <CatalogExplorer />
       <section className="preview shell" id="foundations"><p>Built on multimodal foundations</p><div className="preview-line"><span>Contrastive VLMs</span><b>07</b></div><div className="preview-line"><span>Generative large VLMs</span><b>14</b></div><div className="preview-line"><span>Task-specific VLMs</span><b>15</b></div></section>
