@@ -269,8 +269,14 @@ def dataset_catalog() -> str:
     rows = []
     for _, row in df.iterrows():
         link_label = row["platform"] or "Resource"
-        rows.append([f"**{row['name']}**", row["kind"], row["paired_model"], row["task"], access_badge(link_label, row["url"], kind="Data")])
-    return table(["Dataset / benchmark", "Type", "Companion model", "Focus", "Links"], rows)
+        companion = f"<br><sub>with {row['paired_model']}</sub>" if row["paired_model"] else ""
+        rows.append([
+            f"**{row['name']}**{companion}",
+            f"{row['year']} · {row['kind']}",
+            row["task"],
+            access_badge(link_label, row["url"], kind="Data"),
+        ])
+    return table(["Resource", "Year / Type", "Purpose", "Access"], rows)
 
 
 def main() -> None:
