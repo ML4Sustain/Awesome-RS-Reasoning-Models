@@ -51,7 +51,7 @@ export default function Home() {
       </section>
       <CatalogExplorer />
       <section className="preview shell" id="foundations"><p>Built on multimodal foundations</p><div className="preview-line"><span>Contrastive VLMs</span><b>07</b></div><div className="preview-line"><span>Generative large VLMs</span><b>14</b></div><div className="preview-line"><span>Task-specific VLMs</span><b>15</b></div></section>
-      <footer className="shell" id="data"><a className="footer-brand" href="#top"><span className="brand-mark" aria-hidden="true"><i /></span><span><b>Awesome RS</b><small>Reasoning</small></span></a><span>Curated from the survey · Updated daily</span></footer>
+      <footer className="shell" id="data"><a className="footer-brand" href="#top"><span className="brand-mark" aria-hidden="true"><i /></span><span><b>Awesome RS</b><small>Reasoning</small></span></a><span className="footer-meta"><span>Curated from the survey · Updated daily</span><img src="https://api.visitorbadge.io/api/visitors?path=ML4Sustain.Awesome-RS-Reasoning-Models&amp;label=project%20views&amp;labelColor=%2324292f&amp;countColor=%2316858a&amp;style=flat-square" alt="Project view count" width="112" height="20" /></span></footer>
     </main>
   );
 }

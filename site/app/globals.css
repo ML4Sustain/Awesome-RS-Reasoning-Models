@@ -112,3 +112,6 @@ html[data-theme='light'] .node-popover small { color:#6c858a; } html[data-theme=
 html[data-theme='light'] .catalog .search kbd { color:#24777b; border-color:rgba(31,130,132,.22); background:#e8f5f2; box-shadow:inset 0 -1px rgba(20,101,103,.08); }
 html[data-theme='dark'] .catalog .search kbd { color:#84aeb8; border-color:rgba(126,205,217,.22); background:rgba(4,30,42,.58); }
 .timeline-node.label-left .node-label { left:auto; right:calc(100% + 7px); text-align:right; }
+.footer-meta { display:flex; align-items:center; gap:14px; }
+.footer-meta img { width:auto; height:20px; display:block; border-radius:5px; }
+@media (max-width:760px) { .footer-meta { align-items:flex-start; flex-direction:column; gap:7px; } }
