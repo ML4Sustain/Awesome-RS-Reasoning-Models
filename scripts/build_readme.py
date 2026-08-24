@@ -4,6 +4,7 @@
 from __future__ import annotations
 
 import json
+import re
 from pathlib import Path
 import pandas as pd
 
@@ -28,6 +29,12 @@ def clean(value: object) -> str:
 
 def md_link(label: str, url: str) -> str:
     return f"[{label}]({url})" if url else "—"
+
+
+def paper_link(comments: str) -> str:
+    """Extract the first paper/DOI URL stored in the audit notes."""
+    match = re.search(r"(?:Paper:\s*)?(https?://(?:arxiv\.org/abs/|doi\.org/|ieeexplore\.ieee\.org/document/)[^\s;,]+)", comments)
+    return md_link("Paper", match.group(1).rstrip(".)")) if match else "—"
 
 
 def table(headers: list[str], rows: list[list[object]]) -> str:
@@ -150,8 +157,8 @@ def ecosystem_catalog(df: pd.DataFrame, stars: dict[str, int]) -> str:
                 downloads.append(md_link("ModelScope", row["ModelScope_Mirror"]))
             repo = md_link("Code", row["GitHub_Repo"]) if row["GitHub_Repo"] and row["GitHub_Repo"] != "No" else "—"
             star = f"⭐ {int(row['_stars']):,}" if int(row["_stars"]) else "—"
-            rows.append([f"**{row['Name']}**", f"{row['Year']} · {row['Venue']}", " · ".join(downloads) or "—", repo, star])
-        body = table(["Resource", "Year / Venue", "Weights / Data", "Official code", "Stars"], rows)
+            rows.append([f"**{row['Name']}**", f"{row['Year']} · {row['Venue']}", paper_link(row["Comments"]), " · ".join(downloads) or "—", repo, star])
+        body = table(["Resource", "Year / Venue", "Paper", "Weights / Data", "Official code", "Stars"], rows)
         groups.append(f"<details>\n<summary><b>{family} › {category}</b> · {len(group)} resources</summary>\n\n{body}\n\n</details>")
     return "\n\n".join(groups)
 

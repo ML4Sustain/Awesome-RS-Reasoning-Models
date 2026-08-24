@@ -13,3 +13,38 @@ TEOChatlas,Temporal dataset,2025,TEOChat,Temporal Earth observation dialogue,Hug
 FIT-RS,Instruction dataset,2024,SkySenseGPT,Fine-grained remote-sensing tasks,HuggingFace,https://huggingface.co/datasets/ll-13/FIT-RS,Open
 GeoSeg-Bench,Segmentation benchmark,2026,UniGeoSeg,Open-world geospatial segmentation,HuggingFace,https://huggingface.co/datasets/nishuo1999/GeoSeg-Bench,Open
 RS5M,Pretraining dataset,2024,GeoRSCLIP,Remote-sensing image-text alignment,HuggingFace,https://huggingface.co/datasets/omlab/RS5M,Open
+BigEarthNet-MM,Multimodal pretraining dataset,2024,General-purpose VLMs,Multispectral image-text representation,Project/Paper,https://arxiv.org/abs/2404.07043,See source
+SkyScript,Pretraining dataset,2024,RemoteCLIP,Large-scale image-text alignment,Project/Paper,https://arxiv.org/abs/2312.11029,See source
+ChatEarthNet,Instruction dataset,2024,ChatEarthNet,Earth-observation dialogue and instruction tuning,Project/Paper,https://arxiv.org/abs/2402.11325,See source
+LuoJiaHOG,Multimodal dataset,2024,General-purpose VLMs,Remote-sensing vision-language understanding,Project/Paper,https://arxiv.org/search/?query=LuoJiaHOG&searchtype=all,See source
+VRSBench,Dataset + benchmark,2024,General-purpose VLMs,Captioning VQA and grounding,GitHub,https://github.com/lzw-lzw/VRSBench,Open
+BigEarthNet.txt,Caption dataset,2024,General-purpose VLMs,Multilingual Earth-observation descriptions,Project/Paper,https://arxiv.org/search/?query=BigEarthNet.txt&searchtype=all,See source
+Landsat30-AU,Multimodal dataset,2025,General-purpose VLMs,Global Landsat image-text understanding,Project/Paper,https://arxiv.org/search/?query=Landsat30-AU&searchtype=all,See source
+GAIA,Instruction dataset,2025,General-purpose VLMs,Geospatial instruction alignment,Project/Paper,https://arxiv.org/search/?query=GAIA+remote+sensing+dataset&searchtype=all,See source
+MMRS-OneVision,Instruction dataset,2026,Earth-OneVision,Multi-sensor and multi-task instruction tuning,Project/Paper,https://arxiv.org/abs/2606.10819,See source
+SAR-TEXT,Image-text dataset,2025,SAR VLMs,SAR image-language alignment,Project/Paper,https://arxiv.org/search/?query=SAR-TEXT&searchtype=all,See source
+SARLANG-1M,Pretraining dataset,2025,SAR VLMs,Million-scale SAR-language pretraining,Project/Paper,https://arxiv.org/search/?query=SARLANG-1M&searchtype=all,See source
+Git-10M,Pretraining dataset,2025,Text2Earth,Global text-to-Earth generation,HuggingFace,https://huggingface.co/datasets/lcybuaa/Git-10M,Open
+RSICap,Caption dataset,2023,RSGPT,Remote-sensing image captioning,Project/Paper,https://arxiv.org/abs/2307.15266,See source
+SECOND-CC,Change-caption dataset,2023,Change-captioning models,Semantic change description,GitHub,https://github.com/Chen-Yang-Liu/RSICC,Open
+DisasterM3,Dataset + benchmark,2024,Disaster-response VLMs,Multimodal multi-hazard understanding,Project/Paper,https://arxiv.org/search/?query=DisasterM3&searchtype=all,See source
+DisasterInsight,Benchmark,2025,Disaster-response VLMs,Disaster scene reasoning,Project/Paper,https://arxiv.org/search/?query=DisasterInsight&searchtype=all,See source
+RSRCC,Change-reasoning benchmark,2024,Change-reasoning models,Reasoning over bi-temporal change,Project/Paper,https://arxiv.org/search/?query=RSRCC+remote+sensing&searchtype=all,See source
+Delta-QA,Change-QA benchmark,2025,Delta-LLaVA,Bi-temporal visual question answering,Project/Paper,https://arxiv.org/search/?query=Delta-QA+remote+sensing&searchtype=all,See source
+HM-Bench,Reasoning benchmark,2025,Reasoning VLMs,Hierarchical multimodal reasoning,Project/Paper,https://arxiv.org/search/?query=HM-Bench+remote+sensing&searchtype=all,See source
+VLRS-Bench,Vision-language benchmark,2025,Remote-sensing VLMs,Comprehensive vision-language evaluation,Project/Paper,https://arxiv.org/search/?query=VLRS-Bench&searchtype=all,See source
+OmniEarth,Multimodal benchmark,2025,Remote-sensing VLMs,Multi-task Earth observation evaluation,Project/Paper,https://arxiv.org/search/?query=OmniEarth+benchmark&searchtype=all,See source
+RSME-Bench,Reasoning benchmark,2025,Reasoning VLMs,Multi-entity remote-sensing reasoning,Project/Paper,https://arxiv.org/search/?query=RSME-Bench&searchtype=all,See source
+GroundSet,Grounding benchmark,2025,Grounding VLMs,Referring-expression grounding,Project/Paper,https://arxiv.org/search/?query=GroundSet+remote+sensing&searchtype=all,See source
+NeSy-Route,Neuro-symbolic benchmark,2025,GeoSolver,Route and spatial reasoning,Project/Paper,https://arxiv.org/search/?query=NeSy-Route&searchtype=all,See source
+GTPBD-MM,Multimodal benchmark,2025,Reasoning VLMs,Geospatial planning and decision reasoning,Project/Paper,https://arxiv.org/search/?query=GTPBD-MM&searchtype=all,See source
+GeoMMBench,Multimodal benchmark,2025,Remote-sensing VLMs,Geospatial multimodal understanding,Project/Paper,https://arxiv.org/search/?query=GeoMMBench&searchtype=all,See source
+TerraBench,Reasoning benchmark,2026,TerraScope,Earth-observation reasoning,Project/Paper,https://arxiv.org/search/?query=TerraBench+remote+sensing&searchtype=all,See source
+UHR-Micro,Ultra-high-resolution benchmark,2026,UHR reasoning models,Small-object perception and reasoning,Project/Paper,https://arxiv.org/search/?query=UHR-Micro&searchtype=all,See source
+KnowFlow-Bench,Agent benchmark,2025,CangLing-KnowFlow,Workflow generation and execution,Project,https://cangling-agent.github.io/KnowFlow/,See source
+ME-RSRG,Reasoning-grounding benchmark,2026,EAR,Multi-entity reasoning and grounding,GitHub,https://github.com/CV-ShuchangLyu/ME-RSRG,Open
+FINERS-4k,Reasoning-segmentation dataset,2025,FineRS (FINERS),Fine-grained small-object reasoning and segmentation,Project,https://iiau-zhanglu.github.io/FINERS/,See source
+UHR-CoZ,Ultra-high-resolution benchmark,2026,GeoEyes,Active zooming and compositional reasoning,GitHub,https://github.com/nanocm/GeoEyes,Open
+GeoHeight-Bench,Reasoning benchmark,2026,GeoHeightChat,Height-aware multimodal reasoning,Project/Paper,https://arxiv.org/abs/2603.25565,See source
+RSFG-100k,Alignment dataset,2026,GeoAlignCLIP,Fine-grained region-text alignment,Project/Paper,https://arxiv.org/abs/2603.09566,See source
+REO-Instruct,Instruction dataset,2024,REO-VLM,Continuous Earth-observation regression,GitHub,https://github.com/REO-VLM-anonymous/REO-VLM,See source

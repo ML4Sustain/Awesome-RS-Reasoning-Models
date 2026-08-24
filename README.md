@@ -42,7 +42,7 @@ The tracks sit on top of enabling datasets and vision-language models, and suppo
 
 | 🌍 Methods & models | 🧠 Reasoning | 🗃️ Data / benches | 💻 Official repos | 📦 Weights | 🔁 MS mirrors |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| **79** | **30** | **14** | **63** | **43** | **11** |
+| **90** | **37** | **49** | **69** | **44** | **11** |
 
 #### Most starred official repositories
 
@@ -70,56 +70,63 @@ The complete reasoning core: 30 models across supervised, reinforcement-driven, 
 <!-- AUTO_CATALOG_START -->
 
 <details>
-<summary><b>Reasoning Models › Supervised Reasoning</b> · 6 resources</summary>
+<summary><b>Reasoning Models › Supervised Reasoning</b> · 7 resources</summary>
 
-| Resource | Year / Venue | Weights / Data | Official code | Stars |
-| :---: | :---: | :---: | :---: | :---: |
-| **SegEarth-R1** | 2025 · arXiv | [HuggingFace](https://huggingface.co/earth-insights/SegEarth-R1-EarthReason) · [ModelScope](https://modelscope.cn/models/earth-insights/SegEarth-R1-EarthReason) | [Code](https://github.com/earth-insights/SegEarth-R1) | ⭐ 156 |
-| **TerraScope** | 2026 · CVPR | [HuggingFace](https://huggingface.co/sy1998/TerraScope) · [ModelScope](https://modelscope.cn/models/shuyanshuyan/terrascope) | [Code](https://github.com/shuyansy/Earth-Observation-VLMs) | ⭐ 138 |
-| **SegEarth-R2** | 2025 · arXiv | — | [Code](https://github.com/earth-insights/SegEarth-R2) | ⭐ 68 |
-| **EarthVL** | 2026 · arXiv | — | [Code](https://github.com/Junjue-Wang/EarthVL) | ⭐ 43 |
-| **GeoChrono** | 2026 · arXiv | [HuggingFace](https://huggingface.co/Davidup1/GeoChrono) · [ModelScope](https://modelscope.cn/models/Davidup1/GeoChrono) | [Code](https://github.com/IntelliSensing/GeoChrono) | ⭐ 9 |
-| **Delta-LLaVA** | 2026 · arXiv | — | — | — |
-
-</details>
-
-<details>
-<summary><b>Reasoning Models › RL-Driven Reasoning</b> · 15 resources</summary>
-
-| Resource | Year / Venue | Weights / Data | Official code | Stars |
-| :---: | :---: | :---: | :---: | :---: |
-| **RSThinker** | 2026 · ICLR | [HuggingFace](https://huggingface.co/minglanga/RSThinker) | [Code](https://github.com/minglangL/RSThinker) | ⭐ 38 |
-| **GeoVLM-R1** | 2025 · arXiv | — | [Code](https://github.com/mustansarfiaz/GeoVLM-R1-Toolkit) | ⭐ 32 |
-| **RS-EoT** | 2026 · CVPR | [HuggingFace](https://huggingface.co/ShaoRun/RS-EoT-7B) · [Project Website](https://geox-lab.github.io/Asking_like_Socrates/) | [Code](https://github.com/GeoX-Lab/Asking_like_Socrates) | ⭐ 26 |
-| **GeoZero** | 2025 · arXiv | [HuggingFace](https://huggingface.co/hjvsl/GeoZero) · [Baidu NetDisk](https://pan.baidu.com/s/1nJjBwO4UlVv4GFl60gjM3w?pwd=15gn) | [Code](https://github.com/MiliLab/GeoZero) | ⭐ 26 |
-| **RemoteAgent** | 2026 · arXiv | — | [Code](https://github.com/1e12Leon/RemoteAgent) | ⭐ 20 |
-| **RemoteReasoner** | 2025 · arXiv | [HuggingFace](https://huggingface.co/1e12Leon/RemoteReasoner) · [ModelScope](https://modelscope.cn/models/AIMGroup/RemoteReasoner) | [Code](https://github.com/1e12Leon/RemoteReasoner) | ⭐ 17 |
-| **Geo-R1** | 2025 · arXiv | [HuggingFace](https://huggingface.co/Geo-R1) | [Code](https://github.com/Geo-R1/geo-r1) | ⭐ 16 |
-| **TinyRS-R1** | 2025 · arXiv | [HuggingFace](https://huggingface.co/aybora/Qwen2-VL-TinyRS-R1) | [Code](https://github.com/aybora/TinyRS) | ⭐ 13 |
-| **GeoReason** | 2026 · arXiv | [HuggingFace](https://huggingface.co/WenshuaiLi/GeoReason) | [Code](https://github.com/canlanqianyan/GeoReason) | ⭐ 10 |
-| **GeoVista** | 2026 · arXiv | [HuggingFace](https://huggingface.co/ryan6073/GeoVista-7B-Instruct) · [HuggingFace](https://huggingface.co/ryan6073/GeoVista-7B-Preview) | [Code](https://github.com/ryan6073/GeoVista) | ⭐ 10 |
-| **Geo-R** | 2026 · arXiv | — | [Code](https://github.com/aialt/geo-r) | ⭐ 3 |
-| **GeoSolver** | 2026 · arXiv | [HuggingFace](https://huggingface.co/minglanga/GeoSolver) | [Code](https://github.com/minglangL/GeoSolver) | ⭐ 3 |
-| **RemoteZero** | 2026 · arXiv | — | [Code](https://github.com/1e12Leon/RemoteZero) | ⭐ 1 |
-| **RS-HyRe-R1** | 2026 · arXiv | [HuggingFace](https://huggingface.co/geozgz/RS-HyRe-R1) | [Code](https://github.com/GeoX-Lab/RS-HyRe-R1) | ⭐ 1 |
-| **GeoX** | 2026 · arXiv | — | — | — |
+| Resource | Year / Venue | Paper | Weights / Data | Official code | Stars |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+| **SegEarth-R1** | 2025 · arXiv | [Paper](https://arxiv.org/abs/2504.09644) | [HuggingFace](https://huggingface.co/earth-insights/SegEarth-R1-EarthReason) · [ModelScope](https://modelscope.cn/models/earth-insights/SegEarth-R1-EarthReason) | [Code](https://github.com/earth-insights/SegEarth-R1) | ⭐ 156 |
+| **TerraScope** | 2026 · CVPR | [Paper](https://arxiv.org/abs/2603.19039) | [HuggingFace](https://huggingface.co/sy1998/TerraScope) · [ModelScope](https://modelscope.cn/models/shuyanshuyan/terrascope) | [Code](https://github.com/shuyansy/Earth-Observation-VLMs) | ⭐ 138 |
+| **SegEarth-R2** | 2025 · arXiv | [Paper](https://arxiv.org/abs/2512.20013) | — | [Code](https://github.com/earth-insights/SegEarth-R2) | ⭐ 68 |
+| **EarthVL** | 2026 · arXiv | [Paper](https://arxiv.org/abs/2601.02783) | — | [Code](https://github.com/Junjue-Wang/EarthVL) | ⭐ 43 |
+| **GeoChrono** | 2026 · arXiv | [Paper](https://arxiv.org/abs/2607.15768) | [HuggingFace](https://huggingface.co/Davidup1/GeoChrono) · [ModelScope](https://modelscope.cn/models/Davidup1/GeoChrono) | [Code](https://github.com/IntelliSensing/GeoChrono) | ⭐ 9 |
+| **Delta-LLaVA** | 2026 · arXiv | [Paper](https://arxiv.org/abs/2604.14044) | — | — | — |
+| **GeoHeightChat** | 2026 · arXiv | [Paper](https://arxiv.org/abs/2603.25565) | — | — | — |
 
 </details>
 
 <details>
-<summary><b>Reasoning Models › Agentic / Tool-Augmented Reasoning</b> · 9 resources</summary>
+<summary><b>Reasoning Models › RL-Driven Reasoning</b> · 19 resources</summary>
 
-| Resource | Year / Venue | Weights / Data | Official code | Stars |
-| :---: | :---: | :---: | :---: | :---: |
-| **Earth-Agent** | 2026 · ICLR | — | [Code](https://github.com/opendatalab/Earth-Agent) | ⭐ 194 |
-| **OpenEarthAgent** | 2026 · ECCV | [HuggingFace](https://huggingface.co/MBZUAI/OpenEarthAgent) · [ModelScope](https://modelscope.cn/models/MBZUAI/OpenEarthAgent) | [Code](https://github.com/mbzuai-oryx/OpenEarthAgent) | ⭐ 95 |
-| **GeoMMAgent** | 2026 · CVPR | — | [Code](https://github.com/Shihao-Cheng/GeoMMAgent) | ⭐ 49 |
-| **EarthAgent** | 2025 · arXiv | — | [Code](https://github.com/earth-insights/EarthAgent) | ⭐ 13 |
-| **TerraAgent** | 2026 · arXiv | — | [Code](https://github.com/Takerdat23/TerraBench) | ⭐ 4 |
-| **MAP-Agent** | 2026 · arXiv | — | [Code](https://github.com/MiliLab/UHR-Micro) | ⭐ 1 |
-| **PMMC** | 2026 · arXiv | — | — | — |
-| **Earth AI** | 2025 · arXiv | — | — | — |
-| **VRA** | 2025 · arXiv | — | — | — |
+| Resource | Year / Venue | Paper | Weights / Data | Official code | Stars |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+| **RSThinker** | 2026 · ICLR | [Paper](https://arxiv.org/abs/2509.22221) | [HuggingFace](https://huggingface.co/minglanga/RSThinker) | [Code](https://github.com/minglangL/RSThinker) | ⭐ 38 |
+| **GeoVLM-R1** | 2025 · arXiv | [Paper](https://arxiv.org/abs/2509.25026) | — | [Code](https://github.com/mustansarfiaz/GeoVLM-R1-Toolkit) | ⭐ 32 |
+| **RS-EoT** | 2026 · CVPR | [Paper](https://arxiv.org/abs/2511.22396) | [HuggingFace](https://huggingface.co/ShaoRun/RS-EoT-7B) · [Project Website](https://geox-lab.github.io/Asking_like_Socrates/) | [Code](https://github.com/GeoX-Lab/Asking_like_Socrates) | ⭐ 26 |
+| **GeoZero** | 2025 · arXiv | [Paper](https://arxiv.org/abs/2511.22645) | [HuggingFace](https://huggingface.co/hjvsl/GeoZero) · [Baidu NetDisk](https://pan.baidu.com/s/1nJjBwO4UlVv4GFl60gjM3w?pwd=15gn) | [Code](https://github.com/MiliLab/GeoZero) | ⭐ 26 |
+| **RemoteAgent** | 2026 · arXiv | [Paper](https://arxiv.org/abs/2604.07765) | — | [Code](https://github.com/1e12Leon/RemoteAgent) | ⭐ 20 |
+| **RemoteReasoner** | 2025 · arXiv | [Paper](https://arxiv.org/abs/2507.19280) | [HuggingFace](https://huggingface.co/1e12Leon/RemoteReasoner) · [ModelScope](https://modelscope.cn/models/AIMGroup/RemoteReasoner) | [Code](https://github.com/1e12Leon/RemoteReasoner) | ⭐ 17 |
+| **Geo-R1** | 2025 · arXiv | [Paper](https://arxiv.org/abs/2509.21976) | [HuggingFace](https://huggingface.co/Geo-R1) | [Code](https://github.com/Geo-R1/geo-r1) | ⭐ 16 |
+| **GeoEyes** | 2026 · arXiv | [Paper](https://arxiv.org/abs/2602.14201) | — | [Code](https://github.com/nanocm/GeoEyes) | ⭐ 15 |
+| **TinyRS-R1** | 2025 · arXiv | [Paper](https://arxiv.org/abs/2505.12099) | [HuggingFace](https://huggingface.co/aybora/Qwen2-VL-TinyRS-R1) | [Code](https://github.com/aybora/TinyRS) | ⭐ 13 |
+| **GeoReason** | 2026 · arXiv | [Paper](https://arxiv.org/abs/2601.04118) | [HuggingFace](https://huggingface.co/WenshuaiLi/GeoReason) | [Code](https://github.com/canlanqianyan/GeoReason) | ⭐ 10 |
+| **GeoVista** | 2026 · arXiv | [Paper](https://arxiv.org/abs/2605.14475) | [HuggingFace](https://huggingface.co/ryan6073/GeoVista-7B-Instruct) · [HuggingFace](https://huggingface.co/ryan6073/GeoVista-7B-Preview) | [Code](https://github.com/ryan6073/GeoVista) | ⭐ 10 |
+| **Geo-R** | 2026 · arXiv | [Paper](https://arxiv.org/abs/2601.00388) | — | [Code](https://github.com/aialt/geo-r) | ⭐ 3 |
+| **GeoSolver** | 2026 · arXiv | [Paper](https://arxiv.org/abs/2603.09551) | [HuggingFace](https://huggingface.co/minglanga/GeoSolver) | [Code](https://github.com/minglangL/GeoSolver) | ⭐ 3 |
+| **RemoteZero** | 2026 · arXiv | [Paper](https://arxiv.org/abs/2605.04451) | — | [Code](https://github.com/1e12Leon/RemoteZero) | ⭐ 1 |
+| **RS-HyRe-R1** | 2026 · arXiv | [Paper](https://arxiv.org/abs/2604.17504) | [HuggingFace](https://huggingface.co/geozgz/RS-HyRe-R1) | [Code](https://github.com/GeoX-Lab/RS-HyRe-R1) | ⭐ 1 |
+| **GeoX** | 2026 · arXiv | [Paper](https://arxiv.org/abs/2605.20006) | — | — | — |
+| **EAR** | 2026 · arXiv | [Paper](https://arxiv.org/abs/2603.12788) | — | [Code](https://github.com/CV-ShuchangLyu/ME-RSRG) | — |
+| **RSGround-R1** | 2026 · arXiv | [Paper](https://arxiv.org/abs/2601.21634) | — | [Code](https://github.com/NTU-CS/RSGround-R1) | — |
+| **FineRS (FINERS)** | 2025 · NeurIPS | [Paper](https://arxiv.org/abs/2510.21311) | — | — | — |
+
+</details>
+
+<details>
+<summary><b>Reasoning Models › Agentic / Tool-Augmented Reasoning</b> · 11 resources</summary>
+
+| Resource | Year / Venue | Paper | Weights / Data | Official code | Stars |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+| **Earth-Agent** | 2026 · ICLR | [Paper](https://arxiv.org/abs/2509.23141) | — | [Code](https://github.com/opendatalab/Earth-Agent) | ⭐ 194 |
+| **OpenEarthAgent** | 2026 · ECCV | [Paper](https://arxiv.org/abs/2602.17665) | [HuggingFace](https://huggingface.co/MBZUAI/OpenEarthAgent) · [ModelScope](https://modelscope.cn/models/MBZUAI/OpenEarthAgent) | [Code](https://github.com/mbzuai-oryx/OpenEarthAgent) | ⭐ 95 |
+| **GeoMMAgent** | 2026 · CVPR | [Paper](https://arxiv.org/abs/2604.08896) | — | [Code](https://github.com/Shihao-Cheng/GeoMMAgent) | ⭐ 49 |
+| **EarthAgent** | 2025 · arXiv | [Paper](https://arxiv.org/abs/2511.17198) | — | [Code](https://github.com/earth-insights/EarthAgent) | ⭐ 13 |
+| **TerraAgent** | 2026 · arXiv | [Paper](https://arxiv.org/abs/2606.13148) | — | [Code](https://github.com/Takerdat23/TerraBench) | ⭐ 4 |
+| **MAP-Agent** | 2026 · arXiv | [Paper](https://arxiv.org/abs/2605.12237) | — | [Code](https://github.com/MiliLab/UHR-Micro) | ⭐ 1 |
+| **PMMC** | 2026 · arXiv | [Paper](https://arxiv.org/abs/2608.00962) | — | — | — |
+| **Earth AI** | 2025 · arXiv | [Paper](https://arxiv.org/abs/2510.18318) | — | — | — |
+| **VRA** | 2025 · arXiv | [Paper](https://arxiv.org/abs/2509.16343) | — | — | — |
+| **GeoFlow** | 2025 · arXiv | [Paper](https://arxiv.org/abs/2508.04719) | — | — | — |
+| **CangLing-KnowFlow** | 2025 · arXiv | [Paper](https://arxiv.org/abs/2512.15231) | — | — | — |
 
 </details>
 
@@ -127,128 +134,132 @@ The complete reasoning core: 30 models across supervised, reinforcement-driven, 
 
 ## 🌍 Extended ecosystem
 
-Beyond the 30-model reasoning core, this index tracks 49 enabling resources: vision-language foundations, ultra-high-resolution models, generation, detection, segmentation, augmentation, and retrieval. Expand only the category you need.
+Beyond the 37-model reasoning core, this index tracks 53 enabling resources: vision-language foundations, ultra-high-resolution models, generation, detection, segmentation, augmentation, and retrieval. Expand only the category you need.
 
 <!-- AUTO_ECOSYSTEM_START -->
 
 <details>
-<summary><b>Vision-Language Models › Contrastive VLMs</b> · 6 resources</summary>
+<summary><b>Vision-Language Models › Contrastive VLMs</b> · 7 resources</summary>
 
-| Resource | Year / Venue | Weights / Data | Official code | Stars |
-| :---: | :---: | :---: | :---: | :---: |
-| **RemoteCLIP** | 2024 · TGRS | [HuggingFace](https://huggingface.co/chendelong/RemoteCLIP) | [Code](https://github.com/ChenDelong1999/RemoteCLIP) | ⭐ 587 |
-| **SatCLIP** | 2024 · arXiv | [HuggingFace](https://huggingface.co/microsoft/SatCLIP-ViT16-L40) · [ModelScope](https://modelscope.cn/models/microsoft/SatCLIP-ViT16-L40) | [Code](https://github.com/microsoft/satclip) | ⭐ 373 |
-| **GeoRSCLIP** | 2024 · TGRS | [HuggingFace](https://huggingface.co/Zilun/GeoRSCLIP) | [Code](https://github.com/om-ai-lab/RS5M) | ⭐ 314 |
-| **DGTRS-CLIP** | 2025 · arXiv | [HuggingFace](https://huggingface.co/MitsuiChen14/DGTRS-CLIP-ViT-L-14) · [HuggingFace](https://huggingface.co/MitsuiChen14/DGTRS-CLIP-ViT-B-16) | [Code](https://github.com/MitsuiChen14/DGTRS) | ⭐ 32 |
-| **PriorCLIP** | 2023 · MM | [Baidu NetDisk](https://pan.baidu.com/s/1urfZ_64DFRelAQz-LYkcCQ?pwd=2v3v) | [Code](https://github.com/jaychempan/PriorCLIP) | ⭐ 30 |
-| **TimeSenCLIP** | 2025 · arXiv | [HuggingFace](https://huggingface.co/pallavijainpj/TimeSenCLIP) | — | — |
-
-</details>
-
-<details>
-<summary><b>Vision-Language Models › Generative Large VLMs</b> · 13 resources</summary>
-
-| Resource | Year / Venue | Weights / Data | Official code | Stars |
-| :---: | :---: | :---: | :---: | :---: |
-| **GeoChat** | 2024 · CVPR | [HuggingFace](https://huggingface.co/MBZUAI/geochat-7B) · [ModelScope](https://modelscope.cn/models/MBZUAI/geochat-7B) | [Code](https://github.com/mbzuai-oryx/GeoChat) | ⭐ 743 |
-| **Falcon** | 2025 · arXiv | [HuggingFace](https://huggingface.co/TianHuiLab/Falcon-Single-Instruction-Large) | [Code](https://github.com/TianHuiLab/Falcon) | ⭐ 382 |
-| **LHRS-Bot** | 2024 · ECCV | [Google Drive](https://drive.google.com/drive/folders/1dzWTE1k935MjMVnfLtTJiIqw7yCj-e3m?usp=drive_link) · [Baidu NetDisk](https://pan.baidu.com/s/1n1h_ZImeKTgvoNHjr5bq3Q?pwd=qhqw) | [Code](https://github.com/NJU-LHRS/LHRS-Bot) | ⭐ 194 |
-| **EarthGPT** | 2024 · TGRS | — | [Code](https://github.com/wivizhang/EarthGPT) | ⭐ 160 |
-| **RSGPT** | 2025 · ISPRS | — | [Code](https://github.com/Lavender105/RSGPT) | ⭐ 150 |
-| **TEOChat** | 2025 · ICLR | [HuggingFace](https://huggingface.co/jirvin16/TEOChat) | [Code](https://github.com/ermongroup/TEOChat) | ⭐ 150 |
-| **SkySenseGPT** | 2024 · arXiv | [HuggingFace](https://huggingface.co/ll-13/SkySenseGPT-7B-CLIP-ViT) | [Code](https://github.com/Luo-Z13/SkySense-Chat) | ⭐ 149 |
-| **SkyEyeGPT** | 2025 · ISPRS | [HuggingFace](https://huggingface.co/ZhanYang-nwpu/SkyEyeGPT) | [Code](https://github.com/ZhanYang-nwpu/SkyEyeGPT) | ⭐ 139 |
-| **RSUniVLM** | 2024 · arXiv | [Google Drive](https://drive.google.com/drive/folders/1TtaoOPmh167gpgHHWRNBMCaA7t_XZ4Vg?usp=sharing) | [Code](https://github.com/xuliu-cyber/RSUniVLM) | ⭐ 47 |
-| **EarthMarker** | 2024 · TGRS | — | [Code](https://github.com/wivizhang/EarthMarker) | ⭐ 46 |
-| **Earth-OneVision** | 2026 · arXiv | — | — | — |
-| **SkyNative** | 2026 · arXiv | — | — | — |
-| **RingMoGPT** | 2024 · TGRS | — | — | — |
+| Resource | Year / Venue | Paper | Weights / Data | Official code | Stars |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+| **RemoteCLIP** | 2024 · TGRS | [Paper](https://doi.org/10.1109/TGRS.2024.3390838) | [HuggingFace](https://huggingface.co/chendelong/RemoteCLIP) | [Code](https://github.com/ChenDelong1999/RemoteCLIP) | ⭐ 587 |
+| **SatCLIP** | 2024 · arXiv | [Paper](https://arxiv.org/abs/2311.17179) | [HuggingFace](https://huggingface.co/microsoft/SatCLIP-ViT16-L40) · [ModelScope](https://modelscope.cn/models/microsoft/SatCLIP-ViT16-L40) | [Code](https://github.com/microsoft/satclip) | ⭐ 373 |
+| **GeoRSCLIP** | 2024 · TGRS | [Paper](https://doi.org/10.1109/TGRS.2024.3449154) | [HuggingFace](https://huggingface.co/Zilun/GeoRSCLIP) | [Code](https://github.com/om-ai-lab/RS5M) | ⭐ 314 |
+| **DGTRS-CLIP** | 2025 · arXiv | [Paper](https://arxiv.org/abs/2503.19311) | [HuggingFace](https://huggingface.co/MitsuiChen14/DGTRS-CLIP-ViT-L-14) · [HuggingFace](https://huggingface.co/MitsuiChen14/DGTRS-CLIP-ViT-B-16) | [Code](https://github.com/MitsuiChen14/DGTRS) | ⭐ 32 |
+| **PriorCLIP** | 2023 · MM | [Paper](https://doi.org/10.1145/3581783.3612587) | [Baidu NetDisk](https://pan.baidu.com/s/1urfZ_64DFRelAQz-LYkcCQ?pwd=2v3v) | [Code](https://github.com/jaychempan/PriorCLIP) | ⭐ 30 |
+| **GeoAlignCLIP** | 2026 · arXiv | [Paper](https://arxiv.org/abs/2603.09566) | — | — | — |
+| **TimeSenCLIP** | 2025 · arXiv | [Paper](https://arxiv.org/abs/2508.11919) | [HuggingFace](https://huggingface.co/pallavijainpj/TimeSenCLIP) | — | — |
 
 </details>
 
 <details>
-<summary><b>Vision-Language Models › Task-Specific VLMs</b> · 13 resources</summary>
+<summary><b>Vision-Language Models › Generative Large VLMs</b> · 14 resources</summary>
 
-| Resource | Year / Venue | Weights / Data | Official code | Stars |
-| :---: | :---: | :---: | :---: | :---: |
-| **LAE-DINO** | 2025 · AAAI | [HuggingFace](https://huggingface.co/ML4Sustain/LAE-DINO) · [ModelScope](https://modelscope.cn/models/ML4Sustain/LAE-DINO) | [Code](https://github.com/jaychempan/LAE-DINO) | ⭐ 286 |
-| **RemoteSAM** | 2025 · MM | [HuggingFace](https://huggingface.co/1e12Leon/RemoteSAM) | [Code](https://github.com/1e12Leon/RemoteSAM) | ⭐ 246 |
-| **EarthMind** | 2025 · arXiv | [HuggingFace](https://huggingface.co/sy1998/EarthMind-4B) | [Code](https://github.com/shuyansy/Earth-Observation-VLMs) | ⭐ 138 |
-| **InstructSAM** | 2025 · NeurIPS | — | [Code](https://github.com/VoyagerXvoyagerx/InstructSAM) | ⭐ 117 |
-| **GeoGround** | 2024 · arXiv | [HuggingFace](https://huggingface.co/erenzhou/GeoGround) · [ModelScope](https://modelscope.cn/models/zytx121/geoground) | [Code](https://github.com/VisionXLab/GeoGround) | ⭐ 94 |
-| **CastDet** | 2024 · ECCV | — | [Code](https://github.com/VisionXLab/CastDet) | ⭐ 85 |
-| **UniGeoSeg** | 2026 · CVPR | [HuggingFace](https://huggingface.co/nishuo1999/UniGeoSeg) | [Code](https://github.com/MiliLab/UniGeoSeg) | ⭐ 42 |
-| **OpenRSD** | 2025 · ICCV | [Baidu NetDisk](https://pan.baidu.com/s/1sV3GHgneC3dQskIaYABefg?pwd=aan9) | [Code](https://github.com/floatingstarZ/OpenRSD) | ⭐ 42 |
-| **RSVG-ZeroOV** | 2026 · AAAI | — | [Code](https://github.com/like413/RSVG-ZeroOV) | ⭐ 26 |
-| **LLaMA-Unidetector** | 2025 · TGRS | [Google Drive](https://drive.google.com/file/d/1AwUn5EebmmLBo7njjW_Ng1q9zDrqkNbB/view) · [Baidu NetDisk](https://pan.baidu.com/s/1P3pW3euqqxYVZQvw-is1vQ?pwd=1234) | [Code](https://github.com/ChloeeGrace/LLaMA-Unidetector) | ⭐ 15 |
-| **Cross-View OVD** | 2025 · arXiv | — | — | — |
-| **FASE** | 2025 · CIKM | — | — | — |
-| **GeoMag** | 2025 · MM | — | — | — |
+| Resource | Year / Venue | Paper | Weights / Data | Official code | Stars |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+| **GeoChat** | 2024 · CVPR | [Paper](https://arxiv.org/abs/2311.15826) | [HuggingFace](https://huggingface.co/MBZUAI/geochat-7B) · [ModelScope](https://modelscope.cn/models/MBZUAI/geochat-7B) | [Code](https://github.com/mbzuai-oryx/GeoChat) | ⭐ 743 |
+| **Falcon** | 2025 · arXiv | [Paper](https://arxiv.org/abs/2503.11070) | [HuggingFace](https://huggingface.co/TianHuiLab/Falcon-Single-Instruction-Large) | [Code](https://github.com/TianHuiLab/Falcon) | ⭐ 382 |
+| **LHRS-Bot** | 2024 · ECCV | [Paper](https://arxiv.org/abs/2402.02544) | [Google Drive](https://drive.google.com/drive/folders/1dzWTE1k935MjMVnfLtTJiIqw7yCj-e3m?usp=drive_link) · [Baidu NetDisk](https://pan.baidu.com/s/1n1h_ZImeKTgvoNHjr5bq3Q?pwd=qhqw) | [Code](https://github.com/NJU-LHRS/LHRS-Bot) | ⭐ 194 |
+| **EarthGPT** | 2024 · TGRS | [Paper](https://arxiv.org/abs/2401.16822) | — | [Code](https://github.com/wivizhang/EarthGPT) | ⭐ 160 |
+| **RSGPT** | 2025 · ISPRS | [Paper](https://arxiv.org/abs/2307.15266) | — | [Code](https://github.com/Lavender105/RSGPT) | ⭐ 150 |
+| **TEOChat** | 2025 · ICLR | [Paper](https://arxiv.org/abs/2410.06234) | [HuggingFace](https://huggingface.co/jirvin16/TEOChat) | [Code](https://github.com/ermongroup/TEOChat) | ⭐ 150 |
+| **SkySenseGPT** | 2024 · arXiv | [Paper](https://arxiv.org/abs/2406.10100) | [HuggingFace](https://huggingface.co/ll-13/SkySenseGPT-7B-CLIP-ViT) | [Code](https://github.com/Luo-Z13/SkySense-Chat) | ⭐ 149 |
+| **SkyEyeGPT** | 2025 · ISPRS | [Paper](https://arxiv.org/abs/2401.09712) | [HuggingFace](https://huggingface.co/ZhanYang-nwpu/SkyEyeGPT) | [Code](https://github.com/ZhanYang-nwpu/SkyEyeGPT) | ⭐ 139 |
+| **RSUniVLM** | 2024 · arXiv | [Paper](https://arxiv.org/abs/2412.05679) | [Google Drive](https://drive.google.com/drive/folders/1TtaoOPmh167gpgHHWRNBMCaA7t_XZ4Vg?usp=sharing) | [Code](https://github.com/xuliu-cyber/RSUniVLM) | ⭐ 47 |
+| **EarthMarker** | 2024 · TGRS | [Paper](https://ieeexplore.ieee.org/document/10817639) | — | [Code](https://github.com/wivizhang/EarthMarker) | ⭐ 46 |
+| **Earth-OneVision** | 2026 · arXiv | [Paper](https://arxiv.org/abs/2606.10819) | — | — | — |
+| **SkyNative** | 2026 · arXiv | [Paper](https://arxiv.org/abs/2605.17949) | — | — | — |
+| **FUSAR-GPT** | 2026 · CVPR | [Paper](https://arxiv.org/abs/2602.19190) | — | [Code](https://github.com/yangyifremad/FUSAR-KLIP) | — |
+| **RingMoGPT** | 2024 · TGRS | — | — | — | — |
+
+</details>
+
+<details>
+<summary><b>Vision-Language Models › Task-Specific VLMs</b> · 15 resources</summary>
+
+| Resource | Year / Venue | Paper | Weights / Data | Official code | Stars |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+| **LAE-DINO** | 2025 · AAAI | [Paper](https://arxiv.org/abs/2408.09110) | [HuggingFace](https://huggingface.co/ML4Sustain/LAE-DINO) · [ModelScope](https://modelscope.cn/models/ML4Sustain/LAE-DINO) | [Code](https://github.com/jaychempan/LAE-DINO) | ⭐ 286 |
+| **RemoteSAM** | 2025 · MM | [Paper](https://arxiv.org/abs/2505.18022) | [HuggingFace](https://huggingface.co/1e12Leon/RemoteSAM) | [Code](https://github.com/1e12Leon/RemoteSAM) | ⭐ 246 |
+| **EarthMind** | 2025 · arXiv | [Paper](https://arxiv.org/abs/2506.01667) | [HuggingFace](https://huggingface.co/sy1998/EarthMind-4B) | [Code](https://github.com/shuyansy/Earth-Observation-VLMs) | ⭐ 138 |
+| **InstructSAM** | 2025 · NeurIPS | [Paper](https://arxiv.org/abs/2505.15818) | — | [Code](https://github.com/VoyagerXvoyagerx/InstructSAM) | ⭐ 117 |
+| **GeoGround** | 2024 · arXiv | [Paper](https://arxiv.org/abs/2411.11904) | [HuggingFace](https://huggingface.co/erenzhou/GeoGround) · [ModelScope](https://modelscope.cn/models/zytx121/geoground) | [Code](https://github.com/VisionXLab/GeoGround) | ⭐ 94 |
+| **CastDet** | 2024 · ECCV | [Paper](https://arxiv.org/abs/2311.11646) | — | [Code](https://github.com/VisionXLab/CastDet) | ⭐ 85 |
+| **UniGeoSeg** | 2026 · CVPR | [Paper](https://arxiv.org/abs/2511.23332) | [HuggingFace](https://huggingface.co/nishuo1999/UniGeoSeg) | [Code](https://github.com/MiliLab/UniGeoSeg) | ⭐ 42 |
+| **OpenRSD** | 2025 · ICCV | [Paper](https://arxiv.org/abs/2503.06146) | [Baidu NetDisk](https://pan.baidu.com/s/1sV3GHgneC3dQskIaYABefg?pwd=aan9) | [Code](https://github.com/floatingstarZ/OpenRSD) | ⭐ 42 |
+| **RSVG-ZeroOV** | 2026 · AAAI | [Paper](https://arxiv.org/abs/2509.18711) | — | [Code](https://github.com/like413/RSVG-ZeroOV) | ⭐ 26 |
+| **LLaMA-Unidetector** | 2025 · TGRS | [Paper](https://doi.org/10.1109/TGRS.2025.3564332) | [Google Drive](https://drive.google.com/file/d/1AwUn5EebmmLBo7njjW_Ng1q9zDrqkNbB/view) · [Baidu NetDisk](https://pan.baidu.com/s/1P3pW3euqqxYVZQvw-is1vQ?pwd=1234) | [Code](https://github.com/ChloeeGrace/LLaMA-Unidetector) | ⭐ 15 |
+| **Cross-View OVD** | 2025 · arXiv | [Paper](https://arxiv.org/abs/2510.03858) | — | — | — |
+| **FASE** | 2025 · CIKM | [Paper](https://doi.org/10.1145/3746252.3760838) | — | — | — |
+| **GeoMag** | 2025 · MM | [Paper](https://arxiv.org/abs/2507.05887) | — | — | — |
+| **GeoPix** | 2025 · GRSM | [Paper](https://doi.org/10.1109/MGRS.2025.3560293) | [HuggingFace](https://huggingface.co/Norman-Ou/GeoPix) | [Code](https://github.com/Norman-Ou/GeoPix) | — |
+| **REO-VLM** | 2024 · arXiv | [Paper](https://arxiv.org/abs/2412.15115) | — | [Code](https://github.com/REO-VLM-anonymous/REO-VLM) | — |
 
 </details>
 
 <details>
 <summary><b>Related RS Models › Ultra-High-Resolution VLMs</b> · 3 resources</summary>
 
-| Resource | Year / Venue | Weights / Data | Official code | Stars |
-| :---: | :---: | :---: | :---: | :---: |
-| **GeoLLaVA-8K** | 2025 · NeurIPS | [HuggingFace](https://huggingface.co/initiacms/GeoLLaVA-8K) | [Code](https://github.com/MiliLab/GeoLLaVA-8K) | ⭐ 55 |
-| **ZoomEarth** | 2026 · CVPR | [HuggingFace](https://huggingface.co/HappyBug/ZoomEarth-3B) | [Code](https://github.com/earth-insights/ZoomEarth) | ⭐ 45 |
-| **Zoom-RS (Look Where It Matters)** | 2025 · arXiv | — | [Code](https://github.com/kiki-zyq/ZoomSearch) | ⭐ 27 |
+| Resource | Year / Venue | Paper | Weights / Data | Official code | Stars |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+| **GeoLLaVA-8K** | 2025 · NeurIPS | [Paper](https://arxiv.org/abs/2505.21375) | [HuggingFace](https://huggingface.co/initiacms/GeoLLaVA-8K) | [Code](https://github.com/MiliLab/GeoLLaVA-8K) | ⭐ 55 |
+| **ZoomEarth** | 2026 · CVPR | [Paper](https://arxiv.org/abs/2511.12267) | [HuggingFace](https://huggingface.co/HappyBug/ZoomEarth-3B) | [Code](https://github.com/earth-insights/ZoomEarth) | ⭐ 45 |
+| **Zoom-RS (Look Where It Matters)** | 2025 · arXiv | [Paper](https://arxiv.org/abs/2511.20460) | — | [Code](https://github.com/kiki-zyq/ZoomSearch) | ⭐ 27 |
 
 </details>
 
 <details>
 <summary><b>Related RS Models › Generation Models</b> · 2 resources</summary>
 
-| Resource | Year / Venue | Weights / Data | Official code | Stars |
-| :---: | :---: | :---: | :---: | :---: |
-| **Text2Earth** | 2025 · GRSM | [HuggingFace](https://huggingface.co/lcybuaa/Text2Earth) · [ModelScope](https://modelscope.cn/models/lcybuaa1111/Text2Earth) | [Code](https://github.com/Chen-Yang-Liu/Text2Earth) | ⭐ 187 |
-| **Earthsynth** | 2025 · arXiv | [HuggingFace](https://huggingface.co/jaychempan/EarthSynth) · [ModelScope](https://modelscope.cn/models/ML4Sustain/EarthSynth) | [Code](https://github.com/jaychempan/EarthSynth) | ⭐ 60 |
+| Resource | Year / Venue | Paper | Weights / Data | Official code | Stars |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+| **Text2Earth** | 2025 · GRSM | [Paper](https://ieeexplore.ieee.org/document/10988859) | [HuggingFace](https://huggingface.co/lcybuaa/Text2Earth) · [ModelScope](https://modelscope.cn/models/lcybuaa1111/Text2Earth) | [Code](https://github.com/Chen-Yang-Liu/Text2Earth) | ⭐ 187 |
+| **Earthsynth** | 2025 · arXiv | [Paper](https://arxiv.org/abs/2505.12108) | [HuggingFace](https://huggingface.co/jaychempan/EarthSynth) · [ModelScope](https://modelscope.cn/models/ML4Sustain/EarthSynth) | [Code](https://github.com/jaychempan/EarthSynth) | ⭐ 60 |
 
 </details>
 
 <details>
 <summary><b>Perception Models › Object Detection</b> · 6 resources</summary>
 
-| Resource | Year / Venue | Weights / Data | Official code | Stars |
-| :---: | :---: | :---: | :---: | :---: |
-| **CalNet** | 2023 · MM | [Baidu NetDisk](https://pan.baidu.com/s/1PnmdKqIxPnTgK6yQ6WfwpA) | [Code](https://github.com/hexiao0275/CALNet-Dronevehicle) | ⭐ 68 |
-| **Enhance-then-Search (AugSearch)** | 2025 · CVPR | [Baidu NetDisk](https://pan.baidu.com/s/17wECMZ7X-wkFMXSCQ_SvAw?pwd=ttue) | [Code](https://github.com/jaychempan/ETS) | ⭐ 57 |
-| **S2A-Det** | 2023 · TGRS | — | [Code](https://github.com/hexiao0275/S2ADet) | ⭐ 51 |
-| **LCMA** | 2026 · Electronics | — | [Code](https://github.com/hexiao0275/LCMA_RGBT) | ⭐ 2 |
-| **SDCM** | 2025 · TMM | — | — | — |
-| **Semantic-Aware Ship Detection** | 2025 · IGARSS | — | — | — |
+| Resource | Year / Venue | Paper | Weights / Data | Official code | Stars |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+| **CalNet** | 2023 · MM | — | [Baidu NetDisk](https://pan.baidu.com/s/1PnmdKqIxPnTgK6yQ6WfwpA) | [Code](https://github.com/hexiao0275/CALNet-Dronevehicle) | ⭐ 68 |
+| **Enhance-then-Search (AugSearch)** | 2025 · CVPR | [Paper](https://arxiv.org/abs/2504.04517) | [Baidu NetDisk](https://pan.baidu.com/s/17wECMZ7X-wkFMXSCQ_SvAw?pwd=ttue) | [Code](https://github.com/jaychempan/ETS) | ⭐ 57 |
+| **S2A-Det** | 2023 · TGRS | — | — | [Code](https://github.com/hexiao0275/S2ADet) | ⭐ 51 |
+| **LCMA** | 2026 · Electronics | — | — | [Code](https://github.com/hexiao0275/LCMA_RGBT) | ⭐ 2 |
+| **SDCM** | 2025 · TMM | — | — | — | — |
+| **Semantic-Aware Ship Detection** | 2025 · IGARSS | [Paper](https://arxiv.org/abs/2508.15930) | — | — | — |
 
 </details>
 
 <details>
 <summary><b>Perception Models › Semantic Segmentation</b> · 2 resources</summary>
 
-| Resource | Year / Venue | Weights / Data | Official code | Stars |
-| :---: | :---: | :---: | :---: | :---: |
-| **Rethinking Transformers (RS Segmentation)** | 2023 · TGRS | [Google Drive](https://drive.google.com/file/d/1yV070cXTrkCN2FTHKM2DIXI_dtVjaTJ6/view) | [Code](https://github.com/lyhnsn/GLOTS) | ⭐ 17 |
-| **Multilevel Multimodal Fusion Transformer** | 2024 · TGRS | — | [Code](https://github.com/yida12345/FTransUNet) | ⭐ 1 |
+| Resource | Year / Venue | Paper | Weights / Data | Official code | Stars |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+| **Rethinking Transformers (RS Segmentation)** | 2023 · TGRS | [Paper](https://doi.org/10.1109/TGRS.2023.3302024) | [Google Drive](https://drive.google.com/file/d/1yV070cXTrkCN2FTHKM2DIXI_dtVjaTJ6/view) | [Code](https://github.com/lyhnsn/GLOTS) | ⭐ 17 |
+| **Multilevel Multimodal Fusion Transformer** | 2024 · TGRS | [Paper](https://doi.org/10.1109/TGRS.2024.3373033) | — | [Code](https://github.com/yida12345/FTransUNet) | ⭐ 1 |
 
 </details>
 
 <details>
 <summary><b>Perception Models › Data Augmentation</b> · 1 resources</summary>
 
-| Resource | Year / Venue | Weights / Data | Official code | Stars |
-| :---: | :---: | :---: | :---: | :---: |
-| **Diverse Instance Generation (Diffusion)** | 2025 · GRSL | — | — | — |
+| Resource | Year / Venue | Paper | Weights / Data | Official code | Stars |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+| **Diverse Instance Generation (Diffusion)** | 2025 · GRSL | [Paper](https://arxiv.org/abs/2511.18031) | — | — | — |
 
 </details>
 
 <details>
 <summary><b>Perception Models › Cross-Modal Retrieval</b> · 3 resources</summary>
 
-| Resource | Year / Venue | Weights / Data | Official code | Stars |
-| :---: | :---: | :---: | :---: | :---: |
-| **SAN (Scene-aware Aggregation)** | 2023 · ICMR | [Baidu NetDisk](https://pan.baidu.com/s/1qDSdcvm6as2rKmAmC_86VA?pwd=86a2) | [Code](https://github.com/jaychempan/SWAN) | ⭐ 37 |
-| **PiR (Prior Instruction Representation)** | 2024 · arXiv | [Baidu NetDisk](https://pan.baidu.com/s/1urfZ_64DFRelAQz-LYkcCQ?pwd=2v3v) | [Code](https://github.com/jaychempan/PriorCLIP) | ⭐ 30 |
-| **DOVE (Direction-Oriented Embedding)** | 2024 · TGRS | — | — | — |
+| Resource | Year / Venue | Paper | Weights / Data | Official code | Stars |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+| **SAN (Scene-aware Aggregation)** | 2023 · ICMR | [Paper](https://doi.org/10.1145/3591106.3592236) | [Baidu NetDisk](https://pan.baidu.com/s/1qDSdcvm6as2rKmAmC_86VA?pwd=86a2) | [Code](https://github.com/jaychempan/SWAN) | ⭐ 37 |
+| **PiR (Prior Instruction Representation)** | 2024 · arXiv | [Paper](https://arxiv.org/abs/2405.10160) | [Baidu NetDisk](https://pan.baidu.com/s/1urfZ_64DFRelAQz-LYkcCQ?pwd=2v3v) | [Code](https://github.com/jaychempan/PriorCLIP) | ⭐ 30 |
+| **DOVE (Direction-Oriented Embedding)** | 2024 · TGRS | [Paper](https://doi.org/10.1109/TGRS.2024.3392779) | — | — | — |
 
 </details>
 
@@ -264,18 +275,53 @@ Standalone training, instruction, grounding, temporal, segmentation, and reasoni
 | :---: | :---: | :---: | :---: | :---: |
 | [**EarthVLSet**](https://huggingface.co/datasets/Kingdrone-Junjue/EarthVLSet) | Dataset + benchmark | EarthVL | Earth vision-language understanding | HuggingFace · Open |
 | [**GeoChrono-Data**](https://huggingface.co/datasets/Davidup1/GeoChrono-Data) | Benchmark + instruction | GeoChrono | Long-term temporal understanding | HuggingFace · Open |
+| [**GeoHeight-Bench**](https://arxiv.org/abs/2603.25565) | Reasoning benchmark | GeoHeightChat | Height-aware multimodal reasoning | Project/Paper · See source |
 | [**GeoReason-Bench**](https://huggingface.co/datasets/WenshuaiLi/GeoReason-Bench) | Reasoning benchmark | GeoReason | Logical consistency reasoning | HuggingFace · Open |
 | [**GeoSeg-Bench**](https://huggingface.co/datasets/nishuo1999/GeoSeg-Bench) | Segmentation benchmark | UniGeoSeg | Open-world geospatial segmentation | HuggingFace · Open |
+| [**ME-RSRG**](https://github.com/CV-ShuchangLyu/ME-RSRG) | Reasoning-grounding benchmark | EAR | Multi-entity reasoning and grounding | GitHub · Open |
+| [**MMRS-OneVision**](https://arxiv.org/abs/2606.10819) | Instruction dataset | Earth-OneVision | Multi-sensor and multi-task instruction tuning | Project/Paper · See source |
+| [**RSFG-100k**](https://arxiv.org/abs/2603.09566) | Alignment dataset | GeoAlignCLIP | Fine-grained region-text alignment | Project/Paper · See source |
+| [**TerraBench**](https://arxiv.org/search/?query=TerraBench+remote+sensing&searchtype=all) | Reasoning benchmark | TerraScope | Earth-observation reasoning | Project/Paper · See source |
+| [**UHR-CoZ**](https://github.com/nanocm/GeoEyes) | Ultra-high-resolution benchmark | GeoEyes | Active zooming and compositional reasoning | GitHub · Open |
+| [**UHR-Micro**](https://arxiv.org/search/?query=UHR-Micro&searchtype=all) | Ultra-high-resolution benchmark | UHR reasoning models | Small-object perception and reasoning | Project/Paper · See source |
+| [**Delta-QA**](https://arxiv.org/search/?query=Delta-QA+remote+sensing&searchtype=all) | Change-QA benchmark | Delta-LLaVA | Bi-temporal visual question answering | Project/Paper · See source |
+| [**DisasterInsight**](https://arxiv.org/search/?query=DisasterInsight&searchtype=all) | Benchmark | Disaster-response VLMs | Disaster scene reasoning | Project/Paper · See source |
 | [**EarthReason**](https://huggingface.co/datasets/earth-insights/EarthReason) | Dataset + benchmark | SegEarth-R1 | Geospatial pixel reasoning | HuggingFace · Open |
+| [**FINERS-4k**](https://iiau-zhanglu.github.io/FINERS/) | Reasoning-segmentation dataset | FineRS (FINERS) | Fine-grained small-object reasoning and segmentation | Project · See source |
+| [**GAIA**](https://arxiv.org/search/?query=GAIA+remote+sensing+dataset&searchtype=all) | Instruction dataset | General-purpose VLMs | Geospatial instruction alignment | Project/Paper · See source |
+| [**GTPBD-MM**](https://arxiv.org/search/?query=GTPBD-MM&searchtype=all) | Multimodal benchmark | Reasoning VLMs | Geospatial planning and decision reasoning | Project/Paper · See source |
+| [**GeoMMBench**](https://arxiv.org/search/?query=GeoMMBench&searchtype=all) | Multimodal benchmark | Remote-sensing VLMs | Geospatial multimodal understanding | Project/Paper · See source |
+| [**Git-10M**](https://huggingface.co/datasets/lcybuaa/Git-10M) | Pretraining dataset | Text2Earth | Global text-to-Earth generation | HuggingFace · Open |
+| [**GroundSet**](https://arxiv.org/search/?query=GroundSet+remote+sensing&searchtype=all) | Grounding benchmark | Grounding VLMs | Referring-expression grounding | Project/Paper · See source |
+| [**HM-Bench**](https://arxiv.org/search/?query=HM-Bench+remote+sensing&searchtype=all) | Reasoning benchmark | Reasoning VLMs | Hierarchical multimodal reasoning | Project/Paper · See source |
+| [**KnowFlow-Bench**](https://cangling-agent.github.io/KnowFlow/) | Agent benchmark | CangLing-KnowFlow | Workflow generation and execution | Project · See source |
 | [**LAE-1M**](https://huggingface.co/datasets/ML4Sustain/LAE-1M) | Pretraining dataset | LAE-DINO | Language-aware object detection | HuggingFace · Open |
 | [**LaSeRS**](https://huggingface.co/datasets/earth-insights/LaSeRS) | Reasoning benchmark | SegEarth-R2 | Complex-instruction segmentation | HuggingFace · Open |
+| [**Landsat30-AU**](https://arxiv.org/search/?query=Landsat30-AU&searchtype=all) | Multimodal dataset | General-purpose VLMs | Global Landsat image-text understanding | Project/Paper · See source |
+| [**NeSy-Route**](https://arxiv.org/search/?query=NeSy-Route&searchtype=all) | Neuro-symbolic benchmark | GeoSolver | Route and spatial reasoning | Project/Paper · See source |
+| [**OmniEarth**](https://arxiv.org/search/?query=OmniEarth+benchmark&searchtype=all) | Multimodal benchmark | Remote-sensing VLMs | Multi-task Earth observation evaluation | Project/Paper · See source |
+| [**RSME-Bench**](https://arxiv.org/search/?query=RSME-Bench&searchtype=all) | Reasoning benchmark | Reasoning VLMs | Multi-entity remote-sensing reasoning | Project/Paper · See source |
 | [**RemoteSAM270k**](https://huggingface.co/datasets/1e12Leon/RemoteSAM270k) | Instruction dataset | RemoteSAM | Segmentation and recognition | HuggingFace · Open |
+| [**SAR-TEXT**](https://arxiv.org/search/?query=SAR-TEXT&searchtype=all) | Image-text dataset | SAR VLMs | SAR image-language alignment | Project/Paper · See source |
+| [**SARLANG-1M**](https://arxiv.org/search/?query=SARLANG-1M&searchtype=all) | Pretraining dataset | SAR VLMs | Million-scale SAR-language pretraining | Project/Paper · See source |
 | [**TEOChatlas**](https://huggingface.co/datasets/jirvin16/TEOChatlas) | Temporal dataset | TEOChat | Temporal Earth observation dialogue | HuggingFace · Open |
+| [**VLRS-Bench**](https://arxiv.org/search/?query=VLRS-Bench&searchtype=all) | Vision-language benchmark | Remote-sensing VLMs | Comprehensive vision-language evaluation | Project/Paper · See source |
+| [**BigEarthNet-MM**](https://arxiv.org/abs/2404.07043) | Multimodal pretraining dataset | General-purpose VLMs | Multispectral image-text representation | Project/Paper · See source |
+| [**BigEarthNet.txt**](https://arxiv.org/search/?query=BigEarthNet.txt&searchtype=all) | Caption dataset | General-purpose VLMs | Multilingual Earth-observation descriptions | Project/Paper · See source |
+| [**ChatEarthNet**](https://arxiv.org/abs/2402.11325) | Instruction dataset | ChatEarthNet | Earth-observation dialogue and instruction tuning | Project/Paper · See source |
+| [**DisasterM3**](https://arxiv.org/search/?query=DisasterM3&searchtype=all) | Dataset + benchmark | Disaster-response VLMs | Multimodal multi-hazard understanding | Project/Paper · See source |
 | [**FIT-RS**](https://huggingface.co/datasets/ll-13/FIT-RS) | Instruction dataset | SkySenseGPT | Fine-grained remote-sensing tasks | HuggingFace · Open |
 | [**GeoChat-Instruct**](https://huggingface.co/datasets/MBZUAI/GeoChat_Instruct) | Instruction dataset | GeoChat | Grounded remote-sensing dialogue | HuggingFace · Open |
+| [**LuoJiaHOG**](https://arxiv.org/search/?query=LuoJiaHOG&searchtype=all) | Multimodal dataset | General-purpose VLMs | Remote-sensing vision-language understanding | Project/Paper · See source |
+| [**REO-Instruct**](https://github.com/REO-VLM-anonymous/REO-VLM) | Instruction dataset | REO-VLM | Continuous Earth-observation regression | GitHub · See source |
 | [**RS5M**](https://huggingface.co/datasets/omlab/RS5M) | Pretraining dataset | GeoRSCLIP | Remote-sensing image-text alignment | HuggingFace · Open |
+| [**RSRCC**](https://arxiv.org/search/?query=RSRCC+remote+sensing&searchtype=all) | Change-reasoning benchmark | Change-reasoning models | Reasoning over bi-temporal change | Project/Paper · See source |
 | [**SkyEye-968k**](https://huggingface.co/datasets/ZhanYang-nwpu/SkyEye-968k) | Instruction dataset | SkyEyeGPT | Multi-task remote-sensing instruction | HuggingFace · Open |
+| [**SkyScript**](https://arxiv.org/abs/2312.11029) | Pretraining dataset | RemoteCLIP | Large-scale image-text alignment | Project/Paper · See source |
+| [**VRSBench**](https://github.com/lzw-lzw/VRSBench) | Dataset + benchmark | General-purpose VLMs | Captioning VQA and grounding | GitHub · Open |
 | [**refGeo**](https://huggingface.co/datasets/erenzhou/refGeo) | Grounding dataset | GeoGround | Multi-format visual grounding | HuggingFace · Open |
+| [**RSICap**](https://arxiv.org/abs/2307.15266) | Caption dataset | RSGPT | Remote-sensing image captioning | Project/Paper · See source |
+| [**SECOND-CC**](https://github.com/Chen-Yang-Liu/RSICC) | Change-caption dataset | Change-captioning models | Semantic change description | GitHub · Open |
 
 <!-- AUTO_DATASETS_END -->
 
@@ -310,7 +356,7 @@ python scripts/plot_timeline.py
 
 - `data/survey.csv` stores paper metadata and official repository URLs.
 - `data/github_metrics.json` stores dated Star/fork snapshots.
-- `data/ecosystem.csv` stores the extended 79-resource model and hosting audit.
+- `data/ecosystem.csv` stores the extended 90-resource model and hosting audit.
 - `data/ecosystem_github_stars.json` stores its dated official-repository Star snapshot.
 - `data/datasets.csv` stores standalone dataset and benchmark releases.
 - README sections between `AUTO_*` markers are generated; editorial sections stay untouched.
