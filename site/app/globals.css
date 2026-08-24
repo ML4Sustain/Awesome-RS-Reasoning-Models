@@ -109,3 +109,5 @@ html[data-theme='light'] .interactive-timeline { background:radial-gradient(circ
 html[data-theme='light'] .timeline-lane { background:rgba(255,255,255,.72); border-color:rgba(25,104,106,.12); box-shadow:0 8px 24px rgba(32,91,89,.045); }
 html[data-theme='light'] .node-popover { color:#173d47; background:rgba(255,255,255,.98); border-color:rgba(25,126,127,.24); box-shadow:0 16px 38px rgba(29,82,82,.18); }
 html[data-theme='light'] .node-popover small { color:#6c858a; } html[data-theme='light'] .node-popover a { color:#137e82; }
+html[data-theme='light'] .catalog .search kbd { color:#24777b; border-color:rgba(31,130,132,.22); background:#e8f5f2; box-shadow:inset 0 -1px rgba(20,101,103,.08); }
+html[data-theme='dark'] .catalog .search kbd { color:#84aeb8; border-color:rgba(126,205,217,.22); background:rgba(4,30,42,.58); }
