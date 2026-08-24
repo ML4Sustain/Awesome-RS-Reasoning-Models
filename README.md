@@ -9,15 +9,21 @@
   <a href="LICENSE-DATA"><img src="https://img.shields.io/badge/data-CC_BY_4.0-ef9421?style=flat-square" alt="CC BY 4.0"></a>
 </p>
 
-<p align="center">
-  <a href="#-radar">Radar</a> •
-  <a href="#-resource-index">Resource index</a> •
-  <a href="#-datasets--benchmarks">Datasets</a> •
-  <a href="#-update-the-index">Update</a> •
-  <a href="#-contributing">Contribute</a>
-</p>
+## Contents
 
-## The signal
+- [1. Landscape: from perception to reasoning](#1-landscape)
+  - [Operational scope and taxonomy](#operational-scope-and-taxonomy)
+  - [Index pulse](#index-pulse)
+  - [Publication timeline](#publication-timeline)
+- [2. Reasoning-specific systems](#2-reasoning-specific-systems)
+- [3. Enabling foundations](#3-enabling-foundations)
+- [4. Data foundations and evaluation](#4-data-foundations-and-evaluation)
+- [5. Scope and maintenance](#5-scope-and-maintenance)
+- [6. Contributing](#6-contributing)
+- [7. Citation](#7-citation)
+
+<a id="1-landscape"></a>
+## 1. Landscape: from perception to reasoning
 
 Remote sensing is moving from recognizing **what is where** to establishing **why a conclusion follows from evidence**. This independent index tracks that transition across models, datasets, benchmarks, and executable agents.
 
@@ -25,7 +31,8 @@ Remote sensing is moving from recognizing **what is where** to establishing **wh
 
 Entries link directly to their original paper and verified official code. Repository popularity is stored as a dated snapshot in this repository, never inferred from a transient live badge.
 
-## 🧭 Radar
+<a id="operational-scope-and-taxonomy"></a>
+### Operational scope and taxonomy
 
 | 01 · 🧩 Supervised | 02 · 🎯 Reinforcement | 03 · 🛠️ Agentic |
 | --- | --- | --- |
@@ -36,7 +43,8 @@ The tracks sit on top of enabling datasets and vision-language models, and suppo
 
 `urban & social space` · `disaster assessment` · `environmental monitoring` · `spatiotemporal QA`
 
-## 📡 Index pulse
+<a id="index-pulse"></a>
+### Index pulse
 
 <!-- AUTO_DASHBOARD_START -->
 
@@ -56,20 +64,24 @@ The tracks sit on top of enabling datasets and vision-language models, and suppo
 
 <!-- AUTO_DASHBOARD_END -->
 
+<a id="publication-timeline"></a>
+### Publication timeline
+
 <details open>
-<summary><b>View the publication timeline</b></summary>
+<summary><b>Representative work by first public release</b></summary>
 
 <p align="center"><img src="assets/timeline.svg" alt="Timeline of remote sensing reasoning models" width="100%"></p>
 
 </details>
 
-## 📚 Resource index
+<a id="2-reasoning-specific-systems"></a>
+## 2. Reasoning-specific systems
 
-The complete reasoning core: 37 models across supervised, reinforcement-driven, and agentic/tool-augmented tracks. Sorted by stored GitHub Stars inside each track.
+These works satisfy the repository's operational reasoning criteria: evidence is composed across steps, intermediate claims or actions are traceable, and evaluation extends beyond final-answer accuracy. Following the survey, the three paradigms are **non-exclusive** and indicate the dominant acquisition or execution mechanism. The catalog currently contains 37 systems, sorted by stored GitHub Stars inside each paradigm.
 
 <!-- AUTO_CATALOG_START -->
 
-<details>
+<details open>
 <summary><b>Reasoning Models › Supervised Reasoning</b> · 7 resources</summary>
 
 | Resource | Year / Venue | Paper | Weights / Data | Official code | Stars |
@@ -84,7 +96,7 @@ The complete reasoning core: 37 models across supervised, reinforcement-driven, 
 
 </details>
 
-<details>
+<details open>
 <summary><b>Reasoning Models › RL-Driven Reasoning</b> · 19 resources</summary>
 
 | Resource | Year / Venue | Paper | Weights / Data | Official code | Stars |
@@ -111,7 +123,7 @@ The complete reasoning core: 37 models across supervised, reinforcement-driven, 
 
 </details>
 
-<details>
+<details open>
 <summary><b>Reasoning Models › Agentic / Tool-Augmented Reasoning</b> · 11 resources</summary>
 
 | Resource | Year / Venue | Paper | Weights / Data | Official code | Stars |
@@ -132,14 +144,15 @@ The complete reasoning core: 37 models across supervised, reinforcement-driven, 
 
 <!-- AUTO_CATALOG_END -->
 
-## 🌍 Extended ecosystem
+<a id="3-enabling-foundations"></a>
+## 3. Enabling foundations
 
-Beyond the 37-model reasoning core, this index tracks 53 enabling resources: vision-language foundations, ultra-high-resolution models, generation, detection, segmentation, augmentation, and retrieval. Expand only the category you need.
+Reasoning is built on perception and remote-sensing vision-language modeling. This section therefore tracks 53 **reasoning-enabling** resources separately from reasoning-specific systems: contrastive alignment models, generative and task-specific VLMs, ultra-high-resolution interfaces, retrieval, detection, segmentation, and data generation. Inclusion here indicates foundational relevance, not demonstrated multi-step reasoning.
 
 <!-- AUTO_ECOSYSTEM_START -->
 
-<details>
-<summary><b>Vision-Language Models › Contrastive VLMs</b> · 7 resources</summary>
+<details open>
+<summary><b>Remote Sensing Vision-Language Modeling › Contrastive VLMs</b> · 7 resources</summary>
 
 | Resource | Year / Venue | Paper | Weights / Data | Official code | Stars |
 | :---: | :---: | :---: | :---: | :---: | :---: |
@@ -153,8 +166,8 @@ Beyond the 37-model reasoning core, this index tracks 53 enabling resources: vis
 
 </details>
 
-<details>
-<summary><b>Vision-Language Models › Generative Large VLMs</b> · 14 resources</summary>
+<details open>
+<summary><b>Remote Sensing Vision-Language Modeling › Generative Large VLMs</b> · 14 resources</summary>
 
 | Resource | Year / Venue | Paper | Weights / Data | Official code | Stars |
 | :---: | :---: | :---: | :---: | :---: | :---: |
@@ -175,8 +188,8 @@ Beyond the 37-model reasoning core, this index tracks 53 enabling resources: vis
 
 </details>
 
-<details>
-<summary><b>Vision-Language Models › Task-Specific VLMs</b> · 15 resources</summary>
+<details open>
+<summary><b>Remote Sensing Vision-Language Modeling › Task-Specific VLMs</b> · 15 resources</summary>
 
 | Resource | Year / Venue | Paper | Weights / Data | Official code | Stars |
 | :---: | :---: | :---: | :---: | :---: | :---: |
@@ -198,8 +211,8 @@ Beyond the 37-model reasoning core, this index tracks 53 enabling resources: vis
 
 </details>
 
-<details>
-<summary><b>Related RS Models › Ultra-High-Resolution VLMs</b> · 3 resources</summary>
+<details open>
+<summary><b>Reasoning-Enabling Models › Ultra-High-Resolution VLMs</b> · 3 resources</summary>
 
 | Resource | Year / Venue | Paper | Weights / Data | Official code | Stars |
 | :---: | :---: | :---: | :---: | :---: | :---: |
@@ -209,8 +222,8 @@ Beyond the 37-model reasoning core, this index tracks 53 enabling resources: vis
 
 </details>
 
-<details>
-<summary><b>Related RS Models › Generation Models</b> · 2 resources</summary>
+<details open>
+<summary><b>Reasoning-Enabling Models › Generation Models</b> · 2 resources</summary>
 
 | Resource | Year / Venue | Paper | Weights / Data | Official code | Stars |
 | :---: | :---: | :---: | :---: | :---: | :---: |
@@ -219,8 +232,8 @@ Beyond the 37-model reasoning core, this index tracks 53 enabling resources: vis
 
 </details>
 
-<details>
-<summary><b>Perception Models › Object Detection</b> · 6 resources</summary>
+<details open>
+<summary><b>Perception Foundations › Object Detection</b> · 6 resources</summary>
 
 | Resource | Year / Venue | Paper | Weights / Data | Official code | Stars |
 | :---: | :---: | :---: | :---: | :---: | :---: |
@@ -233,8 +246,8 @@ Beyond the 37-model reasoning core, this index tracks 53 enabling resources: vis
 
 </details>
 
-<details>
-<summary><b>Perception Models › Semantic Segmentation</b> · 2 resources</summary>
+<details open>
+<summary><b>Perception Foundations › Semantic Segmentation</b> · 2 resources</summary>
 
 | Resource | Year / Venue | Paper | Weights / Data | Official code | Stars |
 | :---: | :---: | :---: | :---: | :---: | :---: |
@@ -243,8 +256,8 @@ Beyond the 37-model reasoning core, this index tracks 53 enabling resources: vis
 
 </details>
 
-<details>
-<summary><b>Perception Models › Data Augmentation</b> · 1 resources</summary>
+<details open>
+<summary><b>Perception Foundations › Data Augmentation</b> · 1 resource</summary>
 
 | Resource | Year / Venue | Paper | Weights / Data | Official code | Stars |
 | :---: | :---: | :---: | :---: | :---: | :---: |
@@ -252,8 +265,8 @@ Beyond the 37-model reasoning core, this index tracks 53 enabling resources: vis
 
 </details>
 
-<details>
-<summary><b>Perception Models › Cross-Modal Retrieval</b> · 3 resources</summary>
+<details open>
+<summary><b>Perception Foundations › Cross-Modal Retrieval</b> · 3 resources</summary>
 
 | Resource | Year / Venue | Paper | Weights / Data | Official code | Stars |
 | :---: | :---: | :---: | :---: | :---: | :---: |
@@ -265,9 +278,10 @@ Beyond the 37-model reasoning core, this index tracks 53 enabling resources: vis
 
 <!-- AUTO_ECOSYSTEM_END -->
 
-## 🗃️ Datasets & benchmarks
+<a id="4-data-foundations-and-evaluation"></a>
+## 4. Data foundations and evaluation
 
-Standalone training, instruction, grounding, temporal, segmentation, and reasoning resources extracted from verified release links in the ecosystem audit.
+Following the paper's distinction, **general-purpose multimodal datasets** provide supervision for representation learning and transfer, while **task-oriented benchmarks** define capability-specific inputs, outputs, and evaluation protocols. The table keeps both resource types searchable without treating dataset scale as evidence of reasoning quality.
 
 <!-- AUTO_DATASETS_START -->
 
@@ -325,7 +339,10 @@ Standalone training, instruction, grounding, temporal, segmentation, and reasoni
 
 <!-- AUTO_DATASETS_END -->
 
-## 🔍 Curation boundary
+<a id="5-scope-and-maintenance"></a>
+## 5. Scope and maintenance
+
+### Inclusion boundary
 
 A reasoning-specific work should demonstrate:
 
@@ -335,7 +352,7 @@ A reasoning-specific work should demonstrate:
 
 Perception, semantic alignment, generation, or grounding work remains valuable, but is labeled as an enabling foundation unless it meets these criteria.
 
-## 🔄 Update the index
+### Reproduce and update the index
 
 ```bash
 python -m pip install -r requirements.txt
@@ -362,13 +379,15 @@ python scripts/plot_timeline.py
 - README sections between `AUTO_*` markers are generated; editorial sections stay untouched.
 - GitHub Actions verifies generated files and refreshes popularity snapshots on a schedule.
 
-## 🤝 Contributing
+<a id="6-contributing"></a>
+## 6. Contributing
 
 Corrections and new resources are welcome. Follow [CONTRIBUTING.md](CONTRIBUTING.md), edit [data/survey.csv](data/survey.csv), or open a **Resource submission** issue.
 
 Please include the official code URL and describe what evidence, trace, or tool trajectory makes the work reasoning-specific. Unknown fields should stay empty rather than being guessed.
 
-## 📝 Citation
+<a id="7-citation"></a>
+## 7. Citation
 
 If this collection supports your research, please cite both the survey that defines the taxonomy and this repository when you use the continuously maintained resource metadata.
 
@@ -410,7 +429,7 @@ GitHub can also generate citation formats automatically from [CITATION.cff](CITA
 
 The extended ecosystem was imported on 2026-08-24 from the public [VoyagerX/Awesome-RS-Reasoning-Models ModelScope Studio](https://modelscope.cn/studios/VoyagerX/Awesome-RS-Reasoning-Models/files), then normalized and stored locally. This repository does not require that Studio at build or runtime; later corrections and Star snapshots are maintained here.
 
-## License
+## 8. License
 
 Code is licensed under [MIT](LICENSE); catalog data under [CC BY 4.0](LICENSE-DATA). Linked resources retain their original licenses.
 

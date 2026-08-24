@@ -140,7 +140,12 @@ def load_ecosystem() -> tuple[pd.DataFrame, dict[str, int]]:
     return df, stars
 
 
-def ecosystem_catalog(df: pd.DataFrame, stars: dict[str, int]) -> str:
+def ecosystem_catalog(df: pd.DataFrame, stars: dict[str, int], *, expanded: bool = False) -> str:
+    family_labels = {
+        "Vision-Language Models": "Remote Sensing Vision-Language Modeling",
+        "Related RS Models": "Reasoning-Enabling Models",
+        "Perception Models": "Perception Foundations",
+    }
     groups: list[str] = []
     for (family, category), group in df.groupby(["Cls1", "Cls2"], sort=False):
         ranked = group.copy()
@@ -159,7 +164,10 @@ def ecosystem_catalog(df: pd.DataFrame, stars: dict[str, int]) -> str:
             star = f"⭐ {int(row['_stars']):,}" if int(row["_stars"]) else "—"
             rows.append([f"**{row['Name']}**", f"{row['Year']} · {row['Venue']}", paper_link(row["Comments"]), " · ".join(downloads) or "—", repo, star])
         body = table(["Resource", "Year / Venue", "Paper", "Weights / Data", "Official code", "Stars"], rows)
-        groups.append(f"<details>\n<summary><b>{family} › {category}</b> · {len(group)} resources</summary>\n\n{body}\n\n</details>")
+        details_tag = "<details open>" if expanded else "<details>"
+        display_family = family_labels.get(family, family)
+        unit = "resource" if len(group) == 1 else "resources"
+        groups.append(f"{details_tag}\n<summary><b>{display_family} › {category}</b> · {len(group)} {unit}</summary>\n\n{body}\n\n</details>")
     return "\n\n".join(groups)
 
 
@@ -203,8 +211,8 @@ def main() -> None:
     text = README.read_text(encoding="utf-8")
     dashboard_md, stats = ecosystem_dashboard(ecosystem_df, ecosystem_stars)
     text = replace_block(text, "DASHBOARD", dashboard_md)
-    text = replace_block(text, "CATALOG", ecosystem_catalog(ecosystem_df[ecosystem_df["Cls1"] == "Reasoning Models"], ecosystem_stars))
-    text = replace_block(text, "ECOSYSTEM", ecosystem_catalog(ecosystem_df[ecosystem_df["Cls1"] != "Reasoning Models"], ecosystem_stars))
+    text = replace_block(text, "CATALOG", ecosystem_catalog(ecosystem_df[ecosystem_df["Cls1"] == "Reasoning Models"], ecosystem_stars, expanded=True))
+    text = replace_block(text, "ECOSYSTEM", ecosystem_catalog(ecosystem_df[ecosystem_df["Cls1"] != "Reasoning Models"], ecosystem_stars, expanded=True))
     text = replace_block(text, "DATASETS", dataset_catalog())
     README.write_text(text, encoding="utf-8")
     STATS.write_text(json.dumps(stats, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
