@@ -79,7 +79,7 @@ export default function CatalogExplorer() {
       <div className="resource-grid">
         {items.slice(0, limit).map((item) => item.type === 'method' ? (
           <article className="resource-card" key={`${item.name}-${item.year}`}>
-            <div className="card-meta"><span>{item.category}</span><span>{item.year} · {item.venue}</span></div>
+            <div className="card-meta"><span title={item.category}>{item.category}</span><span title={`${item.year} · ${item.venue}`}>{item.year} · {item.venue}</span></div>
             <h3>{item.name}</h3>
             <p>{item.family === 'Reasoning Models' ? 'Reasoning-specific system' : item.family}</p>
             <div className="card-links">
