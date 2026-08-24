@@ -5,6 +5,8 @@ on:
     branches: [main]
     paths:
       - 'site/**'
+      - 'data/**'
+      - 'scripts/build_site_data.py'
       - '.github/workflows/pages.yml'
   workflow_dispatch:
 
@@ -22,6 +24,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - name: Generate website catalog from repository data
+        run: python3 scripts/build_site_data.py
       - uses: pnpm/action-setup@v4
         with:
           version: 10
