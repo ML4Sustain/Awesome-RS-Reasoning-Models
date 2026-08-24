@@ -4,9 +4,9 @@ import { useMemo, useState, type CSSProperties } from 'react';
 import payload from './catalog-data.json';
 
 const lanes = [
-  { name: 'Supervised', color: '#55d6be' },
-  { name: 'Reinforcement', color: '#f6bd60' },
-  { name: 'Agentic / tools', color: '#e78ac3' },
+  { name: 'Supervised', color: '#55d1b9' },
+  { name: 'Reinforcement', color: '#ffc447' },
+  { name: 'Agentic / tools', color: '#e47691' },
 ] as const;
 
 type Lane = typeof lanes[number]['name'];
@@ -29,7 +29,7 @@ export default function ReasoningTimeline() {
   return (
     <div className="interactive-timeline">
       <div className="timeline-controls" aria-label="Filter timeline">
-        {(['All', ...lanes.map((lane) => lane.name)] as Filter[]).map((item) => <button key={item} className={filter === item ? 'active' : ''} onClick={() => setFilter(item)}>{item}</button>)}
+        {(['All', ...lanes.map((lane) => lane.name)] as Filter[]).map((item) => <button key={item} className={`${filter === item ? 'active' : ''} filter-${item.toLowerCase().replace(/[^a-z]+/g, '-')}`} onClick={() => setFilter(item)}>{item}</button>)}
         <span>Hover or tap a node</span>
       </div>
       <div className="timeline-scroll">
