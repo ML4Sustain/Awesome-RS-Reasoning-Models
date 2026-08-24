@@ -7,6 +7,7 @@
   <a href="https://github.com/ML4Sustain/Awsome-RS-Reasoning-Models/actions"><img src="https://img.shields.io/github/actions/workflow/status/ML4Sustain/Awsome-RS-Reasoning-Models/catalog.yml?label=catalog&amp;style=flat-square" alt="Catalog status"></a>
   <a href="CONTRIBUTING.md"><img src="https://img.shields.io/badge/contributions-welcome-39b54a?style=flat-square" alt="Contributions welcome"></a>
   <a href="LICENSE-DATA"><img src="https://img.shields.io/badge/data-CC_BY_4.0-ef9421?style=flat-square" alt="CC BY 4.0"></a>
+  <a href="pdf/From_Perception_to_Reasoning__The_Next_Frontier_of_Intelligent_Remote_Sensing.pdf"><img src="https://img.shields.io/badge/survey-latest_PDF-16858a?style=flat-square" alt="Latest survey PDF"></a>
 </p>
 
 ## Contents
@@ -30,6 +31,8 @@ Remote sensing is moving from recognizing **what is where** to establishing **wh
 > **RS-Reasoning** is task-dependent, multi-step inference that combines Earth observation evidence with geographic, temporal, or domain constraints and exposes an auditable support structure.
 
 Entries link directly to their original paper and verified official code. Repository popularity is stored as a dated snapshot in this repository, never inferred from a transient live badge.
+
+Read the complete survey: **[From Perception to Reasoning in Remote Sensing: A Survey and Outlook](pdf/From_Perception_to_Reasoning__The_Next_Frontier_of_Intelligent_Remote_Sensing.pdf)** (latest repository PDF, 23 pages).
 
 <a id="operational-scope-and-taxonomy"></a>
 ### Operational scope and taxonomy

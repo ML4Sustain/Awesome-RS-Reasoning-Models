@@ -6,6 +6,7 @@ on:
     paths:
       - 'site/**'
       - 'data/**'
+      - 'pdf/**'
       - 'scripts/build_site_data.py'
       - '.github/workflows/pages.yml'
   workflow_dispatch:
@@ -28,6 +29,8 @@ jobs:
         run: python3 scripts/build_site_data.py
       - name: Generate website timeline from survey data
         run: python3 scripts/plot_timeline.py
+      - name: Add the latest survey PDF to the website
+        run: cp pdf/From_Perception_to_Reasoning__The_Next_Frontier_of_Intelligent_Remote_Sensing.pdf site/public/survey.pdf
       - uses: pnpm/action-setup@v4
         with:
           version: 10
