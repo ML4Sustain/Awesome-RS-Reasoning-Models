@@ -35,10 +35,12 @@ def md_link(label: str, url: str) -> str:
 def link_badge(label: str, message: str, url: str, *, logo: str = "", color: str = "16858a") -> str:
     if not url:
         return "—"
-    query = f"label={quote(label)}&amp;message={quote(message)}&amp;color={color}&amp;style=flat"
+    # The table header already supplies the resource type. A compact one-piece
+    # badge avoids per-image downscaling in narrow GitHub table columns.
+    query = f"style=flat"
     if logo:
         query += f"&amp;logo={quote(logo)}"
-    badge = f'<img alt="{label}: {message}" height="20" src="https://img.shields.io/static/v1?{query}">'
+    badge = f'<img alt="{label}: {message}" height="20" src="https://img.shields.io/badge/{quote(message)}-{color}?{query}">'
     return f'<a href="{url}">{badge}</a>'
 
 
