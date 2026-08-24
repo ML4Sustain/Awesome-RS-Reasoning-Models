@@ -1,8 +1,72 @@
 cff-version: 1.2.0
-message: "If you use this survey, please cite it."
-title: "Remote Sensing Reasoning Models Survey"
-type: software
+message: >-
+  If you use the taxonomy, cite the survey paper. If you use the maintained
+  catalog or metadata, please also cite this repository.
+title: "Awesome Remote Sensing Reasoning: Models, Datasets, Benchmarks, and Agents"
+type: dataset
 authors:
-  - name: "Your Name"
-version: 0.1.0
+  - family-names: "Pan"
+    given-names: "Jiancheng"
+  - family-names: "Yao"
+    given-names: "Liang"
+  - family-names: "Zhang"
+    given-names: "Zilun"
+  - family-names: "Zheng"
+    given-names: "Yijie"
+  - family-names: "Li"
+    given-names: "Jiahao"
+  - family-names: "He"
+    given-names: "Xiao"
+  - family-names: "Xu"
+    given-names: "Wenjia"
+  - family-names: "Fu"
+    given-names: "Yuqian"
+  - family-names: "Liu"
+    given-names: "Fan"
+  - family-names: "Liu"
+    given-names: "Zhaojun"
+  - family-names: "Yin"
+    given-names: "Jianwei"
+  - family-names: "Huang"
+    given-names: "Xiaomeng"
+version: 0.2.0
+date-released: 2026-08-24
+repository-code: "https://github.com/ML4Sustain/Awsome-RS-Reasoning-Models"
+url: "https://github.com/ML4Sustain/Awsome-RS-Reasoning-Models"
 license: MIT
+keywords:
+  - remote sensing
+  - Earth observation
+  - vision-language models
+  - multimodal reasoning
+  - geospatial agents
+  - benchmarks
+preferred-citation:
+  type: article
+  title: "From Perception to Reasoning in Remote Sensing: A Survey and Outlook"
+  year: 2026
+  authors:
+    - family-names: "Pan"
+      given-names: "Jiancheng"
+    - family-names: "Yao"
+      given-names: "Liang"
+    - family-names: "Zhang"
+      given-names: "Zilun"
+    - family-names: "Zheng"
+      given-names: "Yijie"
+    - family-names: "Li"
+      given-names: "Jiahao"
+    - family-names: "He"
+      given-names: "Xiao"
+    - family-names: "Xu"
+      given-names: "Wenjia"
+    - family-names: "Fu"
+      given-names: "Yuqian"
+    - family-names: "Liu"
+      given-names: "Fan"
+    - family-names: "Liu"
+      given-names: "Zhaojun"
+    - family-names: "Yin"
+      given-names: "Jianwei"
+    - family-names: "Huang"
+      given-names: "Xiaomeng"

@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="790" viewBox="0 0 1600 790" role="img" aria-labelledby="title desc">
+<title id="title">Remote sensing reasoning timeline</title>
+<desc id="desc">Publications arranged by month and dominant reasoning mechanism. Larger highlighted nodes have more stored GitHub stars.</desc>
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#071a2d"/><stop offset="1" stop-color="#103947"/></linearGradient>
+<filter id="shadow" x="-30%" y="-30%" width="160%" height="160%"><feDropShadow dx="0" dy="4" stdDeviation="5" flood-color="#000" flood-opacity=".22"/></filter></defs>
+<rect width="1600" height="790" rx="22" fill="url(#bg)"/>
+<text x="54" y="60" fill="#f4fbfc" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="30" font-weight="750">The reasoning wave</text>
+<text x="54" y="91" fill="#9dcbd5" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15">First public release · grouped by dominant acquisition or execution mechanism</text>
+<g font-family="Inter,Segoe UI,Arial,sans-serif">
+<line x1="175.0" y1="120" x2="175.0" y2="724" stroke="#8bb9c2" stroke-opacity=".22"/>
+<text x="175.0" y="123" text-anchor="middle" fill="#b8dce3" font-size="13">Jan</text>
+<text x="175.0" y="108" text-anchor="middle" fill="#f4fbfc" font-size="14" font-weight="700">2025</text>
+<line x1="290.0" y1="120" x2="290.0" y2="724" stroke="#8bb9c2" stroke-opacity=".10"/>
+<text x="290.0" y="123" text-anchor="middle" fill="#b8dce3" font-size="13">Feb</text>
+<line x1="405.0" y1="120" x2="405.0" y2="724" stroke="#8bb9c2" stroke-opacity=".10"/>
+<text x="405.0" y="123" text-anchor="middle" fill="#b8dce3" font-size="13">Mar</text>
+<line x1="520.0" y1="120" x2="520.0" y2="724" stroke="#8bb9c2" stroke-opacity=".10"/>
+<text x="520.0" y="123" text-anchor="middle" fill="#b8dce3" font-size="13">Apr</text>
+<line x1="635.0" y1="120" x2="635.0" y2="724" stroke="#8bb9c2" stroke-opacity=".10"/>
+<text x="635.0" y="123" text-anchor="middle" fill="#b8dce3" font-size="13">May</text>
+<line x1="750.0" y1="120" x2="750.0" y2="724" stroke="#8bb9c2" stroke-opacity=".10"/>
+<text x="750.0" y="123" text-anchor="middle" fill="#b8dce3" font-size="13">Jun</text>
+<line x1="865.0" y1="120" x2="865.0" y2="724" stroke="#8bb9c2" stroke-opacity=".10"/>
+<text x="865.0" y="123" text-anchor="middle" fill="#b8dce3" font-size="13">Jul</text>
+<line x1="980.0" y1="120" x2="980.0" y2="724" stroke="#8bb9c2" stroke-opacity=".10"/>
+<text x="980.0" y="123" text-anchor="middle" fill="#b8dce3" font-size="13">Aug</text>
+<line x1="1095.0" y1="120" x2="1095.0" y2="724" stroke="#8bb9c2" stroke-opacity=".10"/>
+<text x="1095.0" y="123" text-anchor="middle" fill="#b8dce3" font-size="13">Sep</text>
+<line x1="1210.0" y1="120" x2="1210.0" y2="724" stroke="#8bb9c2" stroke-opacity=".10"/>
+<text x="1210.0" y="123" text-anchor="middle" fill="#b8dce3" font-size="13">Oct</text>
+<line x1="1325.0" y1="120" x2="1325.0" y2="724" stroke="#8bb9c2" stroke-opacity=".10"/>
+<text x="1325.0" y="123" text-anchor="middle" fill="#b8dce3" font-size="13">Nov</text>
+<line x1="1440.0" y1="120" x2="1440.0" y2="724" stroke="#8bb9c2" stroke-opacity=".10"/>
+<text x="1440.0" y="123" text-anchor="middle" fill="#b8dce3" font-size="13">Dec</text>
+<line x1="1555.0" y1="120" x2="1555.0" y2="724" stroke="#8bb9c2" stroke-opacity=".22"/>
+<text x="1555.0" y="123" text-anchor="middle" fill="#b8dce3" font-size="13">Jan</text>
+<text x="1555.0" y="108" text-anchor="middle" fill="#f4fbfc" font-size="14" font-weight="700">2026</text>
+<rect x="31" y="175" width="1538" height="175" rx="16" fill="#ffffff" fill-opacity=".035" stroke="#b9dfe5" stroke-opacity=".08"/>
+<circle cx="58" cy="215" r="7" fill="#55d6be"/>
+<text x="76" y="220" fill="#eaf7f8" font-size="15" font-weight="700">Supervised</text>
+<line x1="175" y1="215" x2="1555" y2="215" stroke="#55d6be" stroke-opacity=".35" stroke-width="2"/>
+<rect x="31" y="385" width="1538" height="175" rx="16" fill="#ffffff" fill-opacity=".035" stroke="#b9dfe5" stroke-opacity=".08"/>
+<circle cx="58" cy="425" r="7" fill="#f6bd60"/>
+<text x="76" y="430" fill="#eaf7f8" font-size="15" font-weight="700">Reinforcement</text>
+<line x1="175" y1="425" x2="1555" y2="425" stroke="#f6bd60" stroke-opacity=".35" stroke-width="2"/>
+<rect x="31" y="615" width="1538" height="120" rx="16" fill="#ffffff" fill-opacity=".035" stroke="#b9dfe5" stroke-opacity=".08"/>
+<circle cx="58" cy="655" r="7" fill="#e78ac3"/>
+<text x="76" y="660" fill="#eaf7f8" font-size="15" font-weight="700">Agentic / tools</text>
+<line x1="175" y1="655" x2="1555" y2="655" stroke="#e78ac3" stroke-opacity=".35" stroke-width="2"/>
+<circle cx="520.0" cy="215.0" r="14.8" fill="#55d6be" stroke="#071a2d" stroke-width="3" filter="url(#shadow)"/>
+<text x="542.8" y="219.0" text-anchor="start" fill="#f4fbfc" font-size="12.5" font-weight="650">SegEarth-R1</text>
+<text x="542.8" y="233.0" text-anchor="start" fill="#55d6be" font-size="10.5">★ 154</text>
+<circle cx="635.0" cy="425.0" r="7.0" fill="#f6bd60" stroke="#071a2d" stroke-width="3" filter="url(#shadow)"/>
+<text x="650.0" y="429.0" text-anchor="start" fill="#f4fbfc" font-size="12.5" font-weight="650">TinyRS-R1</text>
+<circle cx="865.0" cy="425.0" r="10.2" fill="#f6bd60" stroke="#071a2d" stroke-width="3" filter="url(#shadow)"/>
+<text x="883.2" y="429.0" text-anchor="start" fill="#f4fbfc" font-size="12.5" font-weight="650">RemoteReasoner</text>
+<text x="883.2" y="443.0" text-anchor="start" fill="#f6bd60" font-size="10.5">★ 16</text>
+<circle cx="1095.0" cy="375.0" r="7.0" fill="#f6bd60" stroke="#071a2d" stroke-width="3" filter="url(#shadow)"/>
+<text x="1110.0" y="379.0" text-anchor="start" fill="#f4fbfc" font-size="12.5" font-weight="650">GeoEvolve</text>
+<circle cx="1095.0" cy="400.0" r="10.2" fill="#f6bd60" stroke="#071a2d" stroke-width="3" filter="url(#shadow)"/>
+<text x="1113.2" y="404.0" text-anchor="start" fill="#f4fbfc" font-size="12.5" font-weight="650">Geo-R1</text>
+<text x="1113.2" y="418.0" text-anchor="start" fill="#f6bd60" font-size="10.5">★ 16</text>
+<circle cx="1095.0" cy="425.0" r="11.4" fill="#f6bd60" stroke="#071a2d" stroke-width="3" filter="url(#shadow)"/>
+<text x="1114.4" y="429.0" text-anchor="start" fill="#f4fbfc" font-size="12.5" font-weight="650">RSThinker</text>
+<text x="1114.4" y="443.0" text-anchor="start" fill="#f6bd60" font-size="10.5">★ 38</text>
+<circle cx="1095.0" cy="450.0" r="7.0" fill="#f6bd60" stroke="#071a2d" stroke-width="3" filter="url(#shadow)"/>
+<text x="1110.0" y="454.0" text-anchor="start" fill="#f4fbfc" font-size="12.5" font-weight="650">Earth-Agent</text>
+<circle cx="1095.0" cy="475.0" r="11.1" fill="#f6bd60" stroke="#071a2d" stroke-width="3" filter="url(#shadow)"/>
+<text x="1114.1" y="479.0" text-anchor="start" fill="#f4fbfc" font-size="12.5" font-weight="650">GeoVLM-R1</text>
+<text x="1114.1" y="493.0" text-anchor="start" fill="#f6bd60" font-size="10.5">★ 32</text>
+<circle cx="1210.0" cy="202.5" r="7.0" fill="#55d6be" stroke="#071a2d" stroke-width="3" filter="url(#shadow)"/>
+<text x="1225.0" y="206.5" text-anchor="start" fill="#f4fbfc" font-size="12.5" font-weight="650">Rex-Omni</text>
+<circle cx="1210.0" cy="227.5" r="7.0" fill="#55d6be" stroke="#071a2d" stroke-width="3" filter="url(#shadow)"/>
+<text x="1225.0" y="231.5" text-anchor="start" fill="#f4fbfc" font-size="12.5" font-weight="650">FineRS</text>
+<circle cx="1210.0" cy="412.5" r="7.0" fill="#f6bd60" stroke="#071a2d" stroke-width="3" filter="url(#shadow)"/>
+<text x="1225.0" y="416.5" text-anchor="start" fill="#f4fbfc" font-size="12.5" font-weight="650">Earth AI</text>
+<circle cx="1210.0" cy="437.5" r="7.0" fill="#f6bd60" stroke="#071a2d" stroke-width="3" filter="url(#shadow)"/>
+<text x="1225.0" y="441.5" text-anchor="start" fill="#f4fbfc" font-size="12.5" font-weight="650">Navigation in a Three-Di</text>
+<circle cx="1325.0" cy="400.0" r="7.0" fill="#f6bd60" stroke="#071a2d" stroke-width="3" filter="url(#shadow)"/>
+<text x="1340.0" y="404.0" text-anchor="start" fill="#f4fbfc" font-size="12.5" font-weight="650">EarthAgent</text>
+<circle cx="1325.0" cy="425.0" r="7.0" fill="#f6bd60" stroke="#071a2d" stroke-width="3" filter="url(#shadow)"/>
+<text x="1340.0" y="429.0" text-anchor="start" fill="#f4fbfc" font-size="12.5" font-weight="650">Asking Like Socrates</text>
+<circle cx="1325.0" cy="450.0" r="7.0" fill="#f6bd60" stroke="#071a2d" stroke-width="3" filter="url(#shadow)"/>
+<text x="1340.0" y="454.0" text-anchor="start" fill="#f4fbfc" font-size="12.5" font-weight="650">GeoZero</text>
+<circle cx="1555.0" cy="400.0" r="7.0" fill="#f6bd60" stroke="#071a2d" stroke-width="3" filter="url(#shadow)"/>
+<text x="1540.0" y="404.0" text-anchor="end" fill="#f4fbfc" font-size="12.5" font-weight="650">Geo-R</text>
+<circle cx="1555.0" cy="425.0" r="9.7" fill="#f6bd60" stroke="#071a2d" stroke-width="3" filter="url(#shadow)"/>
+<text x="1537.3" y="429.0" text-anchor="end" fill="#f4fbfc" font-size="12.5" font-weight="650">GeoReason</text>
+<text x="1537.3" y="443.0" text-anchor="end" fill="#f6bd60" font-size="10.5">★ 10</text>
+<circle cx="1555.0" cy="450.0" r="7.0" fill="#f6bd60" stroke="#071a2d" stroke-width="3" filter="url(#shadow)"/>
+<text x="1540.0" y="454.0" text-anchor="end" fill="#f4fbfc" font-size="12.5" font-weight="650">RSGround-R1</text>
+<g transform="translate(54 751)" font-size="12">
+<circle cx="5" cy="0" r="5" fill="#d6eef2"/><text x="17" y="4" fill="#b8dce3">public paper</text>
+<circle cx="126" cy="0" r="10" fill="#d6eef2"/><text x="144" y="4" fill="#b8dce3">node size = stored GitHub Stars</text>
+<text x="1450" y="4" text-anchor="end" fill="#799faa">generated from data/survey.csv</text>
+</g></g></svg>

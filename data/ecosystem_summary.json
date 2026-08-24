@@ -1,0 +1,143 @@
+{
+  "meta": {
+    "source_paper": "From Perception to Reasoning in Remote Sensing: A Survey and Outlook",
+    "total_models": 79,
+    "released": 43,
+    "not_released": 36,
+    "github_repos": 63,
+    "weights_released": 43,
+    "code_only": 21,
+    "modelscope_official_mirrors": 11,
+    "needs_application": 1,
+    "star_snapshot_date": "2026-08-24",
+    "generated": "2026-08-24"
+  },
+  "year_counts": {
+    "2023": 5,
+    "2024": 15,
+    "2025": 33,
+    "2026": 26
+  },
+  "venue_counts": {
+    "arXiv": 38,
+    "TGRS": 10,
+    "CVPR": 7,
+    "MM": 4,
+    "ICLR": 3,
+    "ECCV": 3,
+    "ISPRS": 2,
+    "NeurIPS": 2,
+    "AAAI": 2,
+    "CIKM": 1,
+    "ICCV": 1,
+    "GRSM": 1,
+    "TMM": 1,
+    "IGARSS": 1,
+    "Electronics": 1,
+    "GRSL": 1,
+    "ICMR": 1
+  },
+  "platform_overall": {
+    "HuggingFace": 35,
+    "ModelScope": 11,
+    "Baidu NetDisk": 9,
+    "Google Drive": 4,
+    "Project Website": 1
+  },
+  "year_platform": {
+    "2023": {
+      "Baidu NetDisk": 3,
+      "Google Drive": 1
+    },
+    "2024": {
+      "HuggingFace": 6,
+      "ModelScope": 3,
+      "Google Drive": 2,
+      "Baidu NetDisk": 2
+    },
+    "2025": {
+      "HuggingFace": 17,
+      "ModelScope": 5,
+      "Baidu NetDisk": 4,
+      "Google Drive": 1
+    },
+    "2026": {
+      "HuggingFace": 12,
+      "ModelScope": 3,
+      "Project Website": 1
+    }
+  },
+  "venue_group_platform": {
+    "arXiv": {
+      "HuggingFace": 20,
+      "ModelScope": 6,
+      "Baidu NetDisk": 2,
+      "Google Drive": 1
+    },
+    "AI 会议/期刊": {
+      "HuggingFace": 11,
+      "ModelScope": 4,
+      "Project Website": 1,
+      "Baidu NetDisk": 6,
+      "Google Drive": 1
+    },
+    "遥感会议/期刊": {
+      "HuggingFace": 4,
+      "Google Drive": 2,
+      "Baidu NetDisk": 1,
+      "ModelScope": 1
+    }
+  },
+  "github_stars_top10": [
+    {
+      "Name": "GeoChat",
+      "GitHub_Repo": "https://github.com/mbzuai-oryx/GeoChat",
+      "Stars": 743
+    },
+    {
+      "Name": "RemoteCLIP",
+      "GitHub_Repo": "https://github.com/ChenDelong1999/RemoteCLIP",
+      "Stars": 587
+    },
+    {
+      "Name": "Falcon",
+      "GitHub_Repo": "https://github.com/TianHuiLab/Falcon",
+      "Stars": 382
+    },
+    {
+      "Name": "SatCLIP",
+      "GitHub_Repo": "https://github.com/microsoft/satclip",
+      "Stars": 373
+    },
+    {
+      "Name": "GeoRSCLIP",
+      "GitHub_Repo": "https://github.com/om-ai-lab/RS5M",
+      "Stars": 314
+    },
+    {
+      "Name": "LAE-DINO",
+      "GitHub_Repo": "https://github.com/jaychempan/LAE-DINO",
+      "Stars": 286
+    },
+    {
+      "Name": "RemoteSAM",
+      "GitHub_Repo": "https://github.com/1e12Leon/RemoteSAM",
+      "Stars": 246
+    },
+    {
+      "Name": "Earth-Agent",
+      "GitHub_Repo": "https://github.com/opendatalab/Earth-Agent",
+      "Stars": 194
+    },
+    {
+      "Name": "LHRS-Bot",
+      "GitHub_Repo": "https://github.com/NJU-LHRS/LHRS-Bot",
+      "Stars": 194
+    },
+    {
+      "Name": "Text2Earth",
+      "GitHub_Repo": "https://github.com/Chen-Yang-Liu/Text2Earth",
+      "Stars": 187
+    }
+  ]
+}

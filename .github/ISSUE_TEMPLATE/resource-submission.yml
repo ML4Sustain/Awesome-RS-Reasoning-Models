@@ -1,0 +1,43 @@
+name: Resource submission
+description: Suggest a model, dataset, benchmark, or agent for the catalog
+title: "[Resource]: "
+labels: [resource-submission]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Resource name
+    validations:
+      required: true
+  - type: input
+    id: paper
+    attributes:
+      label: Paper or project URL
+    validations:
+      required: true
+  - type: dropdown
+    id: mechanism
+    attributes:
+      label: Dominant mechanism
+      options:
+        - Supervised reasoning
+        - Reinforcement-driven reasoning
+        - Agentic / tool-augmented reasoning
+        - Enabling foundation
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Reasoning evidence
+      description: What evidence, intermediate process, grounding, or tool trajectory does the work expose and evaluate?
+    validations:
+      required: true
+  - type: input
+    id: code
+    attributes:
+      label: Official code URL
+  - type: textarea
+    id: notes
+    attributes:
+      label: Additional notes

@@ -1,120 +1,130 @@
 #!/usr/bin/env python3
-from pathlib import Path
+"""Render a compact, dependency-free SVG timeline from the catalog."""
 
-import matplotlib.dates as mdates
-import matplotlib.patches as mpatches
-import matplotlib.pyplot as plt
-import pandas as pd
+from __future__ import annotations
+
+import csv
+import html
+import json
+from collections import defaultdict
+from datetime import datetime
+from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / "data" / "survey.csv"
-OUT = ROOT / "assets" / "timeline.png"
+METRICS = ROOT / "data" / "github_metrics.json"
+OUT = ROOT / "assets" / "timeline.svg"
+
+WIDTH = 1600
+LEFT = 175
+RIGHT = 45
+TOP = 142
+COLORS = {
+    "VLM+SFT": ("#55d6be", "Supervised"),
+    "VLM+RL": ("#f6bd60", "Reinforcement"),
+    "Agent": ("#e78ac3", "Agentic / tools"),
+}
+LANE_Y = {"VLM+SFT": 215, "VLM+RL": 425, "Agent": 655}
 
 
-def short(s, n=24):
-    s = "" if pd.isna(s) else str(s)
-    return s if len(s) <= n else (s[: n - 1] + "…")
+def esc(value: object) -> str:
+    return html.escape(str(value), quote=True)
 
 
-def main():
-    df = pd.read_csv(DATA)
-    df["submitted_v1"] = pd.to_datetime(df.get("submitted_v1"), errors="coerce")
-    df = df.dropna(subset=["submitted_v1"]).sort_values("submitted_v1")
+def label(row: dict[str, str]) -> str:
+    return row.get("model", "").strip() or row["title"].split(":")[0][:24]
 
-    df["ModelLabel"] = df.get("model", "").fillna("").astype(str)
-    missing = df["ModelLabel"].str.strip() == ""
-    if "title" in df.columns:
-        df.loc[missing, "ModelLabel"] = df.loc[missing, "title"].apply(lambda x: short(x, 18))
 
-    df["InstLabel"] = df.get("institution", "").apply(lambda x: short(x, 32))
+def main() -> None:
+    with DATA.open(encoding="utf-8", newline="") as stream:
+        rows = list(csv.DictReader(stream))
+    metrics = json.loads(METRICS.read_text(encoding="utf-8")) if METRICS.exists() else {}
+    dated = []
+    for row in rows:
+        try:
+            row["_date"] = datetime.strptime(row["submitted_v1"], "%Y-%m-%d")
+        except ValueError:
+            continue
+        row["_stars"] = metrics.get(row.get("github", ""), {}).get("stars")
+        dated.append(row)
+    if not dated:
+        raise SystemExit("No valid submitted_v1 dates found")
 
-    palette = {
-        "VLM+RL": "#2563eb",
-        "VLM+SFT": "#f97316",
-    }
-    default_color = "#10b981"
-    colors = df["method"].map(palette).fillna(default_color)
+    months = []
+    cursor = datetime(min(r["_date"].year for r in dated), min(r["_date"].month for r in dated), 1)
+    last = max(r["_date"] for r in dated)
+    while cursor <= last:
+        months.append(cursor)
+        cursor = datetime(cursor.year + (cursor.month == 12), cursor.month % 12 + 1, 1)
+    step = (WIDTH - LEFT - RIGHT) / max(1, len(months) - 1)
+    month_x = {(m.year, m.month): LEFT + i * step for i, m in enumerate(months)}
 
-    # Wider canvas so labels and annotations don't crowd the plot
-    fig, ax = plt.subplots(figsize=(13, 9), facecolor="#f8fafc")
-    ax.set_facecolor("#f8fafc")
+    grouped: dict[tuple[str, int, int], list[dict]] = defaultdict(list)
+    for row in dated:
+        grouped[(row["method"], row["_date"].year, row["_date"].month)].append(row)
+    for values in grouped.values():
+        values.sort(key=lambda r: r["_date"])
 
-    xmin = df["submitted_v1"].min() - pd.Timedelta(days=10)
-    y = list(range(len(df)))
-    for x, y_pos, color in zip(df["submitted_v1"], y, colors):
-        ax.hlines(
-            y=y_pos,
-            xmin=xmin,
-            xmax=x,
-            color="#d0d7e2",
-            linewidth=1.1,
-            zorder=1,
-        )
-
-    ax.scatter(
-        df["submitted_v1"],
-        y,
-        c=colors,
-        s=70,
-        edgecolors="#ffffff",
-        linewidth=1.1,
-        zorder=3,
-    )
-
-    ax.set_yticks(y)
-    ax.set_yticklabels(df["ModelLabel"].tolist())
-    ax.set_xlabel("arXiv v1 submission date")
-    ax.set_ylabel("")
-    ax.set_title(
-        "Remote Sensing Reasoning Models — Timeline",
-        loc="left",
-        fontsize=15,
-        fontweight="bold",
-        color="#0f172a",
-        pad=12,
-    )
-    ax.grid(True, axis="x", linestyle="--", linewidth=0.8, color="#e2e8f0")
-    ax.xaxis.set_major_formatter(mdates.DateFormatter("%Y-%m"))
-    ax.xaxis.set_tick_params(labelsize=10, colors="#475569")
-    ax.yaxis.set_tick_params(labelsize=10, colors="#0f172a", pad=6)
-
-    for spine in ax.spines.values():
-        spine.set_color("#d0d7e2")
-
-    for i, row in df.reset_index(drop=True).iterrows():
-        ax.annotate(
-            row["InstLabel"],
-            (row["submitted_v1"], i),
-            xytext=(6, 0),
-            textcoords="offset points",
-            va="center",
-            fontsize=9,
-            color="#334155",
-            zorder=4,
-        )
-
-    fig.autofmt_xdate()
-    handles = [
-        mpatches.Patch(color=color, label=label)
-        for label, color in palette.items()
+    parts = [
+        f'<svg xmlns="http://www.w3.org/2000/svg" width="{WIDTH}" height="790" viewBox="0 0 {WIDTH} 790" role="img" aria-labelledby="title desc">',
+        '<title id="title">Remote sensing reasoning timeline</title>',
+        '<desc id="desc">Publications arranged by month and dominant reasoning mechanism. Larger highlighted nodes have more stored GitHub stars.</desc>',
+        '<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#071a2d"/><stop offset="1" stop-color="#103947"/></linearGradient>',
+        '<filter id="shadow" x="-30%" y="-30%" width="160%" height="160%"><feDropShadow dx="0" dy="4" stdDeviation="5" flood-color="#000" flood-opacity=".22"/></filter></defs>',
+        '<rect width="1600" height="790" rx="22" fill="url(#bg)"/>',
+        '<text x="54" y="60" fill="#f4fbfc" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="30" font-weight="750">The reasoning wave</text>',
+        '<text x="54" y="91" fill="#9dcbd5" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15">First public release · grouped by dominant acquisition or execution mechanism</text>',
+        '<g font-family="Inter,Segoe UI,Arial,sans-serif">',
     ]
-    handles.append(mpatches.Patch(color=default_color, label="Other"))
-    ax.legend(
-        handles=handles,
-        title="Method",
-        frameon=False,
-        loc="lower center",
-        bbox_to_anchor=(0.5, 1.08),
-        ncol=len(handles),
-        labelcolor="#334155",
-        title_fontsize=10,
-        fontsize=9,
-    )
-    plt.margins(y=0.04)
-    OUT.parent.mkdir(parents=True, exist_ok=True)
-    plt.tight_layout(rect=(0, 0, 1, 0.88))
-    plt.savefig(OUT, dpi=260)
-    print(f"Saved: {OUT}")
+
+    for i, month in enumerate(months):
+        x = month_x[(month.year, month.month)]
+        major = month.month == 1 or i == 0
+        parts.append(f'<line x1="{x:.1f}" y1="120" x2="{x:.1f}" y2="724" stroke="#8bb9c2" stroke-opacity="{".22" if major else ".10"}"/>')
+        month_text = month.strftime("%b")
+        parts.append(f'<text x="{x:.1f}" y="123" text-anchor="middle" fill="#b8dce3" font-size="13">{month_text}</text>')
+        if major:
+            parts.append(f'<text x="{x:.1f}" y="108" text-anchor="middle" fill="#f4fbfc" font-size="14" font-weight="700">{month.year}</text>')
+
+    for method, (color, lane_name) in COLORS.items():
+        y = LANE_Y[method]
+        parts.append(f'<rect x="31" y="{y-40}" width="1538" height="{175 if method != "Agent" else 120}" rx="16" fill="#ffffff" fill-opacity=".035" stroke="#b9dfe5" stroke-opacity=".08"/>')
+        parts.append(f'<circle cx="58" cy="{y}" r="7" fill="{color}"/>')
+        parts.append(f'<text x="76" y="{y+5}" fill="#eaf7f8" font-size="15" font-weight="700">{esc(lane_name)}</text>')
+        parts.append(f'<line x1="{LEFT}" y1="{y}" x2="{WIDTH-RIGHT}" y2="{y}" stroke="{color}" stroke-opacity=".35" stroke-width="2"/>')
+
+    for (method, year, month), values in grouped.items():
+        if method not in LANE_Y:
+            continue
+        x = month_x[(year, month)]
+        base_y = LANE_Y[method]
+        count = len(values)
+        spacing = 25
+        start = -(count - 1) * spacing / 2
+        for index, row in enumerate(values):
+            y = base_y + start + index * spacing
+            name = label(row)
+            stars = row["_stars"]
+            radius = 7 if stars is None else min(15, 8 + (stars ** 0.5) * 0.55)
+            color = COLORS[method][0]
+            align_left = x > WIDTH - 210
+            text_x = x - radius - 8 if align_left else x + radius + 8
+            anchor = "end" if align_left else "start"
+            detail = f"  ★ {stars}" if stars is not None else ""
+            parts.append(f'<circle cx="{x:.1f}" cy="{y:.1f}" r="{radius:.1f}" fill="{color}" stroke="#071a2d" stroke-width="3" filter="url(#shadow)"/>')
+            parts.append(f'<text x="{text_x:.1f}" y="{y+4:.1f}" text-anchor="{anchor}" fill="#f4fbfc" font-size="12.5" font-weight="650">{esc(name)}</text>')
+            if detail:
+                parts.append(f'<text x="{text_x:.1f}" y="{y+18:.1f}" text-anchor="{anchor}" fill="{color}" font-size="10.5">{esc(detail.strip())}</text>')
+
+    parts += [
+        '<g transform="translate(54 751)" font-size="12">',
+        '<circle cx="5" cy="0" r="5" fill="#d6eef2"/><text x="17" y="4" fill="#b8dce3">public paper</text>',
+        '<circle cx="126" cy="0" r="10" fill="#d6eef2"/><text x="144" y="4" fill="#b8dce3">node size = stored GitHub Stars</text>',
+        '<text x="1450" y="4" text-anchor="end" fill="#799faa">generated from data/survey.csv</text>',
+        '</g></g></svg>',
+    ]
+    OUT.write_text("\n".join(parts) + "\n", encoding="utf-8")
+    print(f"Saved {OUT.relative_to(ROOT)} with {len(dated)} entries.")
 
 
 if __name__ == "__main__":

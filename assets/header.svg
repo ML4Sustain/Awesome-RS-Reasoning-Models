@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
+  <title id="title">Awesome Remote Sensing Reasoning</title>
+  <desc id="desc">A satellite orbiting a stylized Earth with reasoning paths.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#071a2d"/><stop offset="1" stop-color="#123c4a"/></linearGradient>
+    <linearGradient id="earth" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#4cc9a7"/><stop offset="1" stop-color="#2078a8"/></linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="1200" height="300" rx="20" fill="url(#bg)"/>
+  <g opacity=".45" fill="#a9d8e8"><circle cx="82" cy="55" r="2"/><circle cx="185" cy="242" r="1.5"/><circle cx="415" cy="42" r="1.5"/><circle cx="1045" cy="55" r="2"/><circle cx="1130" cy="218" r="1.5"/></g>
+  <ellipse cx="985" cy="152" rx="142" ry="102" fill="none" stroke="#63d8ca" stroke-width="2" opacity=".45" transform="rotate(-18 985 152)"/>
+  <circle cx="985" cy="152" r="70" fill="url(#earth)" filter="url(#glow)"/>
+  <path d="M934 139c20-31 38-38 62-35l12 19-14 13-18-5-16 18-22-2zm49 47 19-17 29 5-2 22-26 21-17-10z" fill="#b5e8bd" opacity=".9"/>
+  <g transform="translate(842 73) rotate(-18)"><rect x="-15" y="-9" width="30" height="18" rx="3" fill="#f5c451"/><rect x="-62" y="-7" width="40" height="14" fill="#55a6d9"/><rect x="22" y="-7" width="40" height="14" fill="#55a6d9"/><path d="M0 9v18" stroke="#f5c451" stroke-width="4"/></g>
+  <path d="M875 95c-38 28-63 66-70 105" fill="none" stroke="#f5c451" stroke-width="3" stroke-dasharray="7 8"/>
+  <g font-family="Inter,Segoe UI,Arial,sans-serif" fill="#fff">
+    <text x="70" y="105" font-size="49" font-weight="750">Awesome RS Reasoning</text>
+    <text x="72" y="151" font-size="21" fill="#a9d8e8">Models · Datasets · Benchmarks · Agents</text>
+    <text x="72" y="205" font-size="17" fill="#d8edf2">From perception outputs to traceable geospatial decisions.</text>
+  </g>
+  <g transform="translate(72 231)" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13">
+    <rect width="116" height="28" rx="14" fill="#173f51" stroke="#2e7084"/><text x="19" y="19" fill="#bfe8ef">LIVING INDEX</text>
+    <rect x="128" width="135" height="28" rx="14" fill="#173f51" stroke="#2e7084"/><text x="149" y="19" fill="#bfe8ef">STAR TRACKED</text>
+    <rect x="275" width="148" height="28" rx="14" fill="#173f51" stroke="#2e7084"/><text x="295" y="19" fill="#bfe8ef">EVIDENCE FIRST</text>
+  </g>
+</svg>

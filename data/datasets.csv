@@ -1,0 +1,15 @@
+name,kind,year,paired_model,task,platform,url,access
+RemoteSAM270k,Instruction dataset,2025,RemoteSAM,Segmentation and recognition,HuggingFace,https://huggingface.co/datasets/1e12Leon/RemoteSAM270k,Open
+GeoChrono-Data,Benchmark + instruction,2026,GeoChrono,Long-term temporal understanding,HuggingFace,https://huggingface.co/datasets/Davidup1/GeoChrono-Data,Open
+EarthVLSet,Dataset + benchmark,2026,EarthVL,Earth vision-language understanding,HuggingFace,https://huggingface.co/datasets/Kingdrone-Junjue/EarthVLSet,Open
+GeoChat-Instruct,Instruction dataset,2024,GeoChat,Grounded remote-sensing dialogue,HuggingFace,https://huggingface.co/datasets/MBZUAI/GeoChat_Instruct,Open
+LAE-1M,Pretraining dataset,2025,LAE-DINO,Language-aware object detection,HuggingFace,https://huggingface.co/datasets/ML4Sustain/LAE-1M,Open
+GeoReason-Bench,Reasoning benchmark,2026,GeoReason,Logical consistency reasoning,HuggingFace,https://huggingface.co/datasets/WenshuaiLi/GeoReason-Bench,Open
+SkyEye-968k,Instruction dataset,2024,SkyEyeGPT,Multi-task remote-sensing instruction,HuggingFace,https://huggingface.co/datasets/ZhanYang-nwpu/SkyEye-968k,Open
+EarthReason,Dataset + benchmark,2025,SegEarth-R1,Geospatial pixel reasoning,HuggingFace,https://huggingface.co/datasets/earth-insights/EarthReason,Open
+LaSeRS,Reasoning benchmark,2025,SegEarth-R2,Complex-instruction segmentation,HuggingFace,https://huggingface.co/datasets/earth-insights/LaSeRS,Open
+refGeo,Grounding dataset,2024,GeoGround,Multi-format visual grounding,HuggingFace,https://huggingface.co/datasets/erenzhou/refGeo,Open
+TEOChatlas,Temporal dataset,2025,TEOChat,Temporal Earth observation dialogue,HuggingFace,https://huggingface.co/datasets/jirvin16/TEOChatlas,Open
+FIT-RS,Instruction dataset,2024,SkySenseGPT,Fine-grained remote-sensing tasks,HuggingFace,https://huggingface.co/datasets/ll-13/FIT-RS,Open
+GeoSeg-Bench,Segmentation benchmark,2026,UniGeoSeg,Open-world geospatial segmentation,HuggingFace,https://huggingface.co/datasets/nishuo1999/GeoSeg-Bench,Open
+RS5M,Pretraining dataset,2024,GeoRSCLIP,Remote-sensing image-text alignment,HuggingFace,https://huggingface.co/datasets/omlab/RS5M,Open
