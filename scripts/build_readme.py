@@ -202,8 +202,11 @@ def ecosystem_dashboard(df: pd.DataFrame, stars: dict[str, int], metrics_updated
 
 def dataset_catalog() -> str:
     df = pd.read_csv(DATASETS, dtype=str).fillna("").sort_values(["year", "name"], ascending=[False, True])
-    rows = [[md_link(f"**{row['name']}**", row["url"]), row["kind"], row["paired_model"], row["task"], f"{row['platform']} · {row['access']}"] for _, row in df.iterrows()]
-    return table(["Dataset / benchmark", "Type", "Companion model", "Focus", "Access"], rows)
+    rows = []
+    for _, row in df.iterrows():
+        link_label = row["platform"] or "Resource"
+        rows.append([f"**{row['name']}**", row["kind"], row["paired_model"], row["task"], md_link(link_label, row["url"])])
+    return table(["Dataset / benchmark", "Type", "Companion model", "Focus", "Links"], rows)
 
 
 def main() -> None:
