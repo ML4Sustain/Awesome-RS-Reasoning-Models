@@ -56,7 +56,7 @@ The tracks sit on top of enabling datasets and vision-language models, and suppo
 
 <!-- AUTO_DASHBOARD_END -->
 
-<details>
+<details open>
 <summary><b>View the publication timeline</b></summary>
 
 <p align="center"><img src="assets/timeline.svg" alt="Timeline of remote sensing reasoning models" width="100%"></p>
@@ -65,7 +65,7 @@ The tracks sit on top of enabling datasets and vision-language models, and suppo
 
 ## 📚 Resource index
 
-The complete reasoning core: 30 models across supervised, reinforcement-driven, and agentic/tool-augmented tracks. Sorted by stored GitHub Stars inside each track.
+The complete reasoning core: 37 models across supervised, reinforcement-driven, and agentic/tool-augmented tracks. Sorted by stored GitHub Stars inside each track.
 
 <!-- AUTO_CATALOG_START -->
 
