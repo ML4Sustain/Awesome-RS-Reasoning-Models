@@ -35,10 +35,10 @@ def md_link(label: str, url: str) -> str:
 def link_badge(label: str, message: str, url: str, *, logo: str = "", color: str = "16858a") -> str:
     if not url:
         return "—"
-    query = f"label={quote(label)}&amp;message={quote(message)}&amp;color={color}&amp;style=flat-square"
+    query = f"label={quote(label)}&amp;message={quote(message)}&amp;color={color}&amp;style=flat"
     if logo:
         query += f"&amp;logo={quote(logo)}"
-    badge = f'<img alt="{label}: {message}" src="https://img.shields.io/static/v1?{query}">'
+    badge = f'<img alt="{label}: {message}" height="20" src="https://img.shields.io/static/v1?{query}">'
     return f'<a href="{url}">{badge}</a>'
 
 
@@ -86,8 +86,7 @@ def star_badge(stars: int, repo: str) -> str:
         label = f"{stars / 1_000:.1f}k".replace(".0k", "k")
     else:
         label = str(stars)
-    badge = f'<img alt="{stars:,} Stars" src="https://img.shields.io/static/v1?label=Stars&amp;message={label}&amp;logo=github&amp;style=social">'
-    return f'<a href="{repo.rstrip("/")}/stargazers">{badge}</a>'
+    return link_badge("Stars", label, f'{repo.rstrip("/")}/stargazers', logo="github", color="59636e")
 
 
 def paper_link(comments: str) -> str:
