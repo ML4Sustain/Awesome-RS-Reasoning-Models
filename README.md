@@ -8,7 +8,7 @@
   <a href="CONTRIBUTING.md"><img src="https://img.shields.io/badge/contributions-welcome-39b54a?style=flat-square" alt="Contributions welcome"></a>
   <a href="LICENSE-DATA"><img src="https://img.shields.io/badge/data-CC_BY_4.0-ef9421?style=flat-square" alt="CC BY 4.0"></a>
   <a href="pdf/From_Perception_to_Reasoning__The_Next_Frontier_of_Intelligent_Remote_Sensing.pdf"><img src="https://img.shields.io/badge/survey-latest_PDF-16858a?style=flat-square" alt="Latest survey PDF"></a>
-  <img src="https://api.visitorbadge.io/api/visitors?path=ML4Sustain.Awesome-RS-Reasoning-Models&amp;label=project%20views&amp;labelColor=%2324292f&amp;countColor=%2316858a&amp;style=flat-square" alt="Project views">
+  <img src="https://hits.sh/github.com/ML4Sustain/Awesome-RS-Reasoning-Models.svg?style=flat-square&amp;label=project%20views&amp;color=16858a&amp;labelColor=24292f" alt="Project views">
 </p>
 
 ## Contents
