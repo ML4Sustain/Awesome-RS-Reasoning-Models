@@ -5,6 +5,7 @@ from __future__ import annotations
 
 import json
 import os
+import sys
 import urllib.error
 import urllib.request
 from datetime import date
@@ -57,9 +58,13 @@ def main() -> None:
     OUT.write_text(json.dumps(updated, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     ecosystem_payload["fetched_at"] = date.today().isoformat()
     ECOSYSTEM_OUT.write_text(json.dumps(ecosystem_payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-    print(f"Updated {len(urls) - len(failures)}/{len(urls)} repositories.")
+    succeeded = len(urls) - len(failures)
+    print(f"Updated {succeeded}/{len(urls)} repositories.")
     if failures:
-        raise SystemExit("\n".join(failures))
+        print("Some repositories could not be refreshed; their previous snapshots were preserved:", file=sys.stderr)
+        print("\n".join(failures), file=sys.stderr)
+    if urls and succeeded == 0:
+        raise SystemExit("No repository metrics could be refreshed.")
 
 
 if __name__ == "__main__":

@@ -83,13 +83,13 @@ def dashboard(df: pd.DataFrame, metrics: dict[str, dict]) -> tuple[str, dict]:
         "metrics_updated": last_metrics,
     }
     cards = table(
-        ["📚 Resources", "💻 Open source", "⭐ Tracked stars", "🕒 Metrics snapshot"],
+        ["📚 Resources", "💻 Open source", "Tracked stars", "🕒 Metrics snapshot"],
         [[f"**{stats['entries']}**", f"**{stats['open_source']}**", f"**{total_stars}**", f"**{last_metrics}**"]],
     )
     rows = []
     for _, row in df.head(5).iterrows():
         code = md_link("Code", row["github"]) if row["github"] else "No public code"
-        star = f"⭐ {row['stars']:,}" if row["stars"] >= 0 else "—"
+        star = f"{row['stars']:,}" if row["stars"] >= 0 else "—"
         rows.append([
             row["date"].strftime("%Y-%m-%d"),
             md_link(row["name"], row["url"]),
@@ -113,7 +113,7 @@ def catalog(df: pd.DataFrame) -> str:
         for _, row in group.iterrows():
             paper = md_link("Paper", row["url"])
             code = md_link("Code", row["github"]) if row["github"] else "—"
-            stars = f"⭐ **{row['stars']:,}**" if row["stars"] >= 0 else "—"
+            stars = f"**{row['stars']:,}**" if row["stars"] >= 0 else "—"
             rows.append([
                 md_link(f"**{row['name']}**", row["url"]),
                 row["task"],
@@ -129,7 +129,7 @@ def catalog(df: pd.DataFrame) -> str:
     return "\n\n".join(output)
 
 
-def load_ecosystem() -> tuple[pd.DataFrame, dict[str, int]]:
+def load_ecosystem() -> tuple[pd.DataFrame, dict[str, int], str]:
     df = pd.read_csv(ECOSYSTEM, dtype=str, encoding="utf-8-sig").fillna("")
     required = {"Name", "Year", "Venue", "Cls1", "Cls2", "Platform1", "Download_Link1", "Platform2", "Download_Link2", "ModelScope_Mirror", "GitHub_Repo", "GitHub_Stars"}
     missing = required - set(df.columns)
@@ -137,7 +137,7 @@ def load_ecosystem() -> tuple[pd.DataFrame, dict[str, int]]:
         raise ValueError(f"Missing ecosystem columns: {', '.join(sorted(missing))}")
     payload = json.loads(ECOSYSTEM_STARS.read_text(encoding="utf-8"))
     stars = {url.rstrip("/"): int(value) for url, value in payload.get("stars", {}).items()}
-    return df, stars
+    return df, stars, clean(payload.get("fetched_at")) or "—"
 
 
 def ecosystem_catalog(df: pd.DataFrame, stars: dict[str, int], *, expanded: bool = False) -> str:
@@ -161,7 +161,7 @@ def ecosystem_catalog(df: pd.DataFrame, stars: dict[str, int], *, expanded: bool
             if row["ModelScope_Mirror"] and row["ModelScope_Mirror"] not in {"No", row["Download_Link2"]}:
                 downloads.append(md_link("ModelScope", row["ModelScope_Mirror"]))
             repo = md_link("Code", row["GitHub_Repo"]) if row["GitHub_Repo"] and row["GitHub_Repo"] != "No" else "—"
-            star = f"⭐ {int(row['_stars']):,}" if int(row["_stars"]) else "—"
+            star = f"{int(row['_stars']):,}" if int(row["_stars"]) else "—"
             rows.append([f"**{row['Name']}**", f"{row['Year']} · {row['Venue']}", paper_link(row["Comments"]), " · ".join(downloads) or "—", repo, star])
         body = table(["Resource", "Year / Venue", "Paper", "Weights / Data", "Official code", "Stars"], rows)
         details_tag = "<details open>" if expanded else "<details>"
@@ -171,7 +171,7 @@ def ecosystem_catalog(df: pd.DataFrame, stars: dict[str, int], *, expanded: bool
     return "\n\n".join(groups)
 
 
-def ecosystem_dashboard(df: pd.DataFrame, stars: dict[str, int]) -> tuple[str, dict[str, object]]:
+def ecosystem_dashboard(df: pd.DataFrame, stars: dict[str, int], metrics_updated: str) -> tuple[str, dict[str, object]]:
     dataset_count = len(pd.read_csv(DATASETS))
     reasoning = int((df["Cls1"] == "Reasoning Models").sum())
     repos = int(df["GitHub_Repo"].isin(["", "No"]).eq(False).sum())
@@ -186,7 +186,7 @@ def ecosystem_dashboard(df: pd.DataFrame, stars: dict[str, int]) -> tuple[str, d
         "modelscope_mirrors": mirrors,
         "datasets_benchmarks": dataset_count,
         "tracked_stars": int(total_stars),
-        "metrics_updated": "2026-08-24",
+        "metrics_updated": metrics_updated,
     }
     cards = table(
         ["🌍 Methods & models", "🧠 Reasoning", "🗃️ Data / benches", "💻 Official repos", "📦 Weights", "🔁 MS mirrors"],
@@ -195,8 +195,9 @@ def ecosystem_dashboard(df: pd.DataFrame, stars: dict[str, int]) -> tuple[str, d
     top = df[df["GitHub_Repo"].str.strip().ne("")].copy()
     top["_stars"] = top["GitHub_Repo"].map(lambda url: stars.get(url.rstrip("/"), 0))
     top = top.sort_values("_stars", ascending=False).head(5)
-    rows = [[row["Name"], row["Cls2"], md_link("Code", row["GitHub_Repo"]), f"⭐ {int(row['_stars']):,}"] for _, row in top.iterrows()]
-    return cards + "\n\n#### Most starred official repositories\n\n" + table(["Resource", "Category", "Repository", "Stored stars"], rows), stats
+    rows = [[row["Name"], row["Cls2"], md_link("Code", row["GitHub_Repo"]), f"{int(row['_stars']):,}"] for _, row in top.iterrows()]
+    note = f"Repository Stars are stored snapshots refreshed daily by GitHub Actions. Last refresh: **{metrics_updated}**."
+    return cards + "\n\n" + note + "\n\n#### Most starred official repositories\n\n" + table(["Resource", "Category", "Repository", "Stars (snapshot)"], rows), stats
 
 
 def dataset_catalog() -> str:
@@ -207,9 +208,11 @@ def dataset_catalog() -> str:
 
 def main() -> None:
     df, metrics = load()
-    ecosystem_df, ecosystem_stars = load_ecosystem()
+    ecosystem_df, ecosystem_stars, metrics_updated = load_ecosystem()
+    if metrics_updated == "—":
+        metrics_updated = max((clean(value.get("fetched_at")) for value in metrics.values()), default="—")
     text = README.read_text(encoding="utf-8")
-    dashboard_md, stats = ecosystem_dashboard(ecosystem_df, ecosystem_stars)
+    dashboard_md, stats = ecosystem_dashboard(ecosystem_df, ecosystem_stars, metrics_updated)
     text = replace_block(text, "DASHBOARD", dashboard_md)
     text = replace_block(text, "CATALOG", ecosystem_catalog(ecosystem_df[ecosystem_df["Cls1"] == "Reasoning Models"], ecosystem_stars, expanded=True))
     text = replace_block(text, "ECOSYSTEM", ecosystem_catalog(ecosystem_df[ecosystem_df["Cls1"] != "Reasoning Models"], ecosystem_stars, expanded=True))

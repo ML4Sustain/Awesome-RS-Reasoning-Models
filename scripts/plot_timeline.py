@@ -110,7 +110,7 @@ def main() -> None:
             align_left = x > WIDTH - 210
             text_x = x - radius - 8 if align_left else x + radius + 8
             anchor = "end" if align_left else "start"
-            detail = f"  ★ {stars}" if stars is not None else ""
+            detail = f"{stars} stars" if stars is not None else ""
             parts.append(f'<circle cx="{x:.1f}" cy="{y:.1f}" r="{radius:.1f}" fill="{color}" stroke="#071a2d" stroke-width="3" filter="url(#shadow)"/>')
             parts.append(f'<text x="{text_x:.1f}" y="{y+4:.1f}" text-anchor="{anchor}" fill="#f4fbfc" font-size="12.5" font-weight="650">{esc(name)}</text>')
             if detail:
@@ -119,7 +119,7 @@ def main() -> None:
     parts += [
         '<g transform="translate(54 751)" font-size="12">',
         '<circle cx="5" cy="0" r="5" fill="#d6eef2"/><text x="17" y="4" fill="#b8dce3">public paper</text>',
-        '<circle cx="126" cy="0" r="10" fill="#d6eef2"/><text x="144" y="4" fill="#b8dce3">node size = stored GitHub Stars</text>',
+        '<circle cx="126" cy="0" r="10" fill="#d6eef2"/><text x="144" y="4" fill="#b8dce3">node size = repository stars snapshot</text>',
         '<text x="1450" y="4" text-anchor="end" fill="#799faa">generated from data/survey.csv</text>',
         '</g></g></svg>',
     ]
