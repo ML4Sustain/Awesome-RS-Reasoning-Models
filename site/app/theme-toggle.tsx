@@ -7,7 +7,7 @@ type Theme = 'light' | 'dark';
 function preferredTheme(): Theme {
   const saved = window.localStorage.getItem('rs-theme');
   if (saved === 'light' || saved === 'dark') return saved;
-  return window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark';
+  return 'light';
 }
 
 export default function ThemeToggle() {

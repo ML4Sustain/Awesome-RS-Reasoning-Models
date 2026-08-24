@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="theme-color" content="#031522" />
-    <script>try{var t=localStorage.getItem('rs-theme');if(!t)t=matchMedia('(prefers-color-scheme: light)').matches?'light':'dark';document.documentElement.dataset.theme=t;document.querySelector('meta[name="theme-color"]').content=t==='light'?'#edf6f3':'#031522'}catch(e){}</script>
+    <script>try{var t=localStorage.getItem('rs-theme')||'light';document.documentElement.dataset.theme=t;document.querySelector('meta[name="theme-color"]').content=t==='light'?'#edf6f3':'#031522'}catch(e){}</script>
     <meta name="description" content="From perception outputs to traceable geospatial decisions." />
     <meta property="og:title" content="Awesome RS Reasoning" />
     <meta property="og:description" content="Models, datasets, benchmarks, and agents for remote-sensing reasoning." />
