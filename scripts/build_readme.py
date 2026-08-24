@@ -32,7 +32,7 @@ def md_link(label: str, url: str) -> str:
     return f"[{label}]({url})" if url else "—"
 
 
-def link_badge(label: str, message: str, url: str, *, logo: str = "", color: str = "16858a") -> str:
+def link_badge(label: str, message: str, url: str, *, logo: str = "", logo_color: str = "", color: str = "16858a") -> str:
     if not url:
         return "—"
     # The table header already supplies the resource type. A compact one-piece
@@ -40,9 +40,11 @@ def link_badge(label: str, message: str, url: str, *, logo: str = "", color: str
     query = f"style=flat"
     if logo:
         query += f"&amp;logo={quote(logo)}"
+    if logo_color:
+        query += f"&amp;logoColor={quote(logo_color)}"
     native_widths = {
         "arXiv": 57, "DOI": 49, "IEEE": 55, "Article": 65,
-        "Hugging Face": 103, "ModelScope": 88, "Baidu": 62,
+        "Hugging Face": 103, "ModelScope": 93, "Baidu": 62,
         "GitHub": 69, "Website": 72,
     }
     width = native_widths.get(message, 46 + max(0, len(message) - 2) * 6 if message.isdigit() else 76)
@@ -72,7 +74,7 @@ def access_badge(platform: str, url: str, *, kind: str = "Weights") -> str:
     if "huggingface" in lower or "hugging face" in lower:
         return link_badge(kind, "Hugging Face", url, logo="huggingface", color="f4b400")
     if "modelscope" in lower:
-        return link_badge(kind, "ModelScope", url, color="624aff")
+        return link_badge(kind, "ModelScope", url, logo="modelscope", logo_color="white", color="624aff")
     if "baidu" in lower:
         return link_badge(kind, "Baidu", url, logo="baidu", color="1677ff")
     if "github" in lower:
