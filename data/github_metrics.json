@@ -1,8 +1,332 @@
 {
-  "https://github.com/earth-insights/SegEarth-R1": {"stars": 154, "forks": 11, "fetched_at": "2026-08-24"},
-  "https://github.com/1e12Leon/RemoteReasoner": {"stars": 16, "forks": 1, "fetched_at": "2026-08-24"},
-  "https://github.com/Geo-R1/geo-r1": {"stars": 16, "forks": 3, "fetched_at": "2026-08-24"},
-  "https://github.com/minglangL/RSThinker": {"stars": 38, "forks": 0, "fetched_at": "2026-08-24"},
-  "https://github.com/mustansarfiaz/GeoVLM-R1-Toolkit": {"stars": 32, "forks": 0, "fetched_at": "2026-08-24"},
-  "https://github.com/canlanqianyan/GeoReason": {"stars": 10, "forks": 0, "fetched_at": "2026-08-24"}
+  "https://github.com/earth-insights/SegEarth-R1": {
+    "stars": 156,
+    "forks": 11,
+    "fetched_at": "2026-08-25"
+  },
+  "https://github.com/1e12Leon/RemoteReasoner": {
+    "stars": 17,
+    "forks": 1,
+    "fetched_at": "2026-08-25"
+  },
+  "https://github.com/Geo-R1/geo-r1": {
+    "stars": 16,
+    "forks": 3,
+    "fetched_at": "2026-08-25"
+  },
+  "https://github.com/minglangL/RSThinker": {
+    "stars": 38,
+    "forks": 0,
+    "fetched_at": "2026-08-25"
+  },
+  "https://github.com/mustansarfiaz/GeoVLM-R1-Toolkit": {
+    "stars": 32,
+    "forks": 0,
+    "fetched_at": "2026-08-25"
+  },
+  "https://github.com/canlanqianyan/GeoReason": {
+    "stars": 10,
+    "forks": 0,
+    "fetched_at": "2026-08-25"
+  },
+  "https://github.com/1e12Leon/RemoteAgent": {
+    "stars": 20,
+    "forks": 0,
+    "fetched_at": "2026-08-25"
+  },
+  "https://github.com/1e12Leon/RemoteSAM": {
+    "stars": 246,
+    "forks": 21,
+    "fetched_at": "2026-08-25"
+  },
+  "https://github.com/1e12Leon/RemoteZero": {
+    "stars": 1,
+    "forks": 0,
+    "fetched_at": "2026-08-25"
+  },
+  "https://github.com/CV-ShuchangLyu/ME-RSRG": {
+    "stars": 7,
+    "forks": 0,
+    "fetched_at": "2026-08-25"
+  },
+  "https://github.com/Chen-Yang-Liu/Text2Earth": {
+    "stars": 187,
+    "forks": 10,
+    "fetched_at": "2026-08-25"
+  },
+  "https://github.com/ChenDelong1999/RemoteCLIP": {
+    "stars": 587,
+    "forks": 32,
+    "fetched_at": "2026-08-25"
+  },
+  "https://github.com/ChloeeGrace/LLaMA-Unidetector": {
+    "stars": 15,
+    "forks": 2,
+    "fetched_at": "2026-08-25"
+  },
+  "https://github.com/GeoX-Lab/Asking_like_Socrates": {
+    "stars": 26,
+    "forks": 3,
+    "fetched_at": "2026-08-25"
+  },
+  "https://github.com/GeoX-Lab/RS-HyRe-R1": {
+    "stars": 1,
+    "forks": 0,
+    "fetched_at": "2026-08-25"
+  },
+  "https://github.com/IntelliSensing/GeoChrono": {
+    "stars": 9,
+    "forks": 0,
+    "fetched_at": "2026-08-25"
+  },
+  "https://github.com/Junjue-Wang/EarthVL": {
+    "stars": 43,
+    "forks": 0,
+    "fetched_at": "2026-08-25"
+  },
+  "https://github.com/Lavender105/RSGPT": {
+    "stars": 150,
+    "forks": 5,
+    "fetched_at": "2026-08-25"
+  },
+  "https://github.com/Luo-Z13/SkySense-Chat": {
+    "stars": 149,
+    "forks": 7,
+    "fetched_at": "2026-08-25"
+  },
+  "https://github.com/MiliLab/GeoLLaVA-8K": {
+    "stars": 55,
+    "forks": 1,
+    "fetched_at": "2026-08-25"
+  },
+  "https://github.com/MiliLab/GeoZero": {
+    "stars": 26,
+    "forks": 2,
+    "fetched_at": "2026-08-25"
+  },
+  "https://github.com/MiliLab/UHR-Micro": {
+    "stars": 1,
+    "forks": 0,
+    "fetched_at": "2026-08-25"
+  },
+  "https://github.com/MiliLab/UniGeoSeg": {
+    "stars": 42,
+    "forks": 1,
+    "fetched_at": "2026-08-25"
+  },
+  "https://github.com/MitsuiChen14/DGTRS": {
+    "stars": 32,
+    "forks": 1,
+    "fetched_at": "2026-08-25"
+  },
+  "https://github.com/NJU-LHRS/LHRS-Bot": {
+    "stars": 194,
+    "forks": 14,
+    "fetched_at": "2026-08-25"
+  },
+  "https://github.com/Norman-Ou/GeoPix": {
+    "stars": 74,
+    "forks": 8,
+    "fetched_at": "2026-08-25"
+  },
+  "https://github.com/REO-VLM-anonymous/REO-VLM": {
+    "stars": 10,
+    "forks": 2,
+    "fetched_at": "2026-08-25"
+  },
+  "https://github.com/Shihao-Cheng/GeoMMAgent": {
+    "stars": 49,
+    "forks": 4,
+    "fetched_at": "2026-08-25"
+  },
+  "https://github.com/Takerdat23/TerraBench": {
+    "stars": 4,
+    "forks": 0,
+    "fetched_at": "2026-08-25"
+  },
+  "https://github.com/TianHuiLab/Falcon": {
+    "stars": 382,
+    "forks": 34,
+    "fetched_at": "2026-08-25"
+  },
+  "https://github.com/VisionXLab/CastDet": {
+    "stars": 85,
+    "forks": 5,
+    "fetched_at": "2026-08-25"
+  },
+  "https://github.com/VisionXLab/GeoGround": {
+    "stars": 94,
+    "forks": 2,
+    "fetched_at": "2026-08-25"
+  },
+  "https://github.com/VoyagerXvoyagerx/InstructSAM": {
+    "stars": 117,
+    "forks": 11,
+    "fetched_at": "2026-08-25"
+  },
+  "https://github.com/ZhanYang-nwpu/SkyEyeGPT": {
+    "stars": 139,
+    "forks": 7,
+    "fetched_at": "2026-08-25"
+  },
+  "https://github.com/aialt/geo-r": {
+    "stars": 3,
+    "forks": 1,
+    "fetched_at": "2026-08-25"
+  },
+  "https://github.com/aybora/TinyRS": {
+    "stars": 13,
+    "forks": 1,
+    "fetched_at": "2026-08-25"
+  },
+  "https://github.com/earth-insights/EarthAgent": {
+    "stars": 13,
+    "forks": 0,
+    "fetched_at": "2026-08-25"
+  },
+  "https://github.com/earth-insights/SegEarth-R2": {
+    "stars": 69,
+    "forks": 10,
+    "fetched_at": "2026-08-25"
+  },
+  "https://github.com/earth-insights/ZoomEarth": {
+    "stars": 45,
+    "forks": 0,
+    "fetched_at": "2026-08-25"
+  },
+  "https://github.com/ermongroup/TEOChat": {
+    "stars": 150,
+    "forks": 6,
+    "fetched_at": "2026-08-25"
+  },
+  "https://github.com/floatingstarZ/OpenRSD": {
+    "stars": 42,
+    "forks": 2,
+    "fetched_at": "2026-08-25"
+  },
+  "https://github.com/hexiao0275/CALNet-Dronevehicle": {
+    "stars": 68,
+    "forks": 2,
+    "fetched_at": "2026-08-25"
+  },
+  "https://github.com/hexiao0275/LCMA_RGBT": {
+    "stars": 2,
+    "forks": 0,
+    "fetched_at": "2026-08-25"
+  },
+  "https://github.com/hexiao0275/S2ADet": {
+    "stars": 51,
+    "forks": 7,
+    "fetched_at": "2026-08-25"
+  },
+  "https://github.com/jaychempan/ETS": {
+    "stars": 57,
+    "forks": 5,
+    "fetched_at": "2026-08-25"
+  },
+  "https://github.com/jaychempan/EarthSynth": {
+    "stars": 60,
+    "forks": 1,
+    "fetched_at": "2026-08-25"
+  },
+  "https://github.com/jaychempan/LAE-DINO": {
+    "stars": 286,
+    "forks": 27,
+    "fetched_at": "2026-08-25"
+  },
+  "https://github.com/jaychempan/PriorCLIP": {
+    "stars": 30,
+    "forks": 4,
+    "fetched_at": "2026-08-25"
+  },
+  "https://github.com/jaychempan/SWAN": {
+    "stars": 37,
+    "forks": 5,
+    "fetched_at": "2026-08-25"
+  },
+  "https://github.com/kiki-zyq/ZoomSearch": {
+    "stars": 27,
+    "forks": 1,
+    "fetched_at": "2026-08-25"
+  },
+  "https://github.com/like413/RSVG-ZeroOV": {
+    "stars": 26,
+    "forks": 0,
+    "fetched_at": "2026-08-25"
+  },
+  "https://github.com/lyhnsn/GLOTS": {
+    "stars": 17,
+    "forks": 2,
+    "fetched_at": "2026-08-25"
+  },
+  "https://github.com/mbzuai-oryx/GeoChat": {
+    "stars": 743,
+    "forks": 66,
+    "fetched_at": "2026-08-25"
+  },
+  "https://github.com/mbzuai-oryx/OpenEarthAgent": {
+    "stars": 96,
+    "forks": 11,
+    "fetched_at": "2026-08-25"
+  },
+  "https://github.com/microsoft/satclip": {
+    "stars": 374,
+    "forks": 45,
+    "fetched_at": "2026-08-25"
+  },
+  "https://github.com/minglangL/GeoSolver": {
+    "stars": 3,
+    "forks": 0,
+    "fetched_at": "2026-08-25"
+  },
+  "https://github.com/nanocm/GeoEyes": {
+    "stars": 16,
+    "forks": 1,
+    "fetched_at": "2026-08-25"
+  },
+  "https://github.com/om-ai-lab/RS5M": {
+    "stars": 314,
+    "forks": 17,
+    "fetched_at": "2026-08-25"
+  },
+  "https://github.com/opendatalab/Earth-Agent": {
+    "stars": 194,
+    "forks": 29,
+    "fetched_at": "2026-08-25"
+  },
+  "https://github.com/ryan6073/GeoVista": {
+    "stars": 10,
+    "forks": 0,
+    "fetched_at": "2026-08-25"
+  },
+  "https://github.com/shuyansy/Earth-Observation-VLMs": {
+    "stars": 138,
+    "forks": 7,
+    "fetched_at": "2026-08-25"
+  },
+  "https://github.com/wivizhang/EarthGPT": {
+    "stars": 160,
+    "forks": 10,
+    "fetched_at": "2026-08-25"
+  },
+  "https://github.com/wivizhang/EarthMarker": {
+    "stars": 46,
+    "forks": 2,
+    "fetched_at": "2026-08-25"
+  },
+  "https://github.com/xuliu-cyber/RSUniVLM": {
+    "stars": 47,
+    "forks": 5,
+    "fetched_at": "2026-08-25"
+  },
+  "https://github.com/yangyifremad/FUSAR-KLIP": {
+    "stars": 33,
+    "forks": 0,
+    "fetched_at": "2026-08-25"
+  },
+  "https://github.com/yida12345/FTransUNet": {
+    "stars": 1,
+    "forks": 0,
+    "fetched_at": "2026-08-25"
+  }
 }

@@ -47,14 +47,14 @@
 <circle cx="58" cy="655" r="7" fill="#e78ac3"/>
 <text x="76" y="660" fill="#eaf7f8" font-size="15" font-weight="700">Agentic / tools</text>
 <line x1="175" y1="655" x2="1555" y2="655" stroke="#e78ac3" stroke-opacity=".35" stroke-width="2"/>
-<circle cx="520.0" cy="215.0" r="14.8" fill="#55d6be" stroke="#071a2d" stroke-width="3" filter="url(#shadow)"/>
-<text x="542.8" y="219.0" text-anchor="start" fill="#f4fbfc" font-size="12.5" font-weight="650">SegEarth-R1</text>
-<text x="542.8" y="233.0" text-anchor="start" fill="#55d6be" font-size="10.5">154 stars</text>
+<circle cx="520.0" cy="215.0" r="14.9" fill="#55d6be" stroke="#071a2d" stroke-width="3" filter="url(#shadow)"/>
+<text x="542.9" y="219.0" text-anchor="start" fill="#f4fbfc" font-size="12.5" font-weight="650">SegEarth-R1</text>
+<text x="542.9" y="233.0" text-anchor="start" fill="#55d6be" font-size="10.5">156 stars</text>
 <circle cx="635.0" cy="425.0" r="7.0" fill="#f6bd60" stroke="#071a2d" stroke-width="3" filter="url(#shadow)"/>
 <text x="650.0" y="429.0" text-anchor="start" fill="#f4fbfc" font-size="12.5" font-weight="650">TinyRS-R1</text>
-<circle cx="865.0" cy="425.0" r="10.2" fill="#f6bd60" stroke="#071a2d" stroke-width="3" filter="url(#shadow)"/>
-<text x="883.2" y="429.0" text-anchor="start" fill="#f4fbfc" font-size="12.5" font-weight="650">RemoteReasoner</text>
-<text x="883.2" y="443.0" text-anchor="start" fill="#f6bd60" font-size="10.5">16 stars</text>
+<circle cx="865.0" cy="425.0" r="10.3" fill="#f6bd60" stroke="#071a2d" stroke-width="3" filter="url(#shadow)"/>
+<text x="883.3" y="429.0" text-anchor="start" fill="#f4fbfc" font-size="12.5" font-weight="650">RemoteReasoner</text>
+<text x="883.3" y="443.0" text-anchor="start" fill="#f6bd60" font-size="10.5">17 stars</text>
 <circle cx="1095.0" cy="387.5" r="7.0" fill="#f6bd60" stroke="#071a2d" stroke-width="3" filter="url(#shadow)"/>
 <text x="1110.0" y="391.5" text-anchor="start" fill="#f4fbfc" font-size="12.5" font-weight="650">GeoEvolve</text>
 <circle cx="1095.0" cy="412.5" r="10.2" fill="#f6bd60" stroke="#071a2d" stroke-width="3" filter="url(#shadow)"/>
