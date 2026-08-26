@@ -1,6 +1,6 @@
 {
   "stars": {
-    "https://github.com/1e12Leon/RemoteAgent": 20,
+    "https://github.com/1e12Leon/RemoteAgent": 21,
     "https://github.com/1e12Leon/RemoteReasoner": 17,
     "https://github.com/1e12Leon/RemoteSAM": 246,
     "https://github.com/1e12Leon/RemoteZero": 1,
@@ -149,5 +149,5 @@
     "https://github.com/nanocm/GeoEyes": "https://github.com/nanocm/GeoEyes",
     "https://github.com/wivizhang/EarthMarker": "https://github.com/wivizhang/EarthMarker"
   },
-  "fetched_at": "2026-08-25"
+  "fetched_at": "2026-08-26"
 }
