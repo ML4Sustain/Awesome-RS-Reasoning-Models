@@ -1,10 +1,10 @@
 {
   "stars": {
-    "https://github.com/1e12Leon/RemoteAgent": 21,
-    "https://github.com/1e12Leon/RemoteReasoner": 17,
+    "https://github.com/1e12Leon/RemoteAgent": 22,
+    "https://github.com/1e12Leon/RemoteReasoner": 18,
     "https://github.com/1e12Leon/RemoteSAM": 246,
     "https://github.com/1e12Leon/RemoteZero": 1,
-    "https://github.com/Chen-Yang-Liu/Text2Earth": 187,
+    "https://github.com/Chen-Yang-Liu/Text2Earth": 189,
     "https://github.com/ChenDelong1999/RemoteCLIP": 587,
     "https://github.com/ChloeeGrace/LLaMA-Unidetector": 15,
     "https://github.com/CV-ShuchangLyu/ME-RSRG": 7,
@@ -21,7 +21,7 @@
     "https://github.com/MiliLab/UniGeoSeg": 42,
     "https://github.com/MitsuiChen14/DGTRS": 32,
     "https://github.com/NJU-LHRS/LHRS-Bot": 194,
-    "https://github.com/Norman-Ou/GeoPix": 74,
+    "https://github.com/Norman-Ou/GeoPix": 75,
     "https://github.com/REO-VLM-anonymous/REO-VLM": 10,
     "https://github.com/Shihao-Cheng/GeoMMAgent": 49,
     "https://github.com/Takerdat23/TerraBench": 4,
@@ -34,7 +34,7 @@
     "https://github.com/canlanqianyan/GeoReason": 10,
     "https://github.com/earth-insights/EarthAgent": 13,
     "https://github.com/earth-insights/SegEarth-R1": 156,
-    "https://github.com/earth-insights/SegEarth-R2": 69,
+    "https://github.com/earth-insights/SegEarth-R2": 70,
     "https://github.com/earth-insights/ZoomEarth": 45,
     "https://github.com/ermongroup/TEOChat": 150,
     "https://github.com/floatingstarZ/OpenRSD": 42,
@@ -43,7 +43,7 @@
     "https://github.com/hexiao0275/S2ADet": 51,
     "https://github.com/jaychempan/ETS": 57,
     "https://github.com/jaychempan/EarthSynth": 60,
-    "https://github.com/jaychempan/LAE-DINO": 286,
+    "https://github.com/jaychempan/LAE-DINO": 288,
     "https://github.com/jaychempan/PriorCLIP": 30,
     "https://github.com/jaychempan/SWAN-pytorch": 37,
     "https://github.com/jaychempan/pir-clip": 30,
@@ -57,7 +57,7 @@
     "https://github.com/minglangL/GeoSolver": 3,
     "https://github.com/minglangL/RSThinker": 38,
     "https://github.com/mustansarfiaz/GeoVLM-R1-Toolkit": 32,
-    "https://github.com/om-ai-lab/RS5M": 314,
+    "https://github.com/om-ai-lab/RS5M": 315,
     "https://github.com/opendatalab/Earth-Agent": 194,
     "https://github.com/ryan6073/GeoVista": 10,
     "https://github.com/shuyansy/Earth-Observation-VLMs": 138,
@@ -70,7 +70,7 @@
     "https://github.com/Luo-Z13/SkySense-Chat": 149,
     "https://github.com/VisionXLab/CastDet": 85,
     "https://github.com/jaychempan/SWAN": 37,
-    "https://github.com/mbzuai-oryx/GeoChat": 743,
+    "https://github.com/mbzuai-oryx/GeoChat": 744,
     "https://github.com/nanocm/GeoEyes": 16,
     "https://github.com/wivizhang/EarthMarker": 46
   },
@@ -149,5 +149,5 @@
     "https://github.com/nanocm/GeoEyes": "https://github.com/nanocm/GeoEyes",
     "https://github.com/wivizhang/EarthMarker": "https://github.com/wivizhang/EarthMarker"
   },
-  "fetched_at": "2026-08-26"
+  "fetched_at": "2026-08-27"
 }

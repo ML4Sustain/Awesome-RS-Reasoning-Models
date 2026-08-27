@@ -54,7 +54,7 @@
 <text x="650.0" y="429.0" text-anchor="start" fill="#f4fbfc" font-size="12.5" font-weight="650">TinyRS-R1</text>
 <circle cx="865.0" cy="425.0" r="10.3" fill="#f6bd60" stroke="#071a2d" stroke-width="3" filter="url(#shadow)"/>
 <text x="883.3" y="429.0" text-anchor="start" fill="#f4fbfc" font-size="12.5" font-weight="650">RemoteReasoner</text>
-<text x="883.3" y="443.0" text-anchor="start" fill="#f6bd60" font-size="10.5">17 stars</text>
+<text x="883.3" y="443.0" text-anchor="start" fill="#f6bd60" font-size="10.5">18 stars</text>
 <circle cx="1095.0" cy="387.5" r="7.0" fill="#f6bd60" stroke="#071a2d" stroke-width="3" filter="url(#shadow)"/>
 <text x="1110.0" y="391.5" text-anchor="start" fill="#f4fbfc" font-size="12.5" font-weight="650">GeoEvolve</text>
 <circle cx="1095.0" cy="412.5" r="10.2" fill="#f6bd60" stroke="#071a2d" stroke-width="3" filter="url(#shadow)"/>
