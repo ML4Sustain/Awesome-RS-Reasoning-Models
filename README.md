@@ -4,6 +4,7 @@
 
 <p align="center">
   <a href="https://awesome.re"><img src="https://awesome.re/badge-flat2.svg" alt="Awesome"></a>
+  <a href="https://ml4sustain.github.io/Awesome-RS-Reasoning-Models/"><img src="https://img.shields.io/badge/website-explore_online-16858a?style=flat-square&amp;logo=githubpages&amp;logoColor=white" alt="Explore the online catalog"></a>
   <a href="https://github.com/ML4Sustain/Awsome-RS-Reasoning-Models/actions"><img src="https://img.shields.io/github/actions/workflow/status/ML4Sustain/Awsome-RS-Reasoning-Models/catalog.yml?label=catalog&amp;style=flat-square" alt="Catalog status"></a>
   <a href="CONTRIBUTING.md"><img src="https://img.shields.io/badge/contributions-welcome-39b54a?style=flat-square" alt="Contributions welcome"></a>
   <a href="LICENSE-DATA"><img src="https://img.shields.io/badge/data-CC_BY_4.0-ef9421?style=flat-square" alt="CC BY 4.0"></a>
