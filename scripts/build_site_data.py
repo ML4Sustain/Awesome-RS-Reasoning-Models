@@ -26,6 +26,11 @@ def main() -> None:
     methods = read_csv(ECOSYSTEM)
     datasets = read_csv(DATASETS)
     survey = read_csv(SURVEY)
+    taxonomy_names = {row.get("model", "").strip() for row in survey if row.get("model", "").strip()}
+    methods = [
+        row for row in methods
+        if row.get("Cls1") != "Reasoning Models" or row.get("Name") in taxonomy_names
+    ]
     missing_venues = [row.get("Name", "<unnamed>") for row in methods if not row.get("Venue", "").strip()]
     if missing_venues:
         raise SystemExit(f"Missing Venue for: {', '.join(missing_venues)}")

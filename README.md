@@ -7,25 +7,25 @@
   <a href="https://github.com/ML4Sustain/Awsome-RS-Reasoning-Models/actions"><img src="https://img.shields.io/github/actions/workflow/status/ML4Sustain/Awsome-RS-Reasoning-Models/catalog.yml?label=catalog&amp;style=flat-square" alt="Catalog status"></a>
   <a href="CONTRIBUTING.md"><img src="https://img.shields.io/badge/contributions-welcome-39b54a?style=flat-square" alt="Contributions welcome"></a>
   <a href="LICENSE-DATA"><img src="https://img.shields.io/badge/data-CC_BY_4.0-ef9421?style=flat-square" alt="CC BY 4.0"></a>
-  <a href="pdf/From_Perception_to_Reasoning__The_Next_Frontier_of_Intelligent_Remote_Sensing.pdf"><img src="https://img.shields.io/badge/survey-latest_PDF-16858a?style=flat-square" alt="Latest survey PDF"></a>
+  <a href="https://www.preprints.org/frontend/manuscript/046ed51d5cc524d60bc9281a57caf963/download_pub"><img src="https://img.shields.io/badge/survey-read_preprint-16858a?style=flat-square" alt="Read the survey preprint"></a>
   <img src="https://hits.sh/github.com/ML4Sustain/Awesome-RS-Reasoning-Models.svg?style=flat-square&amp;label=project%20views&amp;color=16858a&amp;labelColor=24292f" alt="Project views">
 </p>
 
 ## Contents
 
-- [1. Landscape: from perception to reasoning](#1-landscape)
-  - [Operational scope and taxonomy](#operational-scope-and-taxonomy)
-  - [Index pulse](#index-pulse)
-  - [Publication timeline](#publication-timeline)
-- [2. Reasoning-specific systems](#2-reasoning-specific-systems)
-- [3. Enabling foundations](#3-enabling-foundations)
-- [4. Data foundations and evaluation](#4-data-foundations-and-evaluation)
-- [5. Scope and maintenance](#5-scope-and-maintenance)
+- [1. Definition and scope of RS-Reasoning](#1-definition-and-scope)
+  - [Definition and inclusion criteria](#definition-and-inclusion-criteria)
+  - [Resource overview](#resource-overview)
+  - [Development timeline](#development-timeline)
+- [2. Taxonomy of RS-Reasoning methods](#2-taxonomy-of-rs-reasoning-methods)
+- [3. Remote sensing vision-language foundations](#3-remote-sensing-vision-language-foundations)
+- [4. Multimodal datasets and benchmarks](#4-multimodal-datasets-and-benchmarks)
+- [5. Repository scope and maintenance](#5-repository-scope-and-maintenance)
 - [6. Contributing](#6-contributing)
 - [7. Citation](#7-citation)
 
-<a id="1-landscape"></a>
-## 1. Landscape: from perception to reasoning
+<a id="1-definition-and-scope"></a>
+## 1. Definition and scope of RS-Reasoning
 
 Remote sensing is moving from recognizing **what is where** to establishing **why a conclusion follows from evidence**. This independent index tracks that transition across models, datasets, benchmarks, and executable agents.
 
@@ -33,12 +33,12 @@ Remote sensing is moving from recognizing **what is where** to establishing **wh
 
 Entries link directly to their original paper and verified official code. Repository popularity is stored as a dated snapshot in this repository, never inferred from a transient live badge.
 
-Read the complete survey: **[From Perception to Reasoning in Remote Sensing: A Survey and Outlook](pdf/From_Perception_to_Reasoning__The_Next_Frontier_of_Intelligent_Remote_Sensing.pdf)** (latest repository PDF, 23 pages).
+Read the complete survey: **[From Perception to Reasoning in Remote Sensing: A Survey and Outlook](https://www.preprints.org/frontend/manuscript/046ed51d5cc524d60bc9281a57caf963/download_pub)** ([Preprints.org](https://www.preprints.org/)).
 
-<a id="operational-scope-and-taxonomy"></a>
-### Operational scope and taxonomy
+<a id="definition-and-inclusion-criteria"></a>
+### Definition and inclusion criteria
 
-| 01 · 🧩 Supervised | 02 · 🎯 Reinforcement | 03 · 🛠️ Agentic |
+| 01 · Supervised | 02 · Reinforcement | 03 · Agentic / tool-augmented |
 | --- | --- | --- |
 | Learns from rationales, traces, masks, or structured intermediate supervision. | Optimizes answer, grounding, consistency, or process rewards. | Plans and executes tools, retrieval, GIS operations, or multi-step workflows. |
 | **Observe:** answer + trace | **Observe:** reward + evidence | **Observe:** action + trajectory |
@@ -47,21 +47,21 @@ The tracks sit on top of enabling datasets and vision-language models, and suppo
 
 `urban & social space` · `disaster assessment` · `environmental monitoring` · `spatiotemporal QA`
 
-<a id="index-pulse"></a>
-### Index pulse
+<a id="resource-overview"></a>
+### Resource overview
 
 <!-- AUTO_DASHBOARD_START -->
 
-| 🌍 Methods & models | 🧠 Reasoning | 🗃️ Data / benches | 💻 Official repos | 📦 Weights | 🔁 MS mirrors |
+| Methods & models | Reasoning systems | Data & benchmarks | Official repositories | Model weights | ModelScope mirrors |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| **89** | **36** | **49** | **68** | **44** | **11** |
+| **80** | **27** | **49** | **65** | **44** | **11** |
 
 Repository Stars are stored snapshots refreshed daily by GitHub Actions. Last refresh: **2026-08-28**.
 
 <!-- AUTO_DASHBOARD_END -->
 
-<a id="publication-timeline"></a>
-### Publication timeline
+<a id="development-timeline"></a>
+### Development timeline
 
 <details open>
 <summary><b>Representative work by first public release</b></summary>
@@ -70,15 +70,15 @@ Repository Stars are stored snapshots refreshed daily by GitHub Actions. Last re
 
 </details>
 
-<a id="2-reasoning-specific-systems"></a>
-## 2. Reasoning-specific systems
+<a id="2-taxonomy-of-rs-reasoning-methods"></a>
+## 2. Taxonomy of RS-Reasoning methods
 
-These works satisfy the repository's operational reasoning criteria: evidence is composed across steps, intermediate claims or actions are traceable, and evaluation extends beyond final-answer accuracy. Following the survey, the three paradigms are **non-exclusive** and indicate the dominant acquisition or execution mechanism. The catalog currently contains 37 systems, sorted by stored GitHub Stars inside each paradigm.
+These works satisfy the repository's operational reasoning criteria: evidence is composed across steps, intermediate claims or actions are traceable, and evaluation extends beyond final-answer accuracy. Following Table V of the survey, the three paradigms are **non-exclusive** and indicate the dominant acquisition or execution mechanism. The core taxonomy contains 27 systems, sorted by stored GitHub Stars inside each paradigm; the development timeline above uses the same method set.
 
 <!-- AUTO_CATALOG_START -->
 
 <details open>
-<summary><b>Reasoning Models › Supervised Reasoning</b> · 7 resources</summary>
+<summary><b>Reasoning Models › Supervised Reasoning</b> · 6 resources</summary>
 
 | Resource | Year / Venue | Paper | Weights / Data | Official code | Stars |
 | :---: | :---: | :---: | :---: | :---: | :---: |
@@ -88,12 +88,11 @@ These works satisfy the repository's operational reasoning criteria: evidence is
 | **EarthVL** | 2026 · arXiv | <a href="https://arxiv.org/abs/2601.02783"><img alt="Paper: arXiv" width="57" height="20" src="https://img.shields.io/badge/arXiv-b31b1b?style=flat&amp;logo=arxiv"></a> | — | <a href="https://github.com/Junjue-Wang/EarthVL"><img alt="Code: GitHub" width="69" height="20" src="https://img.shields.io/badge/GitHub-24292f?style=flat&amp;logo=github"></a> | <a href="https://github.com/Junjue-Wang/EarthVL/stargazers"><img alt="Stars: 43" width="46" height="20" src="https://img.shields.io/badge/43-59636e?style=flat&amp;logo=github"></a> |
 | **GeoChrono** | 2026 · arXiv | <a href="https://arxiv.org/abs/2607.15768"><img alt="Paper: arXiv" width="57" height="20" src="https://img.shields.io/badge/arXiv-b31b1b?style=flat&amp;logo=arxiv"></a> | <a href="https://huggingface.co/Davidup1/GeoChrono"><img alt="Weights: Hugging Face" width="103" height="20" src="https://img.shields.io/badge/Hugging%20Face-f4b400?style=flat&amp;logo=huggingface"></a> · <a href="https://modelscope.cn/models/Davidup1/GeoChrono"><img alt="Weights: ModelScope" width="93" height="20" src="https://img.shields.io/badge/ModelScope-624aff?style=flat&amp;logo=modelscope&amp;logoColor=white"></a> | <a href="https://github.com/IntelliSensing/GeoChrono"><img alt="Code: GitHub" width="69" height="20" src="https://img.shields.io/badge/GitHub-24292f?style=flat&amp;logo=github"></a> | <a href="https://github.com/IntelliSensing/GeoChrono/stargazers"><img alt="Stars: 9" width="46" height="20" src="https://img.shields.io/badge/9-59636e?style=flat&amp;logo=github"></a> |
 | **Delta-LLaVA** | 2026 · arXiv | <a href="https://arxiv.org/abs/2604.14044"><img alt="Paper: arXiv" width="57" height="20" src="https://img.shields.io/badge/arXiv-b31b1b?style=flat&amp;logo=arxiv"></a> | — | — | — |
-| **GeoHeightChat** | 2026 · arXiv | <a href="https://arxiv.org/abs/2603.25565"><img alt="Paper: arXiv" width="57" height="20" src="https://img.shields.io/badge/arXiv-b31b1b?style=flat&amp;logo=arxiv"></a> | — | — | — |
 
 </details>
 
 <details open>
-<summary><b>Reasoning Models › RL-Driven Reasoning</b> · 19 resources</summary>
+<summary><b>Reasoning Models › RL-Driven Reasoning</b> · 14 resources</summary>
 
 | Resource | Year / Venue | Paper | Weights / Data | Official code | Stars |
 | :---: | :---: | :---: | :---: | :---: | :---: |
@@ -103,24 +102,19 @@ These works satisfy the repository's operational reasoning criteria: evidence is
 | **GeoZero** | 2025 · arXiv | <a href="https://arxiv.org/abs/2511.22645"><img alt="Paper: arXiv" width="57" height="20" src="https://img.shields.io/badge/arXiv-b31b1b?style=flat&amp;logo=arxiv"></a> | <a href="https://huggingface.co/hjvsl/GeoZero"><img alt="Weights: Hugging Face" width="103" height="20" src="https://img.shields.io/badge/Hugging%20Face-f4b400?style=flat&amp;logo=huggingface"></a> · <a href="https://pan.baidu.com/s/1nJjBwO4UlVv4GFl60gjM3w?pwd=15gn"><img alt="Weights: Baidu" width="62" height="20" src="https://img.shields.io/badge/Baidu-1677ff?style=flat&amp;logo=baidu"></a> | <a href="https://github.com/MiliLab/GeoZero"><img alt="Code: GitHub" width="69" height="20" src="https://img.shields.io/badge/GitHub-24292f?style=flat&amp;logo=github"></a> | <a href="https://github.com/MiliLab/GeoZero/stargazers"><img alt="Stars: 26" width="46" height="20" src="https://img.shields.io/badge/26-59636e?style=flat&amp;logo=github"></a> |
 | **RemoteAgent** | 2026 · TGRS | <a href="https://arxiv.org/abs/2604.07765"><img alt="Paper: arXiv" width="57" height="20" src="https://img.shields.io/badge/arXiv-b31b1b?style=flat&amp;logo=arxiv"></a> | — | <a href="https://github.com/1e12Leon/RemoteAgent"><img alt="Code: GitHub" width="69" height="20" src="https://img.shields.io/badge/GitHub-24292f?style=flat&amp;logo=github"></a> | <a href="https://github.com/1e12Leon/RemoteAgent/stargazers"><img alt="Stars: 22" width="46" height="20" src="https://img.shields.io/badge/22-59636e?style=flat&amp;logo=github"></a> |
 | **RemoteReasoner** | 2026 · AAAI | <a href="https://doi.org/10.1609/aaai.v40i14.38175"><img alt="Paper: DOI" width="49" height="20" src="https://img.shields.io/badge/DOI-4051b5?style=flat&amp;logo=doi"></a> | <a href="https://huggingface.co/1e12Leon/RemoteReasoner"><img alt="Weights: Hugging Face" width="103" height="20" src="https://img.shields.io/badge/Hugging%20Face-f4b400?style=flat&amp;logo=huggingface"></a> · <a href="https://modelscope.cn/models/AIMGroup/RemoteReasoner"><img alt="Weights: ModelScope" width="93" height="20" src="https://img.shields.io/badge/ModelScope-624aff?style=flat&amp;logo=modelscope&amp;logoColor=white"></a> | <a href="https://github.com/1e12Leon/RemoteReasoner"><img alt="Code: GitHub" width="69" height="20" src="https://img.shields.io/badge/GitHub-24292f?style=flat&amp;logo=github"></a> | <a href="https://github.com/1e12Leon/RemoteReasoner/stargazers"><img alt="Stars: 18" width="46" height="20" src="https://img.shields.io/badge/18-59636e?style=flat&amp;logo=github"></a> |
-| **GeoEyes** | 2026 · arXiv | <a href="https://arxiv.org/abs/2602.14201"><img alt="Paper: arXiv" width="57" height="20" src="https://img.shields.io/badge/arXiv-b31b1b?style=flat&amp;logo=arxiv"></a> | — | <a href="https://github.com/nanocm/GeoEyes"><img alt="Code: GitHub" width="69" height="20" src="https://img.shields.io/badge/GitHub-24292f?style=flat&amp;logo=github"></a> | <a href="https://github.com/nanocm/GeoEyes/stargazers"><img alt="Stars: 16" width="46" height="20" src="https://img.shields.io/badge/16-59636e?style=flat&amp;logo=github"></a> |
 | **Geo-R1** | 2025 · arXiv | <a href="https://arxiv.org/abs/2509.21976"><img alt="Paper: arXiv" width="57" height="20" src="https://img.shields.io/badge/arXiv-b31b1b?style=flat&amp;logo=arxiv"></a> | <a href="https://huggingface.co/Geo-R1"><img alt="Weights: Hugging Face" width="103" height="20" src="https://img.shields.io/badge/Hugging%20Face-f4b400?style=flat&amp;logo=huggingface"></a> | <a href="https://github.com/Geo-R1/geo-r1"><img alt="Code: GitHub" width="69" height="20" src="https://img.shields.io/badge/GitHub-24292f?style=flat&amp;logo=github"></a> | <a href="https://github.com/Geo-R1/geo-r1/stargazers"><img alt="Stars: 16" width="46" height="20" src="https://img.shields.io/badge/16-59636e?style=flat&amp;logo=github"></a> |
 | **TinyRS-R1** | 2025 · arXiv | <a href="https://arxiv.org/abs/2505.12099"><img alt="Paper: arXiv" width="57" height="20" src="https://img.shields.io/badge/arXiv-b31b1b?style=flat&amp;logo=arxiv"></a> | <a href="https://huggingface.co/aybora/Qwen2-VL-TinyRS-R1"><img alt="Weights: Hugging Face" width="103" height="20" src="https://img.shields.io/badge/Hugging%20Face-f4b400?style=flat&amp;logo=huggingface"></a> | <a href="https://github.com/aybora/TinyRS"><img alt="Code: GitHub" width="69" height="20" src="https://img.shields.io/badge/GitHub-24292f?style=flat&amp;logo=github"></a> | <a href="https://github.com/aybora/TinyRS/stargazers"><img alt="Stars: 13" width="46" height="20" src="https://img.shields.io/badge/13-59636e?style=flat&amp;logo=github"></a> |
 | **GeoReason** | 2026 · arXiv | <a href="https://arxiv.org/abs/2601.04118"><img alt="Paper: arXiv" width="57" height="20" src="https://img.shields.io/badge/arXiv-b31b1b?style=flat&amp;logo=arxiv"></a> | <a href="https://huggingface.co/WenshuaiLi/GeoReason"><img alt="Weights: Hugging Face" width="103" height="20" src="https://img.shields.io/badge/Hugging%20Face-f4b400?style=flat&amp;logo=huggingface"></a> | <a href="https://github.com/canlanqianyan/GeoReason"><img alt="Code: GitHub" width="69" height="20" src="https://img.shields.io/badge/GitHub-24292f?style=flat&amp;logo=github"></a> | <a href="https://github.com/canlanqianyan/GeoReason/stargazers"><img alt="Stars: 10" width="46" height="20" src="https://img.shields.io/badge/10-59636e?style=flat&amp;logo=github"></a> |
 | **GeoVista** | 2026 · arXiv | <a href="https://arxiv.org/abs/2605.14475"><img alt="Paper: arXiv" width="57" height="20" src="https://img.shields.io/badge/arXiv-b31b1b?style=flat&amp;logo=arxiv"></a> | <a href="https://huggingface.co/ryan6073/GeoVista-7B-Instruct"><img alt="Weights: Hugging Face" width="103" height="20" src="https://img.shields.io/badge/Hugging%20Face-f4b400?style=flat&amp;logo=huggingface"></a> · <a href="https://huggingface.co/ryan6073/GeoVista-7B-Preview"><img alt="Weights: Hugging Face" width="103" height="20" src="https://img.shields.io/badge/Hugging%20Face-f4b400?style=flat&amp;logo=huggingface"></a> | <a href="https://github.com/ryan6073/GeoVista"><img alt="Code: GitHub" width="69" height="20" src="https://img.shields.io/badge/GitHub-24292f?style=flat&amp;logo=github"></a> | <a href="https://github.com/ryan6073/GeoVista/stargazers"><img alt="Stars: 10" width="46" height="20" src="https://img.shields.io/badge/10-59636e?style=flat&amp;logo=github"></a> |
-| **EAR** | 2026 · arXiv | <a href="https://arxiv.org/abs/2603.12788"><img alt="Paper: arXiv" width="57" height="20" src="https://img.shields.io/badge/arXiv-b31b1b?style=flat&amp;logo=arxiv"></a> | — | <a href="https://github.com/CV-ShuchangLyu/ME-RSRG"><img alt="Code: GitHub" width="69" height="20" src="https://img.shields.io/badge/GitHub-24292f?style=flat&amp;logo=github"></a> | <a href="https://github.com/CV-ShuchangLyu/ME-RSRG/stargazers"><img alt="Stars: 7" width="46" height="20" src="https://img.shields.io/badge/7-59636e?style=flat&amp;logo=github"></a> |
-| **Geo-R** | 2026 · AAAI | <a href="https://doi.org/10.1609/aaai.v40i40.40681"><img alt="Paper: DOI" width="49" height="20" src="https://img.shields.io/badge/DOI-4051b5?style=flat&amp;logo=doi"></a> | — | <a href="https://github.com/aialt/geo-r"><img alt="Code: GitHub" width="69" height="20" src="https://img.shields.io/badge/GitHub-24292f?style=flat&amp;logo=github"></a> | <a href="https://github.com/aialt/geo-r/stargazers"><img alt="Stars: 3" width="46" height="20" src="https://img.shields.io/badge/3-59636e?style=flat&amp;logo=github"></a> |
 | **GeoSolver** | 2026 · arXiv | <a href="https://arxiv.org/abs/2603.09551"><img alt="Paper: arXiv" width="57" height="20" src="https://img.shields.io/badge/arXiv-b31b1b?style=flat&amp;logo=arxiv"></a> | <a href="https://huggingface.co/minglanga/GeoSolver"><img alt="Weights: Hugging Face" width="103" height="20" src="https://img.shields.io/badge/Hugging%20Face-f4b400?style=flat&amp;logo=huggingface"></a> | <a href="https://github.com/minglangL/GeoSolver"><img alt="Code: GitHub" width="69" height="20" src="https://img.shields.io/badge/GitHub-24292f?style=flat&amp;logo=github"></a> | <a href="https://github.com/minglangL/GeoSolver/stargazers"><img alt="Stars: 3" width="46" height="20" src="https://img.shields.io/badge/3-59636e?style=flat&amp;logo=github"></a> |
 | **RemoteZero** | 2026 · arXiv | <a href="https://arxiv.org/abs/2605.04451"><img alt="Paper: arXiv" width="57" height="20" src="https://img.shields.io/badge/arXiv-b31b1b?style=flat&amp;logo=arxiv"></a> | — | <a href="https://github.com/1e12Leon/RemoteZero"><img alt="Code: GitHub" width="69" height="20" src="https://img.shields.io/badge/GitHub-24292f?style=flat&amp;logo=github"></a> | <a href="https://github.com/1e12Leon/RemoteZero/stargazers"><img alt="Stars: 1" width="46" height="20" src="https://img.shields.io/badge/1-59636e?style=flat&amp;logo=github"></a> |
 | **RS-HyRe-R1** | 2026 · arXiv | <a href="https://arxiv.org/abs/2604.17504"><img alt="Paper: arXiv" width="57" height="20" src="https://img.shields.io/badge/arXiv-b31b1b?style=flat&amp;logo=arxiv"></a> | <a href="https://huggingface.co/geozgz/RS-HyRe-R1"><img alt="Weights: Hugging Face" width="103" height="20" src="https://img.shields.io/badge/Hugging%20Face-f4b400?style=flat&amp;logo=huggingface"></a> | <a href="https://github.com/GeoX-Lab/RS-HyRe-R1"><img alt="Code: GitHub" width="69" height="20" src="https://img.shields.io/badge/GitHub-24292f?style=flat&amp;logo=github"></a> | <a href="https://github.com/GeoX-Lab/RS-HyRe-R1/stargazers"><img alt="Stars: 1" width="46" height="20" src="https://img.shields.io/badge/1-59636e?style=flat&amp;logo=github"></a> |
 | **GeoX** | 2026 · arXiv | <a href="https://arxiv.org/abs/2605.20006"><img alt="Paper: arXiv" width="57" height="20" src="https://img.shields.io/badge/arXiv-b31b1b?style=flat&amp;logo=arxiv"></a> | — | — | — |
-| **RSGround-R1** | 2026 · arXiv | <a href="https://arxiv.org/abs/2601.21634"><img alt="Paper: arXiv" width="57" height="20" src="https://img.shields.io/badge/arXiv-b31b1b?style=flat&amp;logo=arxiv"></a> | — | — | — |
-| **FineRS (FINERS)** | 2025 · NeurIPS | <a href="https://arxiv.org/abs/2510.21311"><img alt="Paper: arXiv" width="57" height="20" src="https://img.shields.io/badge/arXiv-b31b1b?style=flat&amp;logo=arxiv"></a> | — | — | — |
 
 </details>
 
 <details open>
-<summary><b>Reasoning Models › Agentic / Tool-Augmented Reasoning</b> · 10 resources</summary>
+<summary><b>Reasoning Models › Agentic / Tool-Augmented Reasoning</b> · 7 resources</summary>
 
 | Resource | Year / Venue | Paper | Weights / Data | Official code | Stars |
 | :---: | :---: | :---: | :---: | :---: | :---: |
@@ -131,16 +125,13 @@ These works satisfy the repository's operational reasoning criteria: evidence is
 | **TerraAgent** | 2026 · arXiv | <a href="https://arxiv.org/abs/2606.13148"><img alt="Paper: arXiv" width="57" height="20" src="https://img.shields.io/badge/arXiv-b31b1b?style=flat&amp;logo=arxiv"></a> | — | <a href="https://github.com/Takerdat23/TerraBench"><img alt="Code: GitHub" width="69" height="20" src="https://img.shields.io/badge/GitHub-24292f?style=flat&amp;logo=github"></a> | <a href="https://github.com/Takerdat23/TerraBench/stargazers"><img alt="Stars: 4" width="46" height="20" src="https://img.shields.io/badge/4-59636e?style=flat&amp;logo=github"></a> |
 | **MAP-Agent** | 2026 · arXiv | <a href="https://arxiv.org/abs/2605.12237"><img alt="Paper: arXiv" width="57" height="20" src="https://img.shields.io/badge/arXiv-b31b1b?style=flat&amp;logo=arxiv"></a> | — | <a href="https://github.com/MiliLab/UHR-Micro"><img alt="Code: GitHub" width="69" height="20" src="https://img.shields.io/badge/GitHub-24292f?style=flat&amp;logo=github"></a> | <a href="https://github.com/MiliLab/UHR-Micro/stargazers"><img alt="Stars: 1" width="46" height="20" src="https://img.shields.io/badge/1-59636e?style=flat&amp;logo=github"></a> |
 | **Earth AI** | 2025 · arXiv | <a href="https://arxiv.org/abs/2510.18318"><img alt="Paper: arXiv" width="57" height="20" src="https://img.shields.io/badge/arXiv-b31b1b?style=flat&amp;logo=arxiv"></a> | — | — | — |
-| **VRA** | 2025 · arXiv | <a href="https://arxiv.org/abs/2509.16343"><img alt="Paper: arXiv" width="57" height="20" src="https://img.shields.io/badge/arXiv-b31b1b?style=flat&amp;logo=arxiv"></a> | — | — | — |
-| **GeoFlow** | 2025 · SIGSPATIAL | <a href="https://doi.org/10.1145/3748636.3763217"><img alt="Paper: DOI" width="49" height="20" src="https://img.shields.io/badge/DOI-4051b5?style=flat&amp;logo=doi"></a> | — | — | — |
-| **CangLing-KnowFlow** | 2025 · arXiv | <a href="https://arxiv.org/abs/2512.15231"><img alt="Paper: arXiv" width="57" height="20" src="https://img.shields.io/badge/arXiv-b31b1b?style=flat&amp;logo=arxiv"></a> | — | — | — |
 
 </details>
 
 <!-- AUTO_CATALOG_END -->
 
-<a id="3-enabling-foundations"></a>
-## 3. Enabling foundations
+<a id="3-remote-sensing-vision-language-foundations"></a>
+## 3. Remote sensing vision-language foundations
 
 Reasoning is built on perception and remote-sensing vision-language modeling. This section therefore tracks 53 **reasoning-enabling** resources separately from reasoning-specific systems: contrastive alignment models, generative and task-specific VLMs, ultra-high-resolution interfaces, retrieval, detection, segmentation, and data generation. Inclusion here indicates foundational relevance, not demonstrated multi-step reasoning.
 
@@ -273,8 +264,8 @@ Reasoning is built on perception and remote-sensing vision-language modeling. Th
 
 <!-- AUTO_ECOSYSTEM_END -->
 
-<a id="4-data-foundations-and-evaluation"></a>
-## 4. Data foundations and evaluation
+<a id="4-multimodal-datasets-and-benchmarks"></a>
+## 4. Multimodal datasets and benchmarks
 
 Following the paper's distinction, **general-purpose multimodal datasets** provide supervision for representation learning and transfer, while **task-oriented benchmarks** define capability-specific inputs, outputs, and evaluation protocols. The table keeps both resource types searchable without treating dataset scale as evidence of reasoning quality.
 
@@ -334,8 +325,8 @@ Following the paper's distinction, **general-purpose multimodal datasets** provi
 
 <!-- AUTO_DATASETS_END -->
 
-<a id="5-scope-and-maintenance"></a>
-## 5. Scope and maintenance
+<a id="5-repository-scope-and-maintenance"></a>
+## 5. Repository scope and maintenance
 
 ### Inclusion boundary
 

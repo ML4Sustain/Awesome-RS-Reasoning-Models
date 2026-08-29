@@ -4,9 +4,9 @@ import ThemeToggle from './theme-toggle';
 import ReasoningTimeline from './reasoning-timeline';
 
 const tracks = [
-  { number: '01', label: 'Supervised reasoning', count: 7, tone: 'mint' },
-  { number: '02', label: 'Reinforcement reasoning', count: 19, tone: 'amber' },
-  { number: '03', label: 'Agentic & tool use', count: 11, tone: 'rose' },
+  { number: '01', label: 'Supervised reasoning', count: 6, tone: 'mint' },
+  { number: '02', label: 'Reinforcement reasoning', count: 14, tone: 'amber' },
+  { number: '03', label: 'Agentic & tool use', count: 7, tone: 'rose' },
 ];
 
 export default function Home() {
@@ -25,7 +25,7 @@ export default function Home() {
             <p className="hero-subline">Models · Datasets · Benchmarks · Agents</p>
             <p className="hero-copy">From perception outputs to traceable geospatial decisions.</p>
             <div className="hero-badges"><span>Living index</span><span>Star tracked</span><span>Evidence first</span></div>
-            <div className="hero-actions"><a className="primary-action" href="#catalog">Explore {payload.stats.resources} resources</a><a className="text-action" href="./survey.pdf" target="_blank" rel="noreferrer">Read survey PDF ↗</a></div>
+            <div className="hero-actions"><a className="primary-action" href="#catalog">Explore {payload.stats.resources} resources</a><a className="text-action" href="https://www.preprints.org/frontend/manuscript/046ed51d5cc524d60bc9281a57caf963/download_pub" target="_blank" rel="noreferrer">Read survey preprint ↗</a></div>
           </div>
           <div className="orbital-scene" aria-hidden="true">
             <span className="orbit orbit-one" /><span className="orbit orbit-two" />

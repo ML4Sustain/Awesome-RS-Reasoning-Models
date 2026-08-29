@@ -10,31 +10,43 @@
 <line x1="175.0" y1="120" x2="175.0" y2="724" stroke="#8bb9c2" stroke-opacity=".22"/>
 <text x="175.0" y="123" text-anchor="middle" fill="#b8dce3" font-size="13">Jan</text>
 <text x="175.0" y="108" text-anchor="middle" fill="#f4fbfc" font-size="14" font-weight="700">2025</text>
-<line x1="290.0" y1="120" x2="290.0" y2="724" stroke="#8bb9c2" stroke-opacity=".10"/>
-<text x="290.0" y="123" text-anchor="middle" fill="#b8dce3" font-size="13">Feb</text>
-<line x1="405.0" y1="120" x2="405.0" y2="724" stroke="#8bb9c2" stroke-opacity=".10"/>
-<text x="405.0" y="123" text-anchor="middle" fill="#b8dce3" font-size="13">Mar</text>
-<line x1="520.0" y1="120" x2="520.0" y2="724" stroke="#8bb9c2" stroke-opacity=".10"/>
-<text x="520.0" y="123" text-anchor="middle" fill="#b8dce3" font-size="13">Apr</text>
-<line x1="635.0" y1="120" x2="635.0" y2="724" stroke="#8bb9c2" stroke-opacity=".10"/>
-<text x="635.0" y="123" text-anchor="middle" fill="#b8dce3" font-size="13">May</text>
-<line x1="750.0" y1="120" x2="750.0" y2="724" stroke="#8bb9c2" stroke-opacity=".10"/>
-<text x="750.0" y="123" text-anchor="middle" fill="#b8dce3" font-size="13">Jun</text>
-<line x1="865.0" y1="120" x2="865.0" y2="724" stroke="#8bb9c2" stroke-opacity=".10"/>
-<text x="865.0" y="123" text-anchor="middle" fill="#b8dce3" font-size="13">Jul</text>
-<line x1="980.0" y1="120" x2="980.0" y2="724" stroke="#8bb9c2" stroke-opacity=".10"/>
-<text x="980.0" y="123" text-anchor="middle" fill="#b8dce3" font-size="13">Aug</text>
-<line x1="1095.0" y1="120" x2="1095.0" y2="724" stroke="#8bb9c2" stroke-opacity=".10"/>
-<text x="1095.0" y="123" text-anchor="middle" fill="#b8dce3" font-size="13">Sep</text>
-<line x1="1210.0" y1="120" x2="1210.0" y2="724" stroke="#8bb9c2" stroke-opacity=".10"/>
-<text x="1210.0" y="123" text-anchor="middle" fill="#b8dce3" font-size="13">Oct</text>
-<line x1="1325.0" y1="120" x2="1325.0" y2="724" stroke="#8bb9c2" stroke-opacity=".10"/>
-<text x="1325.0" y="123" text-anchor="middle" fill="#b8dce3" font-size="13">Nov</text>
-<line x1="1440.0" y1="120" x2="1440.0" y2="724" stroke="#8bb9c2" stroke-opacity=".10"/>
-<text x="1440.0" y="123" text-anchor="middle" fill="#b8dce3" font-size="13">Dec</text>
-<line x1="1555.0" y1="120" x2="1555.0" y2="724" stroke="#8bb9c2" stroke-opacity=".22"/>
-<text x="1555.0" y="123" text-anchor="middle" fill="#b8dce3" font-size="13">Jan</text>
-<text x="1555.0" y="108" text-anchor="middle" fill="#f4fbfc" font-size="14" font-weight="700">2026</text>
+<line x1="247.6" y1="120" x2="247.6" y2="724" stroke="#8bb9c2" stroke-opacity=".10"/>
+<text x="247.6" y="123" text-anchor="middle" fill="#b8dce3" font-size="13">Feb</text>
+<line x1="320.3" y1="120" x2="320.3" y2="724" stroke="#8bb9c2" stroke-opacity=".10"/>
+<text x="320.3" y="123" text-anchor="middle" fill="#b8dce3" font-size="13">Mar</text>
+<line x1="392.9" y1="120" x2="392.9" y2="724" stroke="#8bb9c2" stroke-opacity=".10"/>
+<text x="392.9" y="123" text-anchor="middle" fill="#b8dce3" font-size="13">Apr</text>
+<line x1="465.5" y1="120" x2="465.5" y2="724" stroke="#8bb9c2" stroke-opacity=".10"/>
+<text x="465.5" y="123" text-anchor="middle" fill="#b8dce3" font-size="13">May</text>
+<line x1="538.2" y1="120" x2="538.2" y2="724" stroke="#8bb9c2" stroke-opacity=".10"/>
+<text x="538.2" y="123" text-anchor="middle" fill="#b8dce3" font-size="13">Jun</text>
+<line x1="610.8" y1="120" x2="610.8" y2="724" stroke="#8bb9c2" stroke-opacity=".10"/>
+<text x="610.8" y="123" text-anchor="middle" fill="#b8dce3" font-size="13">Jul</text>
+<line x1="683.4" y1="120" x2="683.4" y2="724" stroke="#8bb9c2" stroke-opacity=".10"/>
+<text x="683.4" y="123" text-anchor="middle" fill="#b8dce3" font-size="13">Aug</text>
+<line x1="756.1" y1="120" x2="756.1" y2="724" stroke="#8bb9c2" stroke-opacity=".10"/>
+<text x="756.1" y="123" text-anchor="middle" fill="#b8dce3" font-size="13">Sep</text>
+<line x1="828.7" y1="120" x2="828.7" y2="724" stroke="#8bb9c2" stroke-opacity=".10"/>
+<text x="828.7" y="123" text-anchor="middle" fill="#b8dce3" font-size="13">Oct</text>
+<line x1="901.3" y1="120" x2="901.3" y2="724" stroke="#8bb9c2" stroke-opacity=".10"/>
+<text x="901.3" y="123" text-anchor="middle" fill="#b8dce3" font-size="13">Nov</text>
+<line x1="973.9" y1="120" x2="973.9" y2="724" stroke="#8bb9c2" stroke-opacity=".10"/>
+<text x="973.9" y="123" text-anchor="middle" fill="#b8dce3" font-size="13">Dec</text>
+<line x1="1046.6" y1="120" x2="1046.6" y2="724" stroke="#8bb9c2" stroke-opacity=".22"/>
+<text x="1046.6" y="123" text-anchor="middle" fill="#b8dce3" font-size="13">Jan</text>
+<text x="1046.6" y="108" text-anchor="middle" fill="#f4fbfc" font-size="14" font-weight="700">2026</text>
+<line x1="1119.2" y1="120" x2="1119.2" y2="724" stroke="#8bb9c2" stroke-opacity=".10"/>
+<text x="1119.2" y="123" text-anchor="middle" fill="#b8dce3" font-size="13">Feb</text>
+<line x1="1191.8" y1="120" x2="1191.8" y2="724" stroke="#8bb9c2" stroke-opacity=".10"/>
+<text x="1191.8" y="123" text-anchor="middle" fill="#b8dce3" font-size="13">Mar</text>
+<line x1="1264.5" y1="120" x2="1264.5" y2="724" stroke="#8bb9c2" stroke-opacity=".10"/>
+<text x="1264.5" y="123" text-anchor="middle" fill="#b8dce3" font-size="13">Apr</text>
+<line x1="1337.1" y1="120" x2="1337.1" y2="724" stroke="#8bb9c2" stroke-opacity=".10"/>
+<text x="1337.1" y="123" text-anchor="middle" fill="#b8dce3" font-size="13">May</text>
+<line x1="1409.7" y1="120" x2="1409.7" y2="724" stroke="#8bb9c2" stroke-opacity=".10"/>
+<text x="1409.7" y="123" text-anchor="middle" fill="#b8dce3" font-size="13">Jun</text>
+<line x1="1482.4" y1="120" x2="1482.4" y2="724" stroke="#8bb9c2" stroke-opacity=".10"/>
+<text x="1482.4" y="123" text-anchor="middle" fill="#b8dce3" font-size="13">Jul</text>
 <rect x="31" y="175" width="1538" height="175" rx="16" fill="#ffffff" fill-opacity=".035" stroke="#b9dfe5" stroke-opacity=".08"/>
 <circle cx="58" cy="215" r="7" fill="#55d6be"/>
 <text x="76" y="220" fill="#eaf7f8" font-size="15" font-weight="700">Supervised</text>
@@ -47,48 +59,84 @@
 <circle cx="58" cy="655" r="7" fill="#e78ac3"/>
 <text x="76" y="660" fill="#eaf7f8" font-size="15" font-weight="700">Agentic / tools</text>
 <line x1="175" y1="655" x2="1555" y2="655" stroke="#e78ac3" stroke-opacity=".35" stroke-width="2"/>
-<circle cx="520.0" cy="215.0" r="14.9" fill="#55d6be" stroke="#071a2d" stroke-width="3" filter="url(#shadow)"/>
-<text x="542.9" y="219.0" text-anchor="start" fill="#f4fbfc" font-size="12.5" font-weight="650">SegEarth-R1</text>
-<text x="542.9" y="233.0" text-anchor="start" fill="#55d6be" font-size="10.5">156 stars</text>
-<circle cx="635.0" cy="425.0" r="7.0" fill="#f6bd60" stroke="#071a2d" stroke-width="3" filter="url(#shadow)"/>
-<text x="650.0" y="429.0" text-anchor="start" fill="#f4fbfc" font-size="12.5" font-weight="650">TinyRS-R1</text>
-<circle cx="865.0" cy="425.0" r="10.3" fill="#f6bd60" stroke="#071a2d" stroke-width="3" filter="url(#shadow)"/>
-<text x="883.3" y="429.0" text-anchor="start" fill="#f4fbfc" font-size="12.5" font-weight="650">RemoteReasoner</text>
-<text x="883.3" y="443.0" text-anchor="start" fill="#f6bd60" font-size="10.5">18 stars</text>
-<circle cx="1095.0" cy="387.5" r="7.0" fill="#f6bd60" stroke="#071a2d" stroke-width="3" filter="url(#shadow)"/>
-<text x="1110.0" y="391.5" text-anchor="start" fill="#f4fbfc" font-size="12.5" font-weight="650">GeoEvolve</text>
-<circle cx="1095.0" cy="412.5" r="10.2" fill="#f6bd60" stroke="#071a2d" stroke-width="3" filter="url(#shadow)"/>
-<text x="1113.2" y="416.5" text-anchor="start" fill="#f4fbfc" font-size="12.5" font-weight="650">Geo-R1</text>
-<text x="1113.2" y="430.5" text-anchor="start" fill="#f6bd60" font-size="10.5">16 stars</text>
-<circle cx="1095.0" cy="437.5" r="11.4" fill="#f6bd60" stroke="#071a2d" stroke-width="3" filter="url(#shadow)"/>
-<text x="1114.4" y="441.5" text-anchor="start" fill="#f4fbfc" font-size="12.5" font-weight="650">RSThinker</text>
-<text x="1114.4" y="455.5" text-anchor="start" fill="#f6bd60" font-size="10.5">38 stars</text>
-<circle cx="1095.0" cy="462.5" r="11.1" fill="#f6bd60" stroke="#071a2d" stroke-width="3" filter="url(#shadow)"/>
-<text x="1114.1" y="466.5" text-anchor="start" fill="#f4fbfc" font-size="12.5" font-weight="650">GeoVLM-R1</text>
-<text x="1114.1" y="480.5" text-anchor="start" fill="#f6bd60" font-size="10.5">32 stars</text>
-<circle cx="1095.0" cy="655.0" r="7.0" fill="#e78ac3" stroke="#071a2d" stroke-width="3" filter="url(#shadow)"/>
-<text x="1110.0" y="659.0" text-anchor="start" fill="#f4fbfc" font-size="12.5" font-weight="650">Earth-Agent</text>
-<circle cx="1210.0" cy="215.0" r="7.0" fill="#55d6be" stroke="#071a2d" stroke-width="3" filter="url(#shadow)"/>
-<text x="1225.0" y="219.0" text-anchor="start" fill="#f4fbfc" font-size="12.5" font-weight="650">Rex-Omni</text>
-<circle cx="1210.0" cy="655.0" r="7.0" fill="#e78ac3" stroke="#071a2d" stroke-width="3" filter="url(#shadow)"/>
-<text x="1225.0" y="659.0" text-anchor="start" fill="#f4fbfc" font-size="12.5" font-weight="650">Earth AI</text>
-<circle cx="1210.0" cy="412.5" r="7.0" fill="#f6bd60" stroke="#071a2d" stroke-width="3" filter="url(#shadow)"/>
-<text x="1225.0" y="416.5" text-anchor="start" fill="#f4fbfc" font-size="12.5" font-weight="650">FineRS</text>
-<circle cx="1210.0" cy="437.5" r="7.0" fill="#f6bd60" stroke="#071a2d" stroke-width="3" filter="url(#shadow)"/>
-<text x="1225.0" y="441.5" text-anchor="start" fill="#f4fbfc" font-size="12.5" font-weight="650">Navigation in a Three-Di</text>
-<circle cx="1325.0" cy="655.0" r="7.0" fill="#e78ac3" stroke="#071a2d" stroke-width="3" filter="url(#shadow)"/>
-<text x="1340.0" y="659.0" text-anchor="start" fill="#f4fbfc" font-size="12.5" font-weight="650">EarthAgent</text>
-<circle cx="1325.0" cy="412.5" r="7.0" fill="#f6bd60" stroke="#071a2d" stroke-width="3" filter="url(#shadow)"/>
-<text x="1340.0" y="416.5" text-anchor="start" fill="#f4fbfc" font-size="12.5" font-weight="650">Asking Like Socrates</text>
-<circle cx="1325.0" cy="437.5" r="7.0" fill="#f6bd60" stroke="#071a2d" stroke-width="3" filter="url(#shadow)"/>
-<text x="1340.0" y="441.5" text-anchor="start" fill="#f4fbfc" font-size="12.5" font-weight="650">GeoZero</text>
-<circle cx="1555.0" cy="400.0" r="7.0" fill="#f6bd60" stroke="#071a2d" stroke-width="3" filter="url(#shadow)"/>
-<text x="1540.0" y="404.0" text-anchor="end" fill="#f4fbfc" font-size="12.5" font-weight="650">Geo-R</text>
-<circle cx="1555.0" cy="425.0" r="9.7" fill="#f6bd60" stroke="#071a2d" stroke-width="3" filter="url(#shadow)"/>
-<text x="1537.3" y="429.0" text-anchor="end" fill="#f4fbfc" font-size="12.5" font-weight="650">GeoReason</text>
-<text x="1537.3" y="443.0" text-anchor="end" fill="#f6bd60" font-size="10.5">10 stars</text>
-<circle cx="1555.0" cy="450.0" r="7.0" fill="#f6bd60" stroke="#071a2d" stroke-width="3" filter="url(#shadow)"/>
-<text x="1540.0" y="454.0" text-anchor="end" fill="#f4fbfc" font-size="12.5" font-weight="650">RSGround-R1</text>
+<circle cx="421.9" cy="215.0" r="14.9" fill="#55d6be" stroke="#071a2d" stroke-width="3" filter="url(#shadow)"/>
+<text x="444.8" y="219.0" text-anchor="start" fill="#f4fbfc" font-size="12.5" font-weight="650">SegEarth-R1</text>
+<text x="444.8" y="233.0" text-anchor="start" fill="#55d6be" font-size="10.5">156 stars</text>
+<circle cx="1025.5" cy="215.0" r="12.6" fill="#55d6be" stroke="#071a2d" stroke-width="3" filter="url(#shadow)"/>
+<text x="1046.1" y="219.0" text-anchor="start" fill="#f4fbfc" font-size="12.5" font-weight="650">SegEarth-R2</text>
+<text x="1046.1" y="233.0" text-anchor="start" fill="#55d6be" font-size="10.5">70 stars</text>
+<circle cx="1058.3" cy="245.0" r="11.6" fill="#55d6be" stroke="#071a2d" stroke-width="3" filter="url(#shadow)"/>
+<text x="1077.9" y="249.0" text-anchor="start" fill="#f4fbfc" font-size="12.5" font-weight="650">EarthVL</text>
+<text x="1077.9" y="263.0" text-anchor="start" fill="#55d6be" font-size="10.5">43 stars</text>
+<circle cx="1234.0" cy="215.0" r="14.5" fill="#55d6be" stroke="#071a2d" stroke-width="3" filter="url(#shadow)"/>
+<text x="1256.5" y="219.0" text-anchor="start" fill="#f4fbfc" font-size="12.5" font-weight="650">TerraScope</text>
+<text x="1256.5" y="233.0" text-anchor="start" fill="#55d6be" font-size="10.5">138 stars</text>
+<circle cx="1298.4" cy="245.0" r="7.0" fill="#55d6be" stroke="#071a2d" stroke-width="3" filter="url(#shadow)"/>
+<text x="1313.4" y="249.0" text-anchor="start" fill="#f4fbfc" font-size="12.5" font-weight="650">Delta-LLaVA</text>
+<circle cx="1519.9" cy="215.0" r="9.7" fill="#55d6be" stroke="#071a2d" stroke-width="3" filter="url(#shadow)"/>
+<text x="1502.2" y="219.0" text-anchor="end" fill="#f4fbfc" font-size="12.5" font-weight="650">GeoChrono</text>
+<text x="1502.2" y="233.0" text-anchor="end" fill="#55d6be" font-size="10.5">9 stars</text>
+<circle cx="503.0" cy="405.0" r="10.0" fill="#f6bd60" stroke="#071a2d" stroke-width="3" filter="url(#shadow)"/>
+<text x="521.0" y="409.0" text-anchor="start" fill="#f4fbfc" font-size="12.5" font-weight="650">TinyRS-R1</text>
+<text x="521.0" y="423.0" text-anchor="start" fill="#f6bd60" font-size="10.5">13 stars</text>
+<circle cx="667.0" cy="405.0" r="10.3" fill="#f6bd60" stroke="#071a2d" stroke-width="3" filter="url(#shadow)"/>
+<text x="685.4" y="409.0" text-anchor="start" fill="#f4fbfc" font-size="12.5" font-weight="650">RemoteReasoner</text>
+<text x="685.4" y="423.0" text-anchor="start" fill="#f6bd60" font-size="10.5">18 stars</text>
+<circle cx="816.6" cy="405.0" r="10.2" fill="#f6bd60" stroke="#071a2d" stroke-width="3" filter="url(#shadow)"/>
+<text x="834.8" y="409.0" text-anchor="start" fill="#f4fbfc" font-size="12.5" font-weight="650">Geo-R1</text>
+<text x="834.8" y="423.0" text-anchor="start" fill="#f6bd60" font-size="10.5">16 stars</text>
+<circle cx="816.6" cy="435.0" r="11.4" fill="#f6bd60" stroke="#071a2d" stroke-width="3" filter="url(#shadow)"/>
+<text x="836.0" y="439.0" text-anchor="start" fill="#f4fbfc" font-size="12.5" font-weight="650">RSThinker</text>
+<text x="836.0" y="453.0" text-anchor="start" fill="#f6bd60" font-size="10.5">38 stars</text>
+<circle cx="823.8" cy="465.0" r="11.1" fill="#f6bd60" stroke="#071a2d" stroke-width="3" filter="url(#shadow)"/>
+<text x="843.0" y="469.0" text-anchor="start" fill="#f4fbfc" font-size="12.5" font-weight="650">GeoVLM-R1</text>
+<text x="843.0" y="483.0" text-anchor="start" fill="#f6bd60" font-size="10.5">32 stars</text>
+<circle cx="964.3" cy="405.0" r="10.8" fill="#f6bd60" stroke="#071a2d" stroke-width="3" filter="url(#shadow)"/>
+<text x="983.1" y="409.0" text-anchor="start" fill="#f4fbfc" font-size="12.5" font-weight="650">GeoZero</text>
+<text x="983.1" y="423.0" text-anchor="start" fill="#f6bd60" font-size="10.5">26 stars</text>
+<circle cx="964.3" cy="435.0" r="10.8" fill="#f6bd60" stroke="#071a2d" stroke-width="3" filter="url(#shadow)"/>
+<text x="983.1" y="439.0" text-anchor="start" fill="#f4fbfc" font-size="12.5" font-weight="650">RS-EoT</text>
+<text x="983.1" y="453.0" text-anchor="start" fill="#f6bd60" font-size="10.5">26 stars</text>
+<circle cx="1060.6" cy="405.0" r="9.7" fill="#f6bd60" stroke="#071a2d" stroke-width="3" filter="url(#shadow)"/>
+<text x="1078.4" y="409.0" text-anchor="start" fill="#f4fbfc" font-size="12.5" font-weight="650">GeoReason</text>
+<text x="1078.4" y="423.0" text-anchor="start" fill="#f6bd60" font-size="10.5">10 stars</text>
+<circle cx="1212.9" cy="405.0" r="9.0" fill="#f6bd60" stroke="#071a2d" stroke-width="3" filter="url(#shadow)"/>
+<text x="1229.9" y="409.0" text-anchor="start" fill="#f4fbfc" font-size="12.5" font-weight="650">GeoSolver</text>
+<text x="1229.9" y="423.0" text-anchor="start" fill="#f6bd60" font-size="10.5">3 stars</text>
+<circle cx="1283.8" cy="435.0" r="10.6" fill="#f6bd60" stroke="#071a2d" stroke-width="3" filter="url(#shadow)"/>
+<text x="1302.4" y="439.0" text-anchor="start" fill="#f4fbfc" font-size="12.5" font-weight="650">RemoteAgent</text>
+<text x="1302.4" y="453.0" text-anchor="start" fill="#f6bd60" font-size="10.5">22 stars</text>
+<circle cx="1308.1" cy="405.0" r="8.6" fill="#f6bd60" stroke="#071a2d" stroke-width="3" filter="url(#shadow)"/>
+<text x="1324.6" y="409.0" text-anchor="start" fill="#f4fbfc" font-size="12.5" font-weight="650">RS-HyRe-R1</text>
+<text x="1324.6" y="423.0" text-anchor="start" fill="#f6bd60" font-size="10.5">1 stars</text>
+<circle cx="1348.8" cy="465.0" r="8.6" fill="#f6bd60" stroke="#071a2d" stroke-width="3" filter="url(#shadow)"/>
+<text x="1365.4" y="469.0" text-anchor="start" fill="#f4fbfc" font-size="12.5" font-weight="650">RemoteZero</text>
+<text x="1365.4" y="483.0" text-anchor="start" fill="#f6bd60" font-size="10.5">1 stars</text>
+<circle cx="1367.6" cy="495.0" r="9.7" fill="#f6bd60" stroke="#071a2d" stroke-width="3" filter="url(#shadow)"/>
+<text x="1385.3" y="499.0" text-anchor="start" fill="#f4fbfc" font-size="12.5" font-weight="650">GeoVista</text>
+<text x="1385.3" y="513.0" text-anchor="start" fill="#f6bd60" font-size="10.5">10 stars</text>
+<circle cx="1379.3" cy="435.0" r="7.0" fill="#f6bd60" stroke="#071a2d" stroke-width="3" filter="url(#shadow)"/>
+<text x="1394.3" y="439.0" text-anchor="start" fill="#f4fbfc" font-size="12.5" font-weight="650">GeoX</text>
+<circle cx="819.0" cy="645.0" r="15.0" fill="#e78ac3" stroke="#071a2d" stroke-width="3" filter="url(#shadow)"/>
+<text x="842.0" y="649.0" text-anchor="start" fill="#f4fbfc" font-size="12.5" font-weight="650">Earth-Agent</text>
+<text x="842.0" y="663.0" text-anchor="start" fill="#e78ac3" font-size="10.5">194 stars</text>
+<circle cx="875.5" cy="675.0" r="7.0" fill="#e78ac3" stroke="#071a2d" stroke-width="3" filter="url(#shadow)"/>
+<text x="890.5" y="679.0" text-anchor="start" fill="#f4fbfc" font-size="12.5" font-weight="650">Earth AI</text>
+<circle cx="949.7" cy="645.0" r="10.0" fill="#e78ac3" stroke="#071a2d" stroke-width="3" filter="url(#shadow)"/>
+<text x="967.7" y="649.0" text-anchor="start" fill="#f4fbfc" font-size="12.5" font-weight="650">EarthAgent</text>
+<text x="967.7" y="663.0" text-anchor="start" fill="#e78ac3" font-size="10.5">13 stars</text>
+<circle cx="1165.9" cy="645.0" r="13.4" fill="#e78ac3" stroke="#071a2d" stroke-width="3" filter="url(#shadow)"/>
+<text x="1187.3" y="649.0" text-anchor="start" fill="#f4fbfc" font-size="12.5" font-weight="650">OpenEarthAgent</text>
+<text x="1187.3" y="663.0" text-anchor="start" fill="#e78ac3" font-size="10.5">96 stars</text>
+<circle cx="1286.3" cy="645.0" r="11.9" fill="#e78ac3" stroke="#071a2d" stroke-width="3" filter="url(#shadow)"/>
+<text x="1306.1" y="649.0" text-anchor="start" fill="#f4fbfc" font-size="12.5" font-weight="650">GeoMMAgent</text>
+<text x="1306.1" y="663.0" text-anchor="start" fill="#e78ac3" font-size="10.5">49 stars</text>
+<circle cx="1362.9" cy="675.0" r="8.6" fill="#e78ac3" stroke="#071a2d" stroke-width="3" filter="url(#shadow)"/>
+<text x="1379.4" y="679.0" text-anchor="start" fill="#f4fbfc" font-size="12.5" font-weight="650">MAP-Agent</text>
+<text x="1379.4" y="693.0" text-anchor="start" fill="#e78ac3" font-size="10.5">1 stars</text>
+<circle cx="1433.9" cy="705.0" r="9.1" fill="#e78ac3" stroke="#071a2d" stroke-width="3" filter="url(#shadow)"/>
+<text x="1416.8" y="709.0" text-anchor="end" fill="#f4fbfc" font-size="12.5" font-weight="650">TerraAgent</text>
+<text x="1416.8" y="723.0" text-anchor="end" fill="#e78ac3" font-size="10.5">4 stars</text>
 <g transform="translate(54 751)" font-size="12">
 <circle cx="5" cy="0" r="5" fill="#d6eef2"/><text x="17" y="4" fill="#b8dce3">public paper</text>
 <circle cx="126" cy="0" r="10" fill="#d6eef2"/><text x="144" y="4" fill="#b8dce3">node size = repository stars snapshot</text>

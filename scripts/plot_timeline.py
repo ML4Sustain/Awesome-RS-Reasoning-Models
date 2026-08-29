@@ -6,7 +6,7 @@ from __future__ import annotations
 import csv
 import html
 import json
-from collections import defaultdict
+import calendar
 from datetime import datetime
 from pathlib import Path
 
@@ -26,6 +26,11 @@ COLORS = {
     "Agent": ("#e78ac3", "Agentic / tools"),
 }
 LANE_Y = {"VLM+SFT": 215, "VLM+RL": 425, "Agent": 655}
+LANE_ROWS = {
+    "VLM+SFT": [215, 245, 275, 305],
+    "VLM+RL": [405, 435, 465, 495, 525],
+    "Agent": [645, 675, 705],
+}
 
 
 def esc(value: object) -> str:
@@ -57,14 +62,8 @@ def main() -> None:
     while cursor <= last:
         months.append(cursor)
         cursor = datetime(cursor.year + (cursor.month == 12), cursor.month % 12 + 1, 1)
-    step = (WIDTH - LEFT - RIGHT) / max(1, len(months) - 1)
+    step = (WIDTH - LEFT - RIGHT) / max(1, len(months))
     month_x = {(m.year, m.month): LEFT + i * step for i, m in enumerate(months)}
-
-    grouped: dict[tuple[str, int, int], list[dict]] = defaultdict(list)
-    for row in dated:
-        grouped[(row["method"], row["_date"].year, row["_date"].month)].append(row)
-    for values in grouped.values():
-        values.sort(key=lambda r: r["_date"])
 
     parts = [
         f'<svg xmlns="http://www.w3.org/2000/svg" width="{WIDTH}" height="790" viewBox="0 0 {WIDTH} 790" role="img" aria-labelledby="title desc">',
@@ -94,21 +93,25 @@ def main() -> None:
         parts.append(f'<text x="76" y="{y+5}" fill="#eaf7f8" font-size="15" font-weight="700">{esc(lane_name)}</text>')
         parts.append(f'<line x1="{LEFT}" y1="{y}" x2="{WIDTH-RIGHT}" y2="{y}" stroke="{color}" stroke-opacity=".35" stroke-width="2"/>')
 
-    for (method, year, month), values in grouped.items():
-        if method not in LANE_Y:
-            continue
-        x = month_x[(year, month)]
-        base_y = LANE_Y[method]
-        count = len(values)
-        spacing = 25
-        start = -(count - 1) * spacing / 2
-        for index, row in enumerate(values):
-            y = base_y + start + index * spacing
+    for method in COLORS:
+        values = sorted((row for row in dated if row["method"] == method), key=lambda row: row["_date"])
+        row_ends = [-10_000.0] * len(LANE_ROWS[method])
+        for row in values:
+            days = calendar.monthrange(row["_date"].year, row["_date"].month)[1]
+            x = month_x[(row["_date"].year, row["_date"].month)] + ((row["_date"].day - 1) / days) * step
             name = label(row)
+            label_width = min(130, max(42, len(name) * 7.1))
+            align_left = x > WIDTH - 190
+            interval_start = x - label_width if align_left else x
+            interval_end = x if align_left else x + label_width
+            slot = next((index for index, end_at in enumerate(row_ends) if interval_start > end_at + 12), None)
+            if slot is None:
+                slot = row_ends.index(min(row_ends))
+            row_ends[slot] = interval_end
+            y = LANE_ROWS[method][slot]
             stars = row["_stars"]
             radius = 7 if stars is None else min(15, 8 + (stars ** 0.5) * 0.55)
             color = COLORS[method][0]
-            align_left = x > WIDTH - 210
             text_x = x - radius - 8 if align_left else x + radius + 8
             anchor = "end" if align_left else "start"
             detail = f"{stars} stars" if stars is not None else ""

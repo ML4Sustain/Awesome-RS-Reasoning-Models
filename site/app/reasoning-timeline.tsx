@@ -12,9 +12,15 @@ const lanes = [
 type Lane = typeof lanes[number]['name'];
 type Filter = 'All' | Lane;
 
-const start = new Date('2025-01-01T00:00:00Z').getTime();
-const end = new Date('2026-02-01T00:00:00Z').getTime();
-const months = Array.from({ length: 14 }, (_, index) => new Date(Date.UTC(2025, index, 1)));
+const releaseDates = payload.timeline.map((item) => new Date(`${item.date}T00:00:00Z`));
+const firstRelease = new Date(Math.min(...releaseDates.map((date) => date.getTime())));
+const lastRelease = new Date(Math.max(...releaseDates.map((date) => date.getTime())));
+const startDate = new Date(Date.UTC(firstRelease.getUTCFullYear(), firstRelease.getUTCMonth(), 1));
+const endDate = new Date(Date.UTC(lastRelease.getUTCFullYear(), lastRelease.getUTCMonth() + 1, 1));
+const start = startDate.getTime();
+const end = endDate.getTime();
+const monthCount = (endDate.getUTCFullYear() - startDate.getUTCFullYear()) * 12 + endDate.getUTCMonth() - startDate.getUTCMonth();
+const months = Array.from({ length: monthCount }, (_, index) => new Date(Date.UTC(startDate.getUTCFullYear(), startDate.getUTCMonth() + index, 1)));
 
 function placeLabels(items: typeof payload.timeline) {
   const rowEnds = [-Infinity, -Infinity, -Infinity, -Infinity];

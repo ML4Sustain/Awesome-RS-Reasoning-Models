@@ -18,9 +18,9 @@ METRICS = ROOT / "data" / "github_metrics.json"
 STATS = ROOT / "data" / "stats.json"
 README = ROOT / "README.md"
 MECHANISMS = {
-    "VLM+SFT": ("Supervised", "🧩"),
-    "VLM+RL": ("Reinforcement", "🎯"),
-    "Agent": ("Agentic", "🛠️"),
+    "VLM+SFT": ("Supervised", ""),
+    "VLM+RL": ("Reinforcement", ""),
+    "Agent": ("Agentic", ""),
 }
 
 
@@ -133,7 +133,7 @@ def load() -> tuple[pd.DataFrame, dict[str, dict]]:
         raise ValueError(f"Missing catalog columns: {', '.join(sorted(missing))}")
     df["date"] = pd.to_datetime(df["submitted_v1"], errors="coerce")
     df["name"] = df["model"].where(df["model"].str.strip().ne(""), df["title"])
-    df["mechanism"] = df["method"].map(lambda x: MECHANISMS.get(x, ("Foundation", "🧱"))[0])
+    df["mechanism"] = df["method"].map(lambda x: MECHANISMS.get(x, ("Foundation", ""))[0])
     metrics = json.loads(METRICS.read_text(encoding="utf-8")) if METRICS.exists() else {}
     df["stars"] = df["github"].map(lambda url: int(metrics.get(url, {}).get("stars", 0)) if url else -1)
     return df.sort_values(["date", "stars"], ascending=[False, False]), metrics
@@ -151,7 +151,7 @@ def dashboard(df: pd.DataFrame, metrics: dict[str, dict]) -> tuple[str, dict]:
         "metrics_updated": last_metrics,
     }
     cards = table(
-        ["📚 Resources", "💻 Open source", "Tracked stars", "🕒 Metrics snapshot"],
+        ["Resources", "Open source", "Tracked stars", "Metrics snapshot"],
         [[f"**{stats['entries']}**", f"**{stats['open_source']}**", f"**{total_stars}**", f"**{last_metrics}**"]],
     )
     rows = []
@@ -191,7 +191,7 @@ def catalog(df: pd.DataFrame) -> str:
                 stars,
             ])
         output.append(
-            f"### {icon} {label} reasoning <sub>{len(group)} resources</sub>\n\n"
+            f"### {label} reasoning <sub>{len(group)} resources</sub>\n\n"
             + table(["Resource", "Focus", "Institution", "Venue", "Links", "Stored stars"], rows)
         )
     return "\n\n".join(output)
@@ -257,7 +257,7 @@ def ecosystem_dashboard(df: pd.DataFrame, stars: dict[str, int], metrics_updated
         "metrics_updated": metrics_updated,
     }
     cards = table(
-        ["🌍 Methods & models", "🧠 Reasoning", "🗃️ Data / benches", "💻 Official repos", "📦 Weights", "🔁 MS mirrors"],
+        ["Methods & models", "Reasoning systems", "Data & benchmarks", "Official repositories", "Model weights", "ModelScope mirrors"],
         [[f"**{len(df)}**", f"**{reasoning}**", f"**{dataset_count}**", f"**{repos}**", f"**{weights}**", f"**{mirrors}**"]],
     )
     note = f"Repository Stars are stored snapshots refreshed daily by GitHub Actions. Last refresh: **{metrics_updated}**."
@@ -282,17 +282,25 @@ def dataset_catalog() -> str:
 def main() -> None:
     df, metrics = load()
     ecosystem_df, ecosystem_stars, metrics_updated = load_ecosystem()
+    taxonomy_names = {clean(name) for name in df["model"] if clean(name)}
+    reasoning_df = ecosystem_df[
+        ecosystem_df["Cls1"].eq("Reasoning Models") & ecosystem_df["Name"].isin(taxonomy_names)
+    ]
+    public_ecosystem_df = pd.concat(
+        [reasoning_df, ecosystem_df[ecosystem_df["Cls1"].ne("Reasoning Models")]],
+        ignore_index=True,
+    )
     if metrics_updated == "—":
         metrics_updated = max((clean(value.get("fetched_at")) for value in metrics.values()), default="—")
     text = README.read_text(encoding="utf-8")
-    dashboard_md, stats = ecosystem_dashboard(ecosystem_df, ecosystem_stars, metrics_updated)
+    dashboard_md, stats = ecosystem_dashboard(public_ecosystem_df, ecosystem_stars, metrics_updated)
     text = replace_block(text, "DASHBOARD", dashboard_md)
-    text = replace_block(text, "CATALOG", ecosystem_catalog(ecosystem_df[ecosystem_df["Cls1"] == "Reasoning Models"], ecosystem_stars, expanded=True))
+    text = replace_block(text, "CATALOG", ecosystem_catalog(reasoning_df, ecosystem_stars, expanded=True))
     text = replace_block(text, "ECOSYSTEM", ecosystem_catalog(ecosystem_df[ecosystem_df["Cls1"] != "Reasoning Models"], ecosystem_stars, expanded=True))
     text = replace_block(text, "DATASETS", dataset_catalog())
     README.write_text(text, encoding="utf-8")
     STATS.write_text(json.dumps(stats, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-    print(f"Rendered {stats['reasoning_models']} reasoning models, {len(ecosystem_df)} ecosystem resources, and {stats['datasets_benchmarks']} datasets.")
+    print(f"Rendered {stats['reasoning_models']} reasoning models, {len(public_ecosystem_df)} ecosystem resources, and {stats['datasets_benchmarks']} datasets.")
 
 
 if __name__ == "__main__":
