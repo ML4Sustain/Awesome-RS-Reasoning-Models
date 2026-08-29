@@ -115,3 +115,10 @@ html[data-theme='dark'] .catalog .search kbd { color:#84aeb8; border-color:rgba(
 .footer-meta { display:flex; align-items:center; gap:14px; }
 .footer-meta img { width:auto; height:20px; display:block; border-radius:5px; }
 @media (max-width:760px) { .footer-meta { align-items:flex-start; flex-direction:column; gap:7px; } }
+.catalog .card-sequence { margin-right:8px; color:var(--amber); font:700 10px var(--font-geist-mono); letter-spacing:.03em; }
+.catalog .sort-note { color:#9ac3c9; text-align:center; }
+html[data-theme='light'] .catalog .sort-note { color:#55777d; }
+@media (max-width:760px) { .catalog .sort-note { display:none; } }
+.timeline-canvas { height:575px; }
+.timeline-lane.lane-1 { height:170px; }
+.timeline-lane.lane-2 { height:145px; }

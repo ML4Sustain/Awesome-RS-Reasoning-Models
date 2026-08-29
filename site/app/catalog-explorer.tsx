@@ -51,6 +51,12 @@ export default function CatalogExplorer() {
     }).sort((a, b) => sort === 'name' ? a.name.localeCompare(b.name) : sort === 'newest' ? Number(b.year) - Number(a.year) || b.stars - a.stars : b.stars - a.stars || Number(b.year) - Number(a.year)).map((item) => ({ ...item, type: 'method' as const }));
   }, [tab, query, category, sort]);
 
+  const orderNote = sort === 'stars'
+    ? 'Order: stored Stars · newest first on ties'
+    : sort === 'newest'
+      ? 'Order: newest release year first'
+      : 'Order: resource name A–Z';
+
   function changeTab(next: Tab) { setTab(next); setCategory('All categories'); if (next === 'data' && sort === 'stars') setSort('newest'); setLimit(18); }
 
   return (
@@ -75,11 +81,11 @@ export default function CatalogExplorer() {
           </select>
         </div>
       </div>
-      <div className="result-meta"><span>{items.length} results</span>{(query || category !== 'All categories') && <button onClick={() => { setQuery(''); setCategory('All categories'); }}>Clear filters</button>}<span>Stars snapshot · {payload.updated}</span></div>
+      <div className="result-meta"><span>{items.length} results</span>{(query || category !== 'All categories') && <button onClick={() => { setQuery(''); setCategory('All categories'); }}>Clear filters</button>}<span className="sort-note">{orderNote}</span><span>Stars snapshot · {payload.updated}</span></div>
       <div className="resource-grid">
-        {items.slice(0, limit).map((item) => item.type === 'method' ? (
+        {items.slice(0, limit).map((item, index) => item.type === 'method' ? (
           <article className="resource-card" key={`${item.name}-${item.year}`}>
-            <div className="card-meta"><span title={item.category}>{item.category}</span><span title={`${item.year} · ${item.venue}`}>{item.year} · {item.venue}</span></div>
+            <div className="card-meta"><span title={item.category}><b className="card-sequence">{String(index + 1).padStart(2, '0')}</b>{item.category}</span><span title={`${item.year} · ${item.venue}`}>{item.year} · {item.venue}</span></div>
             <h3>{item.name}</h3>
             <p>{item.family === 'Reasoning Models' ? 'Reasoning-specific system' : item.family}</p>
             <div className="card-links">
@@ -91,7 +97,7 @@ export default function CatalogExplorer() {
           </article>
         ) : (
           <article className="resource-card data-card" key={item.name}>
-            <div className="card-meta"><span>{item.kind}</span><span>{item.year}</span></div>
+            <div className="card-meta"><span><b className="card-sequence">{String(index + 1).padStart(2, '0')}</b>{item.kind}</span><span>{item.year}</span></div>
             <h3>{item.name}</h3><p>{item.focus}</p>
             <div className="card-links"><a href={item.url} target="_blank" rel="noreferrer">{item.label} ↗</a><span>Companion · {item.model}</span></div>
           </article>

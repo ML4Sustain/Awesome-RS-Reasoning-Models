@@ -4,9 +4,9 @@ import { useMemo, useState, type CSSProperties } from 'react';
 import payload from './catalog-data.json';
 
 const lanes = [
-  { name: 'Supervised', color: '#55d1b9' },
-  { name: 'Reinforcement', color: '#ffc447' },
-  { name: 'Agentic / tools', color: '#e47691' },
+  { name: 'Supervised', color: '#55d1b9', rows: 3 },
+  { name: 'Reinforcement', color: '#ffc447', rows: 6 },
+  { name: 'Agentic / tools', color: '#e47691', rows: 4 },
 ] as const;
 
 type Lane = typeof lanes[number]['name'];
@@ -22,16 +22,16 @@ const end = endDate.getTime();
 const monthCount = (endDate.getUTCFullYear() - startDate.getUTCFullYear()) * 12 + endDate.getUTCMonth() - startDate.getUTCMonth();
 const months = Array.from({ length: monthCount }, (_, index) => new Date(Date.UTC(startDate.getUTCFullYear(), startDate.getUTCMonth() + index, 1)));
 
-function placeLabels(items: typeof payload.timeline) {
-  const rowEnds = [-Infinity, -Infinity, -Infinity, -Infinity];
+function placeLabels(items: typeof payload.timeline, rowCount: number) {
+  const rowEnds = Array.from({ length: rowCount }, () => -Infinity);
 
   return [...items].sort((a, b) => a.date.localeCompare(b.date)).map((item) => {
     const x = 4 + ((new Date(`${item.date}T00:00:00Z`).getTime() - start) / (end - start)) * 92;
-    const labelWidth = Math.min(11, Math.max(4.2, item.name.length * .53));
-    const labelLeft = x > 84;
+    const labelWidth = Math.min(12.5, Math.max(7.5, item.name.length * .65));
+    const labelLeft = x > 80;
     const intervalStart = labelLeft ? x - labelWidth : x;
     const intervalEnd = labelLeft ? x : x + labelWidth;
-    let row = rowEnds.findIndex((endAt) => intervalStart > endAt + .8);
+    let row = rowEnds.findIndex((endAt) => intervalStart > endAt + 1.2);
 
     if (row < 0) row = rowEnds.indexOf(Math.min(...rowEnds));
     rowEnds[row] = intervalEnd;
@@ -43,7 +43,7 @@ export default function ReasoningTimeline() {
   const [filter, setFilter] = useState<Filter>('All');
   const [selected, setSelected] = useState<string | null>(null);
 
-  const entries = useMemo(() => lanes.flatMap((lane) => placeLabels(payload.timeline.filter((item) => item.mechanism === lane.name))), []);
+  const entries = useMemo(() => lanes.flatMap((lane) => placeLabels(payload.timeline.filter((item) => item.mechanism === lane.name), lane.rows)), []);
 
   return (
     <div className="interactive-timeline">
@@ -60,7 +60,7 @@ export default function ReasoningTimeline() {
             {entries.filter((item) => item.mechanism === lane.name).map((item) => {
               const open = selected === `${item.name}-${item.date}`;
               const size = Math.min(22, 10 + Math.sqrt(item.stars) * .55);
-              return <button className={`timeline-node ${item.labelLeft ? 'label-left' : ''} ${open ? 'selected' : ''}`} key={`${item.name}-${item.date}`} style={{ left: `${item.x}%`, top: `${46 + item.row * 25}px`, width: size, height: size }} onClick={() => setSelected(open ? null : `${item.name}-${item.date}`)} aria-label={`${item.name}, ${item.date}, ${item.stars} stars`}>
+              return <button className={`timeline-node ${item.labelLeft ? 'label-left' : ''} ${open ? 'selected' : ''}`} key={`${item.name}-${item.date}`} style={{ left: `${item.x}%`, top: `${46 + item.row * 23}px`, width: size, height: size }} onClick={() => setSelected(open ? null : `${item.name}-${item.date}`)} aria-label={`${item.name}, ${item.date}, ${item.stars} stars`}>
                 <span className="node-label" title={item.name}>{item.name}</span>
                 <span className="node-popover"><b>{item.name}</b><small>{new Date(`${item.date}T00:00:00Z`).toLocaleDateString('en', { year: 'numeric', month: 'short', day: 'numeric', timeZone: 'UTC' })} · {lane.name}</small><em>{item.stars ? `${item.stars.toLocaleString()} stored Stars` : 'No repository snapshot'}</em><span><a href={item.paper} target="_blank" rel="noreferrer">Paper ↗</a>{item.repo && <a href={item.repo} target="_blank" rel="noreferrer">Code ↗</a>}</span></span>
               </button>;
