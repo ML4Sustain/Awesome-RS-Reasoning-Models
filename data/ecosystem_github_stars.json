@@ -23,9 +23,9 @@
     "https://github.com/NJU-LHRS/LHRS-Bot": 194,
     "https://github.com/Norman-Ou/GeoPix": 75,
     "https://github.com/REO-VLM-anonymous/REO-VLM": 10,
-    "https://github.com/Shihao-Cheng/GeoMMAgent": 49,
+    "https://github.com/Shihao-Cheng/GeoMMAgent": 50,
     "https://github.com/Takerdat23/TerraBench": 4,
-    "https://github.com/TianHuiLab/Falcon": 382,
+    "https://github.com/TianHuiLab/Falcon": 383,
     "https://github.com/VisionXLab/GeoGround": 94,
     "https://github.com/VoyagerXvoyagerx/InstructSAM": 117,
     "https://github.com/ZhanYang-nwpu/SkyEyeGPT": 139,
@@ -48,7 +48,7 @@
     "https://github.com/jaychempan/SWAN-pytorch": 37,
     "https://github.com/jaychempan/pir-clip": 30,
     "https://github.com/kiki-zyq/ZoomSearch": 27,
-    "https://github.com/like413/RSVG-ZeroOV": 26,
+    "https://github.com/like413/RSVG-ZeroOV": 27,
     "https://github.com/lizzy8587/CastDet": 85,
     "https://github.com/lyhnsn/GLOTS": 17,
     "https://github.com/mbzuai-oryx/OpenEarthAgent": 96,
@@ -149,5 +149,5 @@
     "https://github.com/nanocm/GeoEyes": "https://github.com/nanocm/GeoEyes",
     "https://github.com/wivizhang/EarthMarker": "https://github.com/wivizhang/EarthMarker"
   },
-  "fetched_at": "2026-08-28"
+  "fetched_at": "2026-08-29"
 }
