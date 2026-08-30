@@ -30,7 +30,7 @@
     "https://github.com/VoyagerXvoyagerx/InstructSAM": 117,
     "https://github.com/ZhanYang-nwpu/SkyEyeGPT": 139,
     "https://github.com/aialt/geo-r": 3,
-    "https://github.com/aybora/TinyRS": 13,
+    "https://github.com/aybora/TinyRS": 14,
     "https://github.com/canlanqianyan/GeoReason": 10,
     "https://github.com/earth-insights/EarthAgent": 13,
     "https://github.com/earth-insights/SegEarth-R1": 156,
@@ -67,7 +67,7 @@
     "https://github.com/xuliu-cyber/RSUniVLM": 47,
     "https://github.com/yida12345/FTransUNet": 1,
     "https://github.com/yangyifremad/FUSAR-KLIP": 33,
-    "https://github.com/Luo-Z13/SkySense-Chat": 149,
+    "https://github.com/Luo-Z13/SkySense-Chat": 150,
     "https://github.com/VisionXLab/CastDet": 85,
     "https://github.com/jaychempan/SWAN": 37,
     "https://github.com/mbzuai-oryx/GeoChat": 744,
@@ -149,5 +149,5 @@
     "https://github.com/nanocm/GeoEyes": "https://github.com/nanocm/GeoEyes",
     "https://github.com/wivizhang/EarthMarker": "https://github.com/wivizhang/EarthMarker"
   },
-  "fetched_at": "2026-08-29"
+  "fetched_at": "2026-08-30"
 }

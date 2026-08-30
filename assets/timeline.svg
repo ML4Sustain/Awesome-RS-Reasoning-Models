@@ -76,9 +76,9 @@
 <circle cx="1519.9" cy="215.0" r="9.7" fill="#55d6be" stroke="#071a2d" stroke-width="3" filter="url(#shadow)"/>
 <text x="1502.2" y="219.0" text-anchor="end" fill="#f4fbfc" font-size="12.5" font-weight="650">GeoChrono</text>
 <text x="1502.2" y="233.0" text-anchor="end" fill="#55d6be" font-size="10.5">9 stars</text>
-<circle cx="503.0" cy="405.0" r="10.0" fill="#f6bd60" stroke="#071a2d" stroke-width="3" filter="url(#shadow)"/>
-<text x="521.0" y="409.0" text-anchor="start" fill="#f4fbfc" font-size="12.5" font-weight="650">TinyRS-R1</text>
-<text x="521.0" y="423.0" text-anchor="start" fill="#f6bd60" font-size="10.5">13 stars</text>
+<circle cx="503.0" cy="405.0" r="10.1" fill="#f6bd60" stroke="#071a2d" stroke-width="3" filter="url(#shadow)"/>
+<text x="521.1" y="409.0" text-anchor="start" fill="#f4fbfc" font-size="12.5" font-weight="650">TinyRS-R1</text>
+<text x="521.1" y="423.0" text-anchor="start" fill="#f6bd60" font-size="10.5">14 stars</text>
 <circle cx="667.0" cy="405.0" r="10.3" fill="#f6bd60" stroke="#071a2d" stroke-width="3" filter="url(#shadow)"/>
 <text x="685.4" y="409.0" text-anchor="start" fill="#f4fbfc" font-size="12.5" font-weight="650">RemoteReasoner</text>
 <text x="685.4" y="423.0" text-anchor="start" fill="#f6bd60" font-size="10.5">18 stars</text>
