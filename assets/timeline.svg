@@ -64,7 +64,7 @@
 <text x="444.8" y="233.0" text-anchor="start" fill="#55d6be" font-size="10.5">156 stars</text>
 <circle cx="1025.5" cy="215.0" r="12.6" fill="#55d6be" stroke="#071a2d" stroke-width="3" filter="url(#shadow)"/>
 <text x="1046.1" y="219.0" text-anchor="start" fill="#f4fbfc" font-size="12.5" font-weight="650">SegEarth-R2</text>
-<text x="1046.1" y="233.0" text-anchor="start" fill="#55d6be" font-size="10.5">70 stars</text>
+<text x="1046.1" y="233.0" text-anchor="start" fill="#55d6be" font-size="10.5">71 stars</text>
 <circle cx="1058.3" cy="245.0" r="11.6" fill="#55d6be" stroke="#071a2d" stroke-width="3" filter="url(#shadow)"/>
 <text x="1077.9" y="249.0" text-anchor="start" fill="#f4fbfc" font-size="12.5" font-weight="650">EarthVL</text>
 <text x="1077.9" y="263.0" text-anchor="start" fill="#55d6be" font-size="10.5">43 stars</text>
@@ -119,7 +119,7 @@
 <text x="1394.3" y="439.0" text-anchor="start" fill="#f4fbfc" font-size="12.5" font-weight="650">GeoX</text>
 <circle cx="819.0" cy="645.0" r="15.0" fill="#e78ac3" stroke="#071a2d" stroke-width="3" filter="url(#shadow)"/>
 <text x="842.0" y="649.0" text-anchor="start" fill="#f4fbfc" font-size="12.5" font-weight="650">Earth-Agent</text>
-<text x="842.0" y="663.0" text-anchor="start" fill="#e78ac3" font-size="10.5">194 stars</text>
+<text x="842.0" y="663.0" text-anchor="start" fill="#e78ac3" font-size="10.5">195 stars</text>
 <circle cx="875.5" cy="675.0" r="7.0" fill="#e78ac3" stroke="#071a2d" stroke-width="3" filter="url(#shadow)"/>
 <text x="890.5" y="679.0" text-anchor="start" fill="#f4fbfc" font-size="12.5" font-weight="650">Earth AI</text>
 <circle cx="949.7" cy="645.0" r="10.0" fill="#e78ac3" stroke="#071a2d" stroke-width="3" filter="url(#shadow)"/>
@@ -127,7 +127,7 @@
 <text x="967.7" y="663.0" text-anchor="start" fill="#e78ac3" font-size="10.5">13 stars</text>
 <circle cx="1165.9" cy="645.0" r="13.4" fill="#e78ac3" stroke="#071a2d" stroke-width="3" filter="url(#shadow)"/>
 <text x="1187.3" y="649.0" text-anchor="start" fill="#f4fbfc" font-size="12.5" font-weight="650">OpenEarthAgent</text>
-<text x="1187.3" y="663.0" text-anchor="start" fill="#e78ac3" font-size="10.5">96 stars</text>
+<text x="1187.3" y="663.0" text-anchor="start" fill="#e78ac3" font-size="10.5">97 stars</text>
 <circle cx="1286.3" cy="645.0" r="11.9" fill="#e78ac3" stroke="#071a2d" stroke-width="3" filter="url(#shadow)"/>
 <text x="1306.2" y="649.0" text-anchor="start" fill="#f4fbfc" font-size="12.5" font-weight="650">GeoMMAgent</text>
 <text x="1306.2" y="663.0" text-anchor="start" fill="#e78ac3" font-size="10.5">50 stars</text>
