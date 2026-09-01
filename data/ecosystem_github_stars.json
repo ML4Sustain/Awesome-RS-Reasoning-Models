@@ -1,11 +1,11 @@
 {
   "stars": {
-    "https://github.com/1e12Leon/RemoteAgent": 22,
+    "https://github.com/1e12Leon/RemoteAgent": 23,
     "https://github.com/1e12Leon/RemoteReasoner": 18,
-    "https://github.com/1e12Leon/RemoteSAM": 246,
+    "https://github.com/1e12Leon/RemoteSAM": 247,
     "https://github.com/1e12Leon/RemoteZero": 1,
-    "https://github.com/Chen-Yang-Liu/Text2Earth": 189,
-    "https://github.com/ChenDelong1999/RemoteCLIP": 587,
+    "https://github.com/Chen-Yang-Liu/Text2Earth": 188,
+    "https://github.com/ChenDelong1999/RemoteCLIP": 588,
     "https://github.com/ChloeeGrace/LLaMA-Unidetector": 15,
     "https://github.com/CV-ShuchangLyu/ME-RSRG": 7,
     "https://github.com/Geo-R1/geo-r1": 16,
@@ -43,7 +43,7 @@
     "https://github.com/hexiao0275/S2ADet": 51,
     "https://github.com/jaychempan/ETS": 57,
     "https://github.com/jaychempan/EarthSynth": 60,
-    "https://github.com/jaychempan/LAE-DINO": 289,
+    "https://github.com/jaychempan/LAE-DINO": 290,
     "https://github.com/jaychempan/PriorCLIP": 30,
     "https://github.com/jaychempan/SWAN-pytorch": 37,
     "https://github.com/jaychempan/pir-clip": 30,
@@ -51,14 +51,14 @@
     "https://github.com/like413/RSVG-ZeroOV": 27,
     "https://github.com/lizzy8587/CastDet": 85,
     "https://github.com/lyhnsn/GLOTS": 17,
-    "https://github.com/mbzuai-oryx/OpenEarthAgent": 97,
+    "https://github.com/mbzuai-oryx/OpenEarthAgent": 99,
     "https://github.com/mbzuai-oryx/geochat": 743,
     "https://github.com/microsoft/satclip": 374,
     "https://github.com/minglangL/GeoSolver": 3,
     "https://github.com/minglangL/RSThinker": 38,
     "https://github.com/mustansarfiaz/GeoVLM-R1-Toolkit": 32,
     "https://github.com/om-ai-lab/RS5M": 315,
-    "https://github.com/opendatalab/Earth-Agent": 195,
+    "https://github.com/opendatalab/Earth-Agent": 196,
     "https://github.com/ryan6073/GeoVista": 10,
     "https://github.com/shuyansy/Earth-Observation-VLMs": 138,
     "https://github.com/shuyansy/EarthMind": 138,
@@ -149,5 +149,5 @@
     "https://github.com/nanocm/GeoEyes": "https://github.com/nanocm/GeoEyes",
     "https://github.com/wivizhang/EarthMarker": "https://github.com/wivizhang/EarthMarker"
   },
-  "fetched_at": "2026-08-31"
+  "fetched_at": "2026-09-01"
 }
