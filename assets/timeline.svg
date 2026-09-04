@@ -61,7 +61,7 @@
 <line x1="175" y1="655" x2="1555" y2="655" stroke="#e78ac3" stroke-opacity=".35" stroke-width="2"/>
 <circle cx="421.9" cy="215.0" r="14.9" fill="#55d6be" stroke="#071a2d" stroke-width="3" filter="url(#shadow)"/>
 <text x="444.8" y="219.0" text-anchor="start" fill="#f4fbfc" font-size="12.5" font-weight="650">SegEarth-R1</text>
-<text x="444.8" y="233.0" text-anchor="start" fill="#55d6be" font-size="10.5">156 stars</text>
+<text x="444.8" y="233.0" text-anchor="start" fill="#55d6be" font-size="10.5">157 stars</text>
 <circle cx="1025.5" cy="215.0" r="12.6" fill="#55d6be" stroke="#071a2d" stroke-width="3" filter="url(#shadow)"/>
 <text x="1046.1" y="219.0" text-anchor="start" fill="#f4fbfc" font-size="12.5" font-weight="650">SegEarth-R2</text>
 <text x="1046.1" y="233.0" text-anchor="start" fill="#55d6be" font-size="10.5">71 stars</text>
@@ -70,7 +70,7 @@
 <text x="1077.9" y="263.0" text-anchor="start" fill="#55d6be" font-size="10.5">43 stars</text>
 <circle cx="1234.0" cy="215.0" r="14.5" fill="#55d6be" stroke="#071a2d" stroke-width="3" filter="url(#shadow)"/>
 <text x="1256.5" y="219.0" text-anchor="start" fill="#f4fbfc" font-size="12.5" font-weight="650">TerraScope</text>
-<text x="1256.5" y="233.0" text-anchor="start" fill="#55d6be" font-size="10.5">138 stars</text>
+<text x="1256.5" y="233.0" text-anchor="start" fill="#55d6be" font-size="10.5">139 stars</text>
 <circle cx="1298.4" cy="245.0" r="7.0" fill="#55d6be" stroke="#071a2d" stroke-width="3" filter="url(#shadow)"/>
 <text x="1313.4" y="249.0" text-anchor="start" fill="#f4fbfc" font-size="12.5" font-weight="650">Delta-LLaVA</text>
 <circle cx="1519.9" cy="215.0" r="9.7" fill="#55d6be" stroke="#071a2d" stroke-width="3" filter="url(#shadow)"/>
@@ -94,9 +94,9 @@
 <circle cx="964.3" cy="405.0" r="10.9" fill="#f6bd60" stroke="#071a2d" stroke-width="3" filter="url(#shadow)"/>
 <text x="983.1" y="409.0" text-anchor="start" fill="#f4fbfc" font-size="12.5" font-weight="650">GeoZero</text>
 <text x="983.1" y="423.0" text-anchor="start" fill="#f6bd60" font-size="10.5">27 stars</text>
-<circle cx="964.3" cy="435.0" r="10.8" fill="#f6bd60" stroke="#071a2d" stroke-width="3" filter="url(#shadow)"/>
+<circle cx="964.3" cy="435.0" r="10.9" fill="#f6bd60" stroke="#071a2d" stroke-width="3" filter="url(#shadow)"/>
 <text x="983.1" y="439.0" text-anchor="start" fill="#f4fbfc" font-size="12.5" font-weight="650">RS-EoT</text>
-<text x="983.1" y="453.0" text-anchor="start" fill="#f6bd60" font-size="10.5">26 stars</text>
+<text x="983.1" y="453.0" text-anchor="start" fill="#f6bd60" font-size="10.5">27 stars</text>
 <circle cx="1060.6" cy="405.0" r="9.7" fill="#f6bd60" stroke="#071a2d" stroke-width="3" filter="url(#shadow)"/>
 <text x="1078.4" y="409.0" text-anchor="start" fill="#f4fbfc" font-size="12.5" font-weight="650">GeoReason</text>
 <text x="1078.4" y="423.0" text-anchor="start" fill="#f6bd60" font-size="10.5">10 stars</text>
@@ -127,7 +127,7 @@
 <text x="967.7" y="663.0" text-anchor="start" fill="#e78ac3" font-size="10.5">13 stars</text>
 <circle cx="1165.9" cy="645.0" r="13.6" fill="#e78ac3" stroke="#071a2d" stroke-width="3" filter="url(#shadow)"/>
 <text x="1187.5" y="649.0" text-anchor="start" fill="#f4fbfc" font-size="12.5" font-weight="650">OpenEarthAgent</text>
-<text x="1187.5" y="663.0" text-anchor="start" fill="#e78ac3" font-size="10.5">103 stars</text>
+<text x="1187.5" y="663.0" text-anchor="start" fill="#e78ac3" font-size="10.5">104 stars</text>
 <circle cx="1286.3" cy="645.0" r="11.9" fill="#e78ac3" stroke="#071a2d" stroke-width="3" filter="url(#shadow)"/>
 <text x="1306.2" y="649.0" text-anchor="start" fill="#f4fbfc" font-size="12.5" font-weight="650">GeoMMAgent</text>
 <text x="1306.2" y="663.0" text-anchor="start" fill="#e78ac3" font-size="10.5">50 stars</text>
