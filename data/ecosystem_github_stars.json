@@ -1,6 +1,6 @@
 {
   "stars": {
-    "https://github.com/1e12Leon/RemoteAgent": 23,
+    "https://github.com/1e12Leon/RemoteAgent": 24,
     "https://github.com/1e12Leon/RemoteReasoner": 18,
     "https://github.com/1e12Leon/RemoteSAM": 247,
     "https://github.com/1e12Leon/RemoteZero": 1,
@@ -11,7 +11,7 @@
     "https://github.com/Geo-R1/geo-r1": 16,
     "https://github.com/GeoX-Lab/Asking_like_Socrates": 27,
     "https://github.com/GeoX-Lab/RS-HyRe-R1": 1,
-    "https://github.com/IntelliSensing/GeoChrono": 9,
+    "https://github.com/IntelliSensing/GeoChrono": 10,
     "https://github.com/Junjue-Wang/EarthVL": 43,
     "https://github.com/Lavender105/RSGPT": 151,
     "https://github.com/Luo-Z13/SkySenseGPT": 149,
@@ -19,7 +19,7 @@
     "https://github.com/MiliLab/GeoZero": 27,
     "https://github.com/MiliLab/UHR-Micro": 1,
     "https://github.com/MiliLab/UniGeoSeg": 44,
-    "https://github.com/MitsuiChen14/DGTRS": 33,
+    "https://github.com/MitsuiChen14/DGTRS": 34,
     "https://github.com/NJU-LHRS/LHRS-Bot": 194,
     "https://github.com/Norman-Ou/GeoPix": 75,
     "https://github.com/REO-VLM-anonymous/REO-VLM": 10,
@@ -38,7 +38,7 @@
     "https://github.com/earth-insights/ZoomEarth": 45,
     "https://github.com/ermongroup/TEOChat": 152,
     "https://github.com/floatingstarZ/OpenRSD": 42,
-    "https://github.com/hexiao0275/CALNet-Dronevehicle": 68,
+    "https://github.com/hexiao0275/CALNet-Dronevehicle": 69,
     "https://github.com/hexiao0275/LCMA_RGBT": 2,
     "https://github.com/hexiao0275/S2ADet": 50,
     "https://github.com/jaychempan/ETS": 57,
@@ -53,7 +53,7 @@
     "https://github.com/lyhnsn/GLOTS": 17,
     "https://github.com/mbzuai-oryx/OpenEarthAgent": 104,
     "https://github.com/mbzuai-oryx/geochat": 743,
-    "https://github.com/microsoft/satclip": 376,
+    "https://github.com/microsoft/satclip": 377,
     "https://github.com/minglangL/GeoSolver": 3,
     "https://github.com/minglangL/RSThinker": 38,
     "https://github.com/mustansarfiaz/GeoVLM-R1-Toolkit": 32,
@@ -67,10 +67,10 @@
     "https://github.com/xuliu-cyber/RSUniVLM": 47,
     "https://github.com/yida12345/FTransUNet": 1,
     "https://github.com/yangyifremad/FUSAR-KLIP": 33,
-    "https://github.com/Luo-Z13/SkySense-Chat": 150,
+    "https://github.com/Luo-Z13/SkySense-Chat": 151,
     "https://github.com/VisionXLab/CastDet": 85,
     "https://github.com/jaychempan/SWAN": 37,
-    "https://github.com/mbzuai-oryx/GeoChat": 748,
+    "https://github.com/mbzuai-oryx/GeoChat": 749,
     "https://github.com/nanocm/GeoEyes": 16,
     "https://github.com/wivizhang/EarthMarker": 46
   },
@@ -149,5 +149,5 @@
     "https://github.com/nanocm/GeoEyes": "https://github.com/nanocm/GeoEyes",
     "https://github.com/wivizhang/EarthMarker": "https://github.com/wivizhang/EarthMarker"
   },
-  "fetched_at": "2026-09-04"
+  "fetched_at": "2026-09-05"
 }

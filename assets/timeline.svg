@@ -74,8 +74,8 @@
 <circle cx="1298.4" cy="245.0" r="7.0" fill="#55d6be" stroke="#071a2d" stroke-width="3" filter="url(#shadow)"/>
 <text x="1313.4" y="249.0" text-anchor="start" fill="#f4fbfc" font-size="12.5" font-weight="650">Delta-LLaVA</text>
 <circle cx="1519.9" cy="215.0" r="9.7" fill="#55d6be" stroke="#071a2d" stroke-width="3" filter="url(#shadow)"/>
-<text x="1502.2" y="219.0" text-anchor="end" fill="#f4fbfc" font-size="12.5" font-weight="650">GeoChrono</text>
-<text x="1502.2" y="233.0" text-anchor="end" fill="#55d6be" font-size="10.5">9 stars</text>
+<text x="1502.1" y="219.0" text-anchor="end" fill="#f4fbfc" font-size="12.5" font-weight="650">GeoChrono</text>
+<text x="1502.1" y="233.0" text-anchor="end" fill="#55d6be" font-size="10.5">10 stars</text>
 <circle cx="503.0" cy="405.0" r="10.1" fill="#f6bd60" stroke="#071a2d" stroke-width="3" filter="url(#shadow)"/>
 <text x="521.1" y="409.0" text-anchor="start" fill="#f4fbfc" font-size="12.5" font-weight="650">TinyRS-R1</text>
 <text x="521.1" y="423.0" text-anchor="start" fill="#f6bd60" font-size="10.5">14 stars</text>
@@ -103,9 +103,9 @@
 <circle cx="1212.9" cy="405.0" r="9.0" fill="#f6bd60" stroke="#071a2d" stroke-width="3" filter="url(#shadow)"/>
 <text x="1229.9" y="409.0" text-anchor="start" fill="#f4fbfc" font-size="12.5" font-weight="650">GeoSolver</text>
 <text x="1229.9" y="423.0" text-anchor="start" fill="#f6bd60" font-size="10.5">3 stars</text>
-<circle cx="1283.8" cy="435.0" r="10.6" fill="#f6bd60" stroke="#071a2d" stroke-width="3" filter="url(#shadow)"/>
+<circle cx="1283.8" cy="435.0" r="10.7" fill="#f6bd60" stroke="#071a2d" stroke-width="3" filter="url(#shadow)"/>
 <text x="1302.5" y="439.0" text-anchor="start" fill="#f4fbfc" font-size="12.5" font-weight="650">RemoteAgent</text>
-<text x="1302.5" y="453.0" text-anchor="start" fill="#f6bd60" font-size="10.5">23 stars</text>
+<text x="1302.5" y="453.0" text-anchor="start" fill="#f6bd60" font-size="10.5">24 stars</text>
 <circle cx="1308.1" cy="405.0" r="8.6" fill="#f6bd60" stroke="#071a2d" stroke-width="3" filter="url(#shadow)"/>
 <text x="1324.6" y="409.0" text-anchor="start" fill="#f4fbfc" font-size="12.5" font-weight="650">RS-HyRe-R1</text>
 <text x="1324.6" y="423.0" text-anchor="start" fill="#f6bd60" font-size="10.5">1 stars</text>
