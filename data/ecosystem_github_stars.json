@@ -13,7 +13,7 @@
     "https://github.com/GeoX-Lab/RS-HyRe-R1": 1,
     "https://github.com/IntelliSensing/GeoChrono": 10,
     "https://github.com/Junjue-Wang/EarthVL": 43,
-    "https://github.com/Lavender105/RSGPT": 151,
+    "https://github.com/Lavender105/RSGPT": 149,
     "https://github.com/Luo-Z13/SkySenseGPT": 149,
     "https://github.com/MiliLab/GeoLLaVA-8K": 59,
     "https://github.com/MiliLab/GeoZero": 27,
@@ -36,7 +36,7 @@
     "https://github.com/earth-insights/SegEarth-R1": 157,
     "https://github.com/earth-insights/SegEarth-R2": 71,
     "https://github.com/earth-insights/ZoomEarth": 45,
-    "https://github.com/ermongroup/TEOChat": 152,
+    "https://github.com/ermongroup/TEOChat": 153,
     "https://github.com/floatingstarZ/OpenRSD": 42,
     "https://github.com/hexiao0275/CALNet-Dronevehicle": 69,
     "https://github.com/hexiao0275/LCMA_RGBT": 2,
@@ -58,7 +58,7 @@
     "https://github.com/minglangL/RSThinker": 38,
     "https://github.com/mustansarfiaz/GeoVLM-R1-Toolkit": 32,
     "https://github.com/om-ai-lab/RS5M": 315,
-    "https://github.com/opendatalab/Earth-Agent": 198,
+    "https://github.com/opendatalab/Earth-Agent": 199,
     "https://github.com/ryan6073/GeoVista": 10,
     "https://github.com/shuyansy/Earth-Observation-VLMs": 139,
     "https://github.com/shuyansy/EarthMind": 138,
@@ -70,7 +70,7 @@
     "https://github.com/Luo-Z13/SkySense-Chat": 151,
     "https://github.com/VisionXLab/CastDet": 85,
     "https://github.com/jaychempan/SWAN": 37,
-    "https://github.com/mbzuai-oryx/GeoChat": 749,
+    "https://github.com/mbzuai-oryx/GeoChat": 750,
     "https://github.com/nanocm/GeoEyes": 16,
     "https://github.com/wivizhang/EarthMarker": 46
   },
@@ -149,5 +149,5 @@
     "https://github.com/nanocm/GeoEyes": "https://github.com/nanocm/GeoEyes",
     "https://github.com/wivizhang/EarthMarker": "https://github.com/wivizhang/EarthMarker"
   },
-  "fetched_at": "2026-09-05"
+  "fetched_at": "2026-09-06"
 }
