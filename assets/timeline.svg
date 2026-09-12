@@ -113,13 +113,13 @@
 <text x="1365.4" y="469.0" text-anchor="start" fill="#f4fbfc" font-size="12.5" font-weight="650">RemoteZero</text>
 <text x="1365.4" y="483.0" text-anchor="start" fill="#f6bd60" font-size="10.5">1 stars</text>
 <circle cx="1367.6" cy="495.0" r="9.7" fill="#f6bd60" stroke="#071a2d" stroke-width="3" filter="url(#shadow)"/>
-<text x="1385.3" y="499.0" text-anchor="start" fill="#f4fbfc" font-size="12.5" font-weight="650">GeoVista</text>
-<text x="1385.3" y="513.0" text-anchor="start" fill="#f6bd60" font-size="10.5">10 stars</text>
+<text x="1385.2" y="499.0" text-anchor="start" fill="#f4fbfc" font-size="12.5" font-weight="650">GeoVista</text>
+<text x="1385.2" y="513.0" text-anchor="start" fill="#f6bd60" font-size="10.5">9 stars</text>
 <circle cx="1379.3" cy="435.0" r="7.0" fill="#f6bd60" stroke="#071a2d" stroke-width="3" filter="url(#shadow)"/>
 <text x="1394.3" y="439.0" text-anchor="start" fill="#f4fbfc" font-size="12.5" font-weight="650">GeoX</text>
 <circle cx="819.0" cy="645.0" r="15.0" fill="#e78ac3" stroke="#071a2d" stroke-width="3" filter="url(#shadow)"/>
 <text x="842.0" y="649.0" text-anchor="start" fill="#f4fbfc" font-size="12.5" font-weight="650">Earth-Agent</text>
-<text x="842.0" y="663.0" text-anchor="start" fill="#e78ac3" font-size="10.5">206 stars</text>
+<text x="842.0" y="663.0" text-anchor="start" fill="#e78ac3" font-size="10.5">207 stars</text>
 <circle cx="875.5" cy="675.0" r="7.0" fill="#e78ac3" stroke="#071a2d" stroke-width="3" filter="url(#shadow)"/>
 <text x="890.5" y="679.0" text-anchor="start" fill="#f4fbfc" font-size="12.5" font-weight="650">Earth AI</text>
 <circle cx="949.7" cy="645.0" r="10.0" fill="#e78ac3" stroke="#071a2d" stroke-width="3" filter="url(#shadow)"/>
