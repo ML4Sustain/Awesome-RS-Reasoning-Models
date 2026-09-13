@@ -127,7 +127,7 @@
 <text x="967.7" y="663.0" text-anchor="start" fill="#e78ac3" font-size="10.5">13 stars</text>
 <circle cx="1165.9" cy="645.0" r="13.7" fill="#e78ac3" stroke="#071a2d" stroke-width="3" filter="url(#shadow)"/>
 <text x="1187.6" y="649.0" text-anchor="start" fill="#f4fbfc" font-size="12.5" font-weight="650">OpenEarthAgent</text>
-<text x="1187.6" y="663.0" text-anchor="start" fill="#e78ac3" font-size="10.5">107 stars</text>
+<text x="1187.6" y="663.0" text-anchor="start" fill="#e78ac3" font-size="10.5">108 stars</text>
 <circle cx="1286.3" cy="645.0" r="11.9" fill="#e78ac3" stroke="#071a2d" stroke-width="3" filter="url(#shadow)"/>
 <text x="1306.2" y="649.0" text-anchor="start" fill="#f4fbfc" font-size="12.5" font-weight="650">GeoMMAgent</text>
 <text x="1306.2" y="663.0" text-anchor="start" fill="#e78ac3" font-size="10.5">51 stars</text>
