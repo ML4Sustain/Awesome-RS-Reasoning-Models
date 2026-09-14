@@ -1,8 +1,8 @@
 {
   "stars": {
-    "https://github.com/1e12Leon/RemoteAgent": 24,
+    "https://github.com/1e12Leon/RemoteAgent": 25,
     "https://github.com/1e12Leon/RemoteReasoner": 18,
-    "https://github.com/1e12Leon/RemoteSAM": 249,
+    "https://github.com/1e12Leon/RemoteSAM": 250,
     "https://github.com/1e12Leon/RemoteZero": 1,
     "https://github.com/Chen-Yang-Liu/Text2Earth": 191,
     "https://github.com/ChenDelong1999/RemoteCLIP": 594,
@@ -18,12 +18,12 @@
     "https://github.com/MiliLab/GeoLLaVA-8K": 59,
     "https://github.com/MiliLab/GeoZero": 27,
     "https://github.com/MiliLab/UHR-Micro": 1,
-    "https://github.com/MiliLab/UniGeoSeg": 44,
+    "https://github.com/MiliLab/UniGeoSeg": 45,
     "https://github.com/MitsuiChen14/DGTRS": 34,
     "https://github.com/NJU-LHRS/LHRS-Bot": 194,
     "https://github.com/Norman-Ou/GeoPix": 76,
     "https://github.com/REO-VLM-anonymous/REO-VLM": 10,
-    "https://github.com/Shihao-Cheng/GeoMMAgent": 51,
+    "https://github.com/Shihao-Cheng/GeoMMAgent": 52,
     "https://github.com/Takerdat23/TerraBench": 4,
     "https://github.com/TianHuiLab/Falcon": 384,
     "https://github.com/VisionXLab/GeoGround": 95,
@@ -57,14 +57,14 @@
     "https://github.com/minglangL/GeoSolver": 3,
     "https://github.com/minglangL/RSThinker": 38,
     "https://github.com/mustansarfiaz/GeoVLM-R1-Toolkit": 32,
-    "https://github.com/om-ai-lab/RS5M": 317,
-    "https://github.com/opendatalab/Earth-Agent": 207,
+    "https://github.com/om-ai-lab/RS5M": 318,
+    "https://github.com/opendatalab/Earth-Agent": 209,
     "https://github.com/ryan6073/GeoVista": 9,
     "https://github.com/shuyansy/Earth-Observation-VLMs": 142,
     "https://github.com/shuyansy/EarthMind": 138,
     "https://github.com/wivizhang/EarthGPT": 161,
     "https://github.com/wivizhang/earthmarker": 46,
-    "https://github.com/xuliu-cyber/RSUniVLM": 47,
+    "https://github.com/xuliu-cyber/RSUniVLM": 48,
     "https://github.com/yida12345/FTransUNet": 1,
     "https://github.com/yangyifremad/FUSAR-KLIP": 33,
     "https://github.com/Luo-Z13/SkySense-Chat": 152,
@@ -149,5 +149,5 @@
     "https://github.com/nanocm/GeoEyes": "https://github.com/nanocm/GeoEyes",
     "https://github.com/wivizhang/EarthMarker": "https://github.com/wivizhang/EarthMarker"
   },
-  "fetched_at": "2026-09-13"
+  "fetched_at": "2026-09-14"
 }
