@@ -2,10 +2,10 @@
   "stars": {
     "https://github.com/1e12Leon/RemoteAgent": 25,
     "https://github.com/1e12Leon/RemoteReasoner": 18,
-    "https://github.com/1e12Leon/RemoteSAM": 250,
+    "https://github.com/1e12Leon/RemoteSAM": 251,
     "https://github.com/1e12Leon/RemoteZero": 1,
     "https://github.com/Chen-Yang-Liu/Text2Earth": 191,
-    "https://github.com/ChenDelong1999/RemoteCLIP": 594,
+    "https://github.com/ChenDelong1999/RemoteCLIP": 593,
     "https://github.com/ChloeeGrace/LLaMA-Unidetector": 16,
     "https://github.com/CV-ShuchangLyu/ME-RSRG": 7,
     "https://github.com/Geo-R1/geo-r1": 16,
@@ -30,7 +30,7 @@
     "https://github.com/VoyagerXvoyagerx/InstructSAM": 119,
     "https://github.com/ZhanYang-nwpu/SkyEyeGPT": 139,
     "https://github.com/aialt/geo-r": 4,
-    "https://github.com/aybora/TinyRS": 14,
+    "https://github.com/aybora/TinyRS": 13,
     "https://github.com/canlanqianyan/GeoReason": 10,
     "https://github.com/earth-insights/EarthAgent": 13,
     "https://github.com/earth-insights/SegEarth-R1": 157,
@@ -60,7 +60,7 @@
     "https://github.com/om-ai-lab/RS5M": 318,
     "https://github.com/opendatalab/Earth-Agent": 209,
     "https://github.com/ryan6073/GeoVista": 9,
-    "https://github.com/shuyansy/Earth-Observation-VLMs": 142,
+    "https://github.com/shuyansy/Earth-Observation-VLMs": 143,
     "https://github.com/shuyansy/EarthMind": 138,
     "https://github.com/wivizhang/EarthGPT": 161,
     "https://github.com/wivizhang/earthmarker": 46,
@@ -149,5 +149,5 @@
     "https://github.com/nanocm/GeoEyes": "https://github.com/nanocm/GeoEyes",
     "https://github.com/wivizhang/EarthMarker": "https://github.com/wivizhang/EarthMarker"
   },
-  "fetched_at": "2026-09-15"
+  "fetched_at": "2026-09-16"
 }
