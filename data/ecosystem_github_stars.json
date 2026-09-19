@@ -25,7 +25,7 @@
     "https://github.com/REO-VLM-anonymous/REO-VLM": 10,
     "https://github.com/Shihao-Cheng/GeoMMAgent": 52,
     "https://github.com/Takerdat23/TerraBench": 4,
-    "https://github.com/TianHuiLab/Falcon": 384,
+    "https://github.com/TianHuiLab/Falcon": 385,
     "https://github.com/VisionXLab/GeoGround": 95,
     "https://github.com/VoyagerXvoyagerx/InstructSAM": 119,
     "https://github.com/ZhanYang-nwpu/SkyEyeGPT": 139,
@@ -35,7 +35,7 @@
     "https://github.com/earth-insights/EarthAgent": 13,
     "https://github.com/earth-insights/SegEarth-R1": 157,
     "https://github.com/earth-insights/SegEarth-R2": 72,
-    "https://github.com/earth-insights/ZoomEarth": 45,
+    "https://github.com/earth-insights/ZoomEarth": 46,
     "https://github.com/ermongroup/TEOChat": 155,
     "https://github.com/floatingstarZ/OpenRSD": 42,
     "https://github.com/hexiao0275/CALNet-Dronevehicle": 70,
@@ -149,5 +149,5 @@
     "https://github.com/nanocm/GeoEyes": "https://github.com/nanocm/GeoEyes",
     "https://github.com/wivizhang/EarthMarker": "https://github.com/wivizhang/EarthMarker"
   },
-  "fetched_at": "2026-09-18"
+  "fetched_at": "2026-09-19"
 }
