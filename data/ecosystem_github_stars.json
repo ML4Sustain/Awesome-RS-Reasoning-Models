@@ -41,7 +41,7 @@
     "https://github.com/hexiao0275/CALNet-Dronevehicle": 70,
     "https://github.com/hexiao0275/LCMA_RGBT": 2,
     "https://github.com/hexiao0275/S2ADet": 51,
-    "https://github.com/jaychempan/ETS": 58,
+    "https://github.com/jaychempan/ETS": 59,
     "https://github.com/jaychempan/EarthSynth": 61,
     "https://github.com/jaychempan/LAE-DINO": 295,
     "https://github.com/jaychempan/PriorCLIP": 30,
@@ -51,7 +51,7 @@
     "https://github.com/like413/RSVG-ZeroOV": 27,
     "https://github.com/lizzy8587/CastDet": 85,
     "https://github.com/lyhnsn/GLOTS": 17,
-    "https://github.com/mbzuai-oryx/OpenEarthAgent": 109,
+    "https://github.com/mbzuai-oryx/OpenEarthAgent": 111,
     "https://github.com/mbzuai-oryx/geochat": 743,
     "https://github.com/microsoft/satclip": 376,
     "https://github.com/minglangL/GeoSolver": 4,
@@ -70,7 +70,7 @@
     "https://github.com/Luo-Z13/SkySense-Chat": 153,
     "https://github.com/VisionXLab/CastDet": 85,
     "https://github.com/jaychempan/SWAN": 37,
-    "https://github.com/mbzuai-oryx/GeoChat": 755,
+    "https://github.com/mbzuai-oryx/GeoChat": 756,
     "https://github.com/nanocm/GeoEyes": 16,
     "https://github.com/wivizhang/EarthMarker": 46
   },
@@ -149,5 +149,5 @@
     "https://github.com/nanocm/GeoEyes": "https://github.com/nanocm/GeoEyes",
     "https://github.com/wivizhang/EarthMarker": "https://github.com/wivizhang/EarthMarker"
   },
-  "fetched_at": "2026-09-20"
+  "fetched_at": "2026-09-21"
 }
