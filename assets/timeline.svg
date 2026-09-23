@@ -60,8 +60,8 @@
 <text x="76" y="660" fill="#eaf7f8" font-size="15" font-weight="700">Agentic / tools</text>
 <line x1="175" y1="655" x2="1555" y2="655" stroke="#e78ac3" stroke-opacity=".35" stroke-width="2"/>
 <circle cx="421.9" cy="215.0" r="14.9" fill="#55d6be" stroke="#071a2d" stroke-width="3" filter="url(#shadow)"/>
-<text x="444.8" y="219.0" text-anchor="start" fill="#f4fbfc" font-size="12.5" font-weight="650">SegEarth-R1</text>
-<text x="444.8" y="233.0" text-anchor="start" fill="#55d6be" font-size="10.5">157 stars</text>
+<text x="444.9" y="219.0" text-anchor="start" fill="#f4fbfc" font-size="12.5" font-weight="650">SegEarth-R1</text>
+<text x="444.9" y="233.0" text-anchor="start" fill="#55d6be" font-size="10.5">158 stars</text>
 <circle cx="1025.5" cy="215.0" r="12.7" fill="#55d6be" stroke="#071a2d" stroke-width="3" filter="url(#shadow)"/>
 <text x="1046.2" y="219.0" text-anchor="start" fill="#f4fbfc" font-size="12.5" font-weight="650">SegEarth-R2</text>
 <text x="1046.2" y="233.0" text-anchor="start" fill="#55d6be" font-size="10.5">72 stars</text>

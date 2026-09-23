@@ -18,7 +18,7 @@
     "https://github.com/MiliLab/GeoLLaVA-8K": 59,
     "https://github.com/MiliLab/GeoZero": 27,
     "https://github.com/MiliLab/UHR-Micro": 1,
-    "https://github.com/MiliLab/UniGeoSeg": 46,
+    "https://github.com/MiliLab/UniGeoSeg": 45,
     "https://github.com/MitsuiChen14/DGTRS": 34,
     "https://github.com/NJU-LHRS/LHRS-Bot": 193,
     "https://github.com/Norman-Ou/GeoPix": 76,
@@ -33,9 +33,9 @@
     "https://github.com/aybora/TinyRS": 13,
     "https://github.com/canlanqianyan/GeoReason": 10,
     "https://github.com/earth-insights/EarthAgent": 13,
-    "https://github.com/earth-insights/SegEarth-R1": 157,
+    "https://github.com/earth-insights/SegEarth-R1": 158,
     "https://github.com/earth-insights/SegEarth-R2": 72,
-    "https://github.com/earth-insights/ZoomEarth": 47,
+    "https://github.com/earth-insights/ZoomEarth": 48,
     "https://github.com/ermongroup/TEOChat": 155,
     "https://github.com/floatingstarZ/OpenRSD": 42,
     "https://github.com/hexiao0275/CALNet-Dronevehicle": 70,
@@ -67,7 +67,7 @@
     "https://github.com/xuliu-cyber/RSUniVLM": 48,
     "https://github.com/yida12345/FTransUNet": 1,
     "https://github.com/yangyifremad/FUSAR-KLIP": 33,
-    "https://github.com/Luo-Z13/SkySense-Chat": 153,
+    "https://github.com/Luo-Z13/SkySense-Chat": 154,
     "https://github.com/VisionXLab/CastDet": 85,
     "https://github.com/jaychempan/SWAN": 37,
     "https://github.com/mbzuai-oryx/GeoChat": 757,
@@ -149,5 +149,5 @@
     "https://github.com/nanocm/GeoEyes": "https://github.com/nanocm/GeoEyes",
     "https://github.com/wivizhang/EarthMarker": "https://github.com/wivizhang/EarthMarker"
   },
-  "fetched_at": "2026-09-22"
+  "fetched_at": "2026-09-23"
 }
