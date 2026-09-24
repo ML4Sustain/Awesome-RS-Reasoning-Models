@@ -23,7 +23,7 @@
     "https://github.com/NJU-LHRS/LHRS-Bot": 193,
     "https://github.com/Norman-Ou/GeoPix": 76,
     "https://github.com/REO-VLM-anonymous/REO-VLM": 10,
-    "https://github.com/Shihao-Cheng/GeoMMAgent": 52,
+    "https://github.com/Shihao-Cheng/GeoMMAgent": 53,
     "https://github.com/Takerdat23/TerraBench": 4,
     "https://github.com/TianHuiLab/Falcon": 385,
     "https://github.com/VisionXLab/GeoGround": 95,
@@ -33,7 +33,7 @@
     "https://github.com/aybora/TinyRS": 13,
     "https://github.com/canlanqianyan/GeoReason": 10,
     "https://github.com/earth-insights/EarthAgent": 13,
-    "https://github.com/earth-insights/SegEarth-R1": 158,
+    "https://github.com/earth-insights/SegEarth-R1": 159,
     "https://github.com/earth-insights/SegEarth-R2": 72,
     "https://github.com/earth-insights/ZoomEarth": 48,
     "https://github.com/ermongroup/TEOChat": 155,
@@ -60,7 +60,7 @@
     "https://github.com/om-ai-lab/RS5M": 318,
     "https://github.com/opendatalab/Earth-Agent": 212,
     "https://github.com/ryan6073/GeoVista": 9,
-    "https://github.com/shuyansy/Earth-Observation-VLMs": 143,
+    "https://github.com/shuyansy/Earth-Observation-VLMs": 142,
     "https://github.com/shuyansy/EarthMind": 138,
     "https://github.com/wivizhang/EarthGPT": 161,
     "https://github.com/wivizhang/earthmarker": 46,
@@ -149,5 +149,5 @@
     "https://github.com/nanocm/GeoEyes": "https://github.com/nanocm/GeoEyes",
     "https://github.com/wivizhang/EarthMarker": "https://github.com/wivizhang/EarthMarker"
   },
-  "fetched_at": "2026-09-23"
+  "fetched_at": "2026-09-24"
 }
