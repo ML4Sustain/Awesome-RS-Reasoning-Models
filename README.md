@@ -58,7 +58,7 @@ The tracks sit on top of enabling datasets and vision-language models, and suppo
 | :---: | :---: | :---: | :---: | :---: | :---: |
 | **80** | **27** | **49** | **65** | **44** | **11** |
 
-Repository Stars are stored snapshots refreshed daily by GitHub Actions. Last refresh: **2026-09-24**.
+Repository Stars are stored snapshots refreshed daily by GitHub Actions. Last refresh: **2026-09-25**.
 
 <!-- AUTO_DASHBOARD_END -->
 
