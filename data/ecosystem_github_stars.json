@@ -17,7 +17,7 @@
     "https://github.com/Luo-Z13/SkySenseGPT": 149,
     "https://github.com/MiliLab/GeoLLaVA-8K": 59,
     "https://github.com/MiliLab/GeoZero": 27,
-    "https://github.com/MiliLab/UHR-Micro": 1,
+    "https://github.com/MiliLab/UHR-Micro": 2,
     "https://github.com/MiliLab/UniGeoSeg": 45,
     "https://github.com/MitsuiChen14/DGTRS": 34,
     "https://github.com/NJU-LHRS/LHRS-Bot": 193,
@@ -36,7 +36,7 @@
     "https://github.com/earth-insights/SegEarth-R1": 159,
     "https://github.com/earth-insights/SegEarth-R2": 72,
     "https://github.com/earth-insights/ZoomEarth": 49,
-    "https://github.com/ermongroup/TEOChat": 155,
+    "https://github.com/ermongroup/TEOChat": 156,
     "https://github.com/floatingstarZ/OpenRSD": 43,
     "https://github.com/hexiao0275/CALNet-Dronevehicle": 70,
     "https://github.com/hexiao0275/LCMA_RGBT": 2,
@@ -51,14 +51,14 @@
     "https://github.com/like413/RSVG-ZeroOV": 27,
     "https://github.com/lizzy8587/CastDet": 85,
     "https://github.com/lyhnsn/GLOTS": 17,
-    "https://github.com/mbzuai-oryx/OpenEarthAgent": 117,
+    "https://github.com/mbzuai-oryx/OpenEarthAgent": 116,
     "https://github.com/mbzuai-oryx/geochat": 743,
     "https://github.com/microsoft/satclip": 376,
     "https://github.com/minglangL/GeoSolver": 4,
     "https://github.com/minglangL/RSThinker": 38,
     "https://github.com/mustansarfiaz/GeoVLM-R1-Toolkit": 33,
     "https://github.com/om-ai-lab/RS5M": 319,
-    "https://github.com/opendatalab/Earth-Agent": 213,
+    "https://github.com/opendatalab/Earth-Agent": 214,
     "https://github.com/ryan6073/GeoVista": 9,
     "https://github.com/shuyansy/Earth-Observation-VLMs": 143,
     "https://github.com/shuyansy/EarthMind": 138,
@@ -70,7 +70,7 @@
     "https://github.com/Luo-Z13/SkySense-Chat": 154,
     "https://github.com/VisionXLab/CastDet": 86,
     "https://github.com/jaychempan/SWAN": 37,
-    "https://github.com/mbzuai-oryx/GeoChat": 757,
+    "https://github.com/mbzuai-oryx/GeoChat": 758,
     "https://github.com/nanocm/GeoEyes": 16,
     "https://github.com/wivizhang/EarthMarker": 46
   },
@@ -149,5 +149,5 @@
     "https://github.com/nanocm/GeoEyes": "https://github.com/nanocm/GeoEyes",
     "https://github.com/wivizhang/EarthMarker": "https://github.com/wivizhang/EarthMarker"
   },
-  "fetched_at": "2026-09-28"
+  "fetched_at": "2026-09-29"
 }
