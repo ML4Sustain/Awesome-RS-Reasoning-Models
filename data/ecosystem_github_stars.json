@@ -12,7 +12,7 @@
     "https://github.com/GeoX-Lab/Asking_like_Socrates": 27,
     "https://github.com/GeoX-Lab/RS-HyRe-R1": 1,
     "https://github.com/IntelliSensing/GeoChrono": 11,
-    "https://github.com/Junjue-Wang/EarthVL": 44,
+    "https://github.com/Junjue-Wang/EarthVL": 45,
     "https://github.com/Lavender105/RSGPT": 149,
     "https://github.com/Luo-Z13/SkySenseGPT": 149,
     "https://github.com/MiliLab/GeoLLaVA-8K": 59,
@@ -36,7 +36,7 @@
     "https://github.com/earth-insights/SegEarth-R1": 159,
     "https://github.com/earth-insights/SegEarth-R2": 72,
     "https://github.com/earth-insights/ZoomEarth": 50,
-    "https://github.com/ermongroup/TEOChat": 157,
+    "https://github.com/ermongroup/TEOChat": 156,
     "https://github.com/floatingstarZ/OpenRSD": 43,
     "https://github.com/hexiao0275/CALNet-Dronevehicle": 70,
     "https://github.com/hexiao0275/LCMA_RGBT": 2,
@@ -149,5 +149,5 @@
     "https://github.com/nanocm/GeoEyes": "https://github.com/nanocm/GeoEyes",
     "https://github.com/wivizhang/EarthMarker": "https://github.com/wivizhang/EarthMarker"
   },
-  "fetched_at": "2026-10-09"
+  "fetched_at": "2026-10-10"
 }
