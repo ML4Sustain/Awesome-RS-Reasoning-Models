@@ -9,7 +9,7 @@
     "https://github.com/ChloeeGrace/LLaMA-Unidetector": 16,
     "https://github.com/CV-ShuchangLyu/ME-RSRG": 7,
     "https://github.com/Geo-R1/geo-r1": 16,
-    "https://github.com/GeoX-Lab/Asking_like_Socrates": 27,
+    "https://github.com/GeoX-Lab/Asking_like_Socrates": 28,
     "https://github.com/GeoX-Lab/RS-HyRe-R1": 1,
     "https://github.com/IntelliSensing/GeoChrono": 11,
     "https://github.com/Junjue-Wang/EarthVL": 45,
@@ -70,7 +70,7 @@
     "https://github.com/Luo-Z13/SkySense-Chat": 154,
     "https://github.com/VisionXLab/CastDet": 86,
     "https://github.com/jaychempan/SWAN": 37,
-    "https://github.com/mbzuai-oryx/GeoChat": 759,
+    "https://github.com/mbzuai-oryx/GeoChat": 760,
     "https://github.com/nanocm/GeoEyes": 16,
     "https://github.com/wivizhang/EarthMarker": 46
   },
@@ -149,5 +149,5 @@
     "https://github.com/nanocm/GeoEyes": "https://github.com/nanocm/GeoEyes",
     "https://github.com/wivizhang/EarthMarker": "https://github.com/wivizhang/EarthMarker"
   },
-  "fetched_at": "2026-10-11"
+  "fetched_at": "2026-10-12"
 }
