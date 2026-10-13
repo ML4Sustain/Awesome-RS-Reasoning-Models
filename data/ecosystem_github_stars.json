@@ -18,7 +18,7 @@
     "https://github.com/MiliLab/GeoLLaVA-8K": 59,
     "https://github.com/MiliLab/GeoZero": 27,
     "https://github.com/MiliLab/UHR-Micro": 2,
-    "https://github.com/MiliLab/UniGeoSeg": 45,
+    "https://github.com/MiliLab/UniGeoSeg": 46,
     "https://github.com/MitsuiChen14/DGTRS": 34,
     "https://github.com/NJU-LHRS/LHRS-Bot": 193,
     "https://github.com/Norman-Ou/GeoPix": 76,
@@ -149,5 +149,5 @@
     "https://github.com/nanocm/GeoEyes": "https://github.com/nanocm/GeoEyes",
     "https://github.com/wivizhang/EarthMarker": "https://github.com/wivizhang/EarthMarker"
   },
-  "fetched_at": "2026-10-12"
+  "fetched_at": "2026-10-13"
 }
