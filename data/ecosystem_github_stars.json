@@ -20,7 +20,7 @@
     "https://github.com/MiliLab/UHR-Micro": 2,
     "https://github.com/MiliLab/UniGeoSeg": 46,
     "https://github.com/MitsuiChen14/DGTRS": 34,
-    "https://github.com/NJU-LHRS/LHRS-Bot": 193,
+    "https://github.com/NJU-LHRS/LHRS-Bot": 194,
     "https://github.com/Norman-Ou/GeoPix": 76,
     "https://github.com/REO-VLM-anonymous/REO-VLM": 10,
     "https://github.com/Shihao-Cheng/GeoMMAgent": 53,
@@ -36,14 +36,14 @@
     "https://github.com/earth-insights/SegEarth-R1": 159,
     "https://github.com/earth-insights/SegEarth-R2": 72,
     "https://github.com/earth-insights/ZoomEarth": 50,
-    "https://github.com/ermongroup/TEOChat": 156,
+    "https://github.com/ermongroup/TEOChat": 157,
     "https://github.com/floatingstarZ/OpenRSD": 43,
     "https://github.com/hexiao0275/CALNet-Dronevehicle": 70,
     "https://github.com/hexiao0275/LCMA_RGBT": 2,
     "https://github.com/hexiao0275/S2ADet": 51,
     "https://github.com/jaychempan/ETS": 59,
     "https://github.com/jaychempan/EarthSynth": 62,
-    "https://github.com/jaychempan/LAE-DINO": 299,
+    "https://github.com/jaychempan/LAE-DINO": 300,
     "https://github.com/jaychempan/PriorCLIP": 30,
     "https://github.com/jaychempan/SWAN-pytorch": 37,
     "https://github.com/jaychempan/pir-clip": 30,
@@ -58,7 +58,7 @@
     "https://github.com/minglangL/RSThinker": 38,
     "https://github.com/mustansarfiaz/GeoVLM-R1-Toolkit": 33,
     "https://github.com/om-ai-lab/RS5M": 322,
-    "https://github.com/opendatalab/Earth-Agent": 220,
+    "https://github.com/opendatalab/Earth-Agent": 221,
     "https://github.com/ryan6073/GeoVista": 9,
     "https://github.com/shuyansy/Earth-Observation-VLMs": 144,
     "https://github.com/shuyansy/EarthMind": 138,
@@ -149,5 +149,5 @@
     "https://github.com/nanocm/GeoEyes": "https://github.com/nanocm/GeoEyes",
     "https://github.com/wivizhang/EarthMarker": "https://github.com/wivizhang/EarthMarker"
   },
-  "fetched_at": "2026-10-13"
+  "fetched_at": "2026-10-14"
 }
