@@ -30,7 +30,7 @@
     "https://github.com/VoyagerXvoyagerx/InstructSAM": 119,
     "https://github.com/ZhanYang-nwpu/SkyEyeGPT": 139,
     "https://github.com/aialt/geo-r": 4,
-    "https://github.com/aybora/TinyRS": 13,
+    "https://github.com/aybora/TinyRS": 14,
     "https://github.com/canlanqianyan/GeoReason": 10,
     "https://github.com/earth-insights/EarthAgent": 13,
     "https://github.com/earth-insights/SegEarth-R1": 159,
@@ -51,7 +51,7 @@
     "https://github.com/like413/RSVG-ZeroOV": 29,
     "https://github.com/lizzy8587/CastDet": 85,
     "https://github.com/lyhnsn/GLOTS": 17,
-    "https://github.com/mbzuai-oryx/OpenEarthAgent": 122,
+    "https://github.com/mbzuai-oryx/OpenEarthAgent": 123,
     "https://github.com/mbzuai-oryx/geochat": 743,
     "https://github.com/microsoft/satclip": 377,
     "https://github.com/minglangL/GeoSolver": 4,
@@ -149,5 +149,5 @@
     "https://github.com/nanocm/GeoEyes": "https://github.com/nanocm/GeoEyes",
     "https://github.com/wivizhang/EarthMarker": "https://github.com/wivizhang/EarthMarker"
   },
-  "fetched_at": "2026-10-17"
+  "fetched_at": "2026-10-18"
 }
