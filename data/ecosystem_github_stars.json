@@ -5,7 +5,7 @@
     "https://github.com/1e12Leon/RemoteSAM": 253,
     "https://github.com/1e12Leon/RemoteZero": 1,
     "https://github.com/Chen-Yang-Liu/Text2Earth": 192,
-    "https://github.com/ChenDelong1999/RemoteCLIP": 599,
+    "https://github.com/ChenDelong1999/RemoteCLIP": 600,
     "https://github.com/ChloeeGrace/LLaMA-Unidetector": 16,
     "https://github.com/CV-ShuchangLyu/ME-RSRG": 7,
     "https://github.com/Geo-R1/geo-r1": 16,
@@ -149,5 +149,5 @@
     "https://github.com/nanocm/GeoEyes": "https://github.com/nanocm/GeoEyes",
     "https://github.com/wivizhang/EarthMarker": "https://github.com/wivizhang/EarthMarker"
   },
-  "fetched_at": "2026-10-18"
+  "fetched_at": "2026-10-19"
 }
