@@ -68,9 +68,9 @@
 <circle cx="1058.3" cy="245.0" r="11.7" fill="#55d6be" stroke="#071a2d" stroke-width="3" filter="url(#shadow)"/>
 <text x="1078.0" y="249.0" text-anchor="start" fill="#f4fbfc" font-size="12.5" font-weight="650">EarthVL</text>
 <text x="1078.0" y="263.0" text-anchor="start" fill="#55d6be" font-size="10.5">45 stars</text>
-<circle cx="1234.0" cy="215.0" r="14.6" fill="#55d6be" stroke="#071a2d" stroke-width="3" filter="url(#shadow)"/>
+<circle cx="1234.0" cy="215.0" r="14.7" fill="#55d6be" stroke="#071a2d" stroke-width="3" filter="url(#shadow)"/>
 <text x="1256.7" y="219.0" text-anchor="start" fill="#f4fbfc" font-size="12.5" font-weight="650">TerraScope</text>
-<text x="1256.7" y="233.0" text-anchor="start" fill="#55d6be" font-size="10.5">146 stars</text>
+<text x="1256.7" y="233.0" text-anchor="start" fill="#55d6be" font-size="10.5">148 stars</text>
 <circle cx="1298.4" cy="245.0" r="7.0" fill="#55d6be" stroke="#071a2d" stroke-width="3" filter="url(#shadow)"/>
 <text x="1313.4" y="249.0" text-anchor="start" fill="#f4fbfc" font-size="12.5" font-weight="650">Delta-LLaVA</text>
 <circle cx="1519.9" cy="215.0" r="9.8" fill="#55d6be" stroke="#071a2d" stroke-width="3" filter="url(#shadow)"/>
@@ -125,18 +125,18 @@
 <circle cx="949.7" cy="645.0" r="10.0" fill="#e78ac3" stroke="#071a2d" stroke-width="3" filter="url(#shadow)"/>
 <text x="967.7" y="649.0" text-anchor="start" fill="#f4fbfc" font-size="12.5" font-weight="650">EarthAgent</text>
 <text x="967.7" y="663.0" text-anchor="start" fill="#e78ac3" font-size="10.5">13 stars</text>
-<circle cx="1165.9" cy="645.0" r="14.1" fill="#e78ac3" stroke="#071a2d" stroke-width="3" filter="url(#shadow)"/>
-<text x="1188.0" y="649.0" text-anchor="start" fill="#f4fbfc" font-size="12.5" font-weight="650">OpenEarthAgent</text>
-<text x="1188.0" y="663.0" text-anchor="start" fill="#e78ac3" font-size="10.5">123 stars</text>
+<circle cx="1165.9" cy="645.0" r="14.2" fill="#e78ac3" stroke="#071a2d" stroke-width="3" filter="url(#shadow)"/>
+<text x="1188.1" y="649.0" text-anchor="start" fill="#f4fbfc" font-size="12.5" font-weight="650">OpenEarthAgent</text>
+<text x="1188.1" y="663.0" text-anchor="start" fill="#e78ac3" font-size="10.5">126 stars</text>
 <circle cx="1286.3" cy="645.0" r="12.0" fill="#e78ac3" stroke="#071a2d" stroke-width="3" filter="url(#shadow)"/>
 <text x="1306.3" y="649.0" text-anchor="start" fill="#f4fbfc" font-size="12.5" font-weight="650">GeoMMAgent</text>
 <text x="1306.3" y="663.0" text-anchor="start" fill="#e78ac3" font-size="10.5">54 stars</text>
 <circle cx="1362.9" cy="675.0" r="8.8" fill="#e78ac3" stroke="#071a2d" stroke-width="3" filter="url(#shadow)"/>
 <text x="1379.7" y="679.0" text-anchor="start" fill="#f4fbfc" font-size="12.5" font-weight="650">MAP-Agent</text>
 <text x="1379.7" y="693.0" text-anchor="start" fill="#e78ac3" font-size="10.5">2 stars</text>
-<circle cx="1433.9" cy="705.0" r="9.1" fill="#e78ac3" stroke="#071a2d" stroke-width="3" filter="url(#shadow)"/>
-<text x="1416.8" y="709.0" text-anchor="end" fill="#f4fbfc" font-size="12.5" font-weight="650">TerraAgent</text>
-<text x="1416.8" y="723.0" text-anchor="end" fill="#e78ac3" font-size="10.5">4 stars</text>
+<circle cx="1433.9" cy="705.0" r="9.2" fill="#e78ac3" stroke="#071a2d" stroke-width="3" filter="url(#shadow)"/>
+<text x="1416.7" y="709.0" text-anchor="end" fill="#f4fbfc" font-size="12.5" font-weight="650">TerraAgent</text>
+<text x="1416.7" y="723.0" text-anchor="end" fill="#e78ac3" font-size="10.5">5 stars</text>
 <g transform="translate(54 751)" font-size="12">
 <circle cx="5" cy="0" r="5" fill="#d6eef2"/><text x="17" y="4" fill="#b8dce3">public paper</text>
 <circle cx="126" cy="0" r="10" fill="#d6eef2"/><text x="144" y="4" fill="#b8dce3">node size = repository stars snapshot</text>
