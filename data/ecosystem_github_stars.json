@@ -15,7 +15,7 @@
     "https://github.com/Junjue-Wang/EarthVL": 45,
     "https://github.com/Lavender105/RSGPT": 149,
     "https://github.com/Luo-Z13/SkySenseGPT": 149,
-    "https://github.com/MiliLab/GeoLLaVA-8K": 59,
+    "https://github.com/MiliLab/GeoLLaVA-8K": 60,
     "https://github.com/MiliLab/GeoZero": 27,
     "https://github.com/MiliLab/UHR-Micro": 2,
     "https://github.com/MiliLab/UniGeoSeg": 46,
@@ -27,7 +27,7 @@
     "https://github.com/Takerdat23/TerraBench": 5,
     "https://github.com/TianHuiLab/Falcon": 386,
     "https://github.com/VisionXLab/GeoGround": 96,
-    "https://github.com/VoyagerXvoyagerx/InstructSAM": 119,
+    "https://github.com/VoyagerXvoyagerx/InstructSAM": 118,
     "https://github.com/ZhanYang-nwpu/SkyEyeGPT": 139,
     "https://github.com/aialt/geo-r": 4,
     "https://github.com/aybora/TinyRS": 14,
@@ -51,14 +51,14 @@
     "https://github.com/like413/RSVG-ZeroOV": 29,
     "https://github.com/lizzy8587/CastDet": 85,
     "https://github.com/lyhnsn/GLOTS": 17,
-    "https://github.com/mbzuai-oryx/OpenEarthAgent": 126,
+    "https://github.com/mbzuai-oryx/OpenEarthAgent": 128,
     "https://github.com/mbzuai-oryx/geochat": 743,
     "https://github.com/microsoft/satclip": 377,
     "https://github.com/minglangL/GeoSolver": 4,
     "https://github.com/minglangL/RSThinker": 38,
     "https://github.com/mustansarfiaz/GeoVLM-R1-Toolkit": 34,
     "https://github.com/om-ai-lab/RS5M": 321,
-    "https://github.com/opendatalab/Earth-Agent": 223,
+    "https://github.com/opendatalab/Earth-Agent": 224,
     "https://github.com/ryan6073/GeoVista": 9,
     "https://github.com/shuyansy/Earth-Observation-VLMs": 148,
     "https://github.com/shuyansy/EarthMind": 138,
@@ -70,8 +70,8 @@
     "https://github.com/Luo-Z13/SkySense-Chat": 154,
     "https://github.com/VisionXLab/CastDet": 86,
     "https://github.com/jaychempan/SWAN": 37,
-    "https://github.com/mbzuai-oryx/GeoChat": 760,
-    "https://github.com/nanocm/GeoEyes": 16,
+    "https://github.com/mbzuai-oryx/GeoChat": 759,
+    "https://github.com/nanocm/GeoEyes": 17,
     "https://github.com/wivizhang/EarthMarker": 46
   },
   "canonical": {
@@ -149,5 +149,5 @@
     "https://github.com/nanocm/GeoEyes": "https://github.com/nanocm/GeoEyes",
     "https://github.com/wivizhang/EarthMarker": "https://github.com/wivizhang/EarthMarker"
   },
-  "fetched_at": "2026-10-20"
+  "fetched_at": "2026-10-21"
 }
