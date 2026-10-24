@@ -5,7 +5,7 @@
     "https://github.com/1e12Leon/RemoteSAM": 254,
     "https://github.com/1e12Leon/RemoteZero": 1,
     "https://github.com/Chen-Yang-Liu/Text2Earth": 192,
-    "https://github.com/ChenDelong1999/RemoteCLIP": 600,
+    "https://github.com/ChenDelong1999/RemoteCLIP": 599,
     "https://github.com/ChloeeGrace/LLaMA-Unidetector": 16,
     "https://github.com/CV-ShuchangLyu/ME-RSRG": 7,
     "https://github.com/Geo-R1/geo-r1": 16,
@@ -58,7 +58,7 @@
     "https://github.com/minglangL/RSThinker": 38,
     "https://github.com/mustansarfiaz/GeoVLM-R1-Toolkit": 34,
     "https://github.com/om-ai-lab/RS5M": 321,
-    "https://github.com/opendatalab/Earth-Agent": 225,
+    "https://github.com/opendatalab/Earth-Agent": 226,
     "https://github.com/ryan6073/GeoVista": 9,
     "https://github.com/shuyansy/Earth-Observation-VLMs": 148,
     "https://github.com/shuyansy/EarthMind": 138,
@@ -149,5 +149,5 @@
     "https://github.com/nanocm/GeoEyes": "https://github.com/nanocm/GeoEyes",
     "https://github.com/wivizhang/EarthMarker": "https://github.com/wivizhang/EarthMarker"
   },
-  "fetched_at": "2026-10-23"
+  "fetched_at": "2026-10-24"
 }
