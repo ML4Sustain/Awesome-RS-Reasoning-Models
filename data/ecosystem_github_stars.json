@@ -23,7 +23,7 @@
     "https://github.com/NJU-LHRS/LHRS-Bot": 194,
     "https://github.com/Norman-Ou/GeoPix": 76,
     "https://github.com/REO-VLM-anonymous/REO-VLM": 10,
-    "https://github.com/Shihao-Cheng/GeoMMAgent": 55,
+    "https://github.com/Shihao-Cheng/GeoMMAgent": 56,
     "https://github.com/Takerdat23/TerraBench": 5,
     "https://github.com/TianHuiLab/Falcon": 386,
     "https://github.com/VisionXLab/GeoGround": 96,
@@ -57,7 +57,7 @@
     "https://github.com/minglangL/GeoSolver": 4,
     "https://github.com/minglangL/RSThinker": 38,
     "https://github.com/mustansarfiaz/GeoVLM-R1-Toolkit": 34,
-    "https://github.com/om-ai-lab/RS5M": 321,
+    "https://github.com/om-ai-lab/RS5M": 322,
     "https://github.com/opendatalab/Earth-Agent": 229,
     "https://github.com/ryan6073/GeoVista": 9,
     "https://github.com/shuyansy/Earth-Observation-VLMs": 148,
@@ -67,7 +67,7 @@
     "https://github.com/xuliu-cyber/RSUniVLM": 48,
     "https://github.com/yida12345/FTransUNet": 1,
     "https://github.com/yangyifremad/FUSAR-KLIP": 33,
-    "https://github.com/Luo-Z13/SkySense-Chat": 154,
+    "https://github.com/Luo-Z13/SkySense-Chat": 153,
     "https://github.com/VisionXLab/CastDet": 87,
     "https://github.com/jaychempan/SWAN": 37,
     "https://github.com/mbzuai-oryx/GeoChat": 759,
@@ -149,5 +149,5 @@
     "https://github.com/nanocm/GeoEyes": "https://github.com/nanocm/GeoEyes",
     "https://github.com/wivizhang/EarthMarker": "https://github.com/wivizhang/EarthMarker"
   },
-  "fetched_at": "2026-11-01"
+  "fetched_at": "2026-11-02"
 }
