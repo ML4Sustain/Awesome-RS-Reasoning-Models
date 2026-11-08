@@ -2,10 +2,10 @@
   "stars": {
     "https://github.com/1e12Leon/RemoteAgent": 28,
     "https://github.com/1e12Leon/RemoteReasoner": 18,
-    "https://github.com/1e12Leon/RemoteSAM": 255,
+    "https://github.com/1e12Leon/RemoteSAM": 256,
     "https://github.com/1e12Leon/RemoteZero": 1,
     "https://github.com/Chen-Yang-Liu/Text2Earth": 192,
-    "https://github.com/ChenDelong1999/RemoteCLIP": 603,
+    "https://github.com/ChenDelong1999/RemoteCLIP": 604,
     "https://github.com/ChloeeGrace/LLaMA-Unidetector": 16,
     "https://github.com/CV-ShuchangLyu/ME-RSRG": 7,
     "https://github.com/Geo-R1/geo-r1": 17,
@@ -43,7 +43,7 @@
     "https://github.com/hexiao0275/S2ADet": 51,
     "https://github.com/jaychempan/ETS": 59,
     "https://github.com/jaychempan/EarthSynth": 62,
-    "https://github.com/jaychempan/LAE-DINO": 300,
+    "https://github.com/jaychempan/LAE-DINO": 301,
     "https://github.com/jaychempan/PriorCLIP": 31,
     "https://github.com/jaychempan/SWAN-pytorch": 37,
     "https://github.com/jaychempan/pir-clip": 30,
@@ -149,5 +149,5 @@
     "https://github.com/nanocm/GeoEyes": "https://github.com/nanocm/GeoEyes",
     "https://github.com/wivizhang/EarthMarker": "https://github.com/wivizhang/EarthMarker"
   },
-  "fetched_at": "2026-11-07"
+  "fetched_at": "2026-11-08"
 }
