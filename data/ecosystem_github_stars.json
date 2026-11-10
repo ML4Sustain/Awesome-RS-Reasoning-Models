@@ -5,7 +5,7 @@
     "https://github.com/1e12Leon/RemoteSAM": 256,
     "https://github.com/1e12Leon/RemoteZero": 1,
     "https://github.com/Chen-Yang-Liu/Text2Earth": 192,
-    "https://github.com/ChenDelong1999/RemoteCLIP": 604,
+    "https://github.com/ChenDelong1999/RemoteCLIP": 606,
     "https://github.com/ChloeeGrace/LLaMA-Unidetector": 16,
     "https://github.com/CV-ShuchangLyu/ME-RSRG": 7,
     "https://github.com/Geo-R1/geo-r1": 17,
@@ -43,7 +43,7 @@
     "https://github.com/hexiao0275/S2ADet": 50,
     "https://github.com/jaychempan/ETS": 59,
     "https://github.com/jaychempan/EarthSynth": 62,
-    "https://github.com/jaychempan/LAE-DINO": 301,
+    "https://github.com/jaychempan/LAE-DINO": 302,
     "https://github.com/jaychempan/PriorCLIP": 31,
     "https://github.com/jaychempan/SWAN-pytorch": 37,
     "https://github.com/jaychempan/pir-clip": 30,
@@ -51,13 +51,13 @@
     "https://github.com/like413/RSVG-ZeroOV": 30,
     "https://github.com/lizzy8587/CastDet": 85,
     "https://github.com/lyhnsn/GLOTS": 17,
-    "https://github.com/mbzuai-oryx/OpenEarthAgent": 135,
+    "https://github.com/mbzuai-oryx/OpenEarthAgent": 137,
     "https://github.com/mbzuai-oryx/geochat": 743,
     "https://github.com/microsoft/satclip": 380,
     "https://github.com/minglangL/GeoSolver": 4,
     "https://github.com/minglangL/RSThinker": 38,
     "https://github.com/mustansarfiaz/GeoVLM-R1-Toolkit": 35,
-    "https://github.com/om-ai-lab/RS5M": 322,
+    "https://github.com/om-ai-lab/RS5M": 323,
     "https://github.com/opendatalab/Earth-Agent": 232,
     "https://github.com/ryan6073/GeoVista": 9,
     "https://github.com/shuyansy/Earth-Observation-VLMs": 149,
@@ -149,5 +149,5 @@
     "https://github.com/nanocm/GeoEyes": "https://github.com/nanocm/GeoEyes",
     "https://github.com/wivizhang/EarthMarker": "https://github.com/wivizhang/EarthMarker"
   },
-  "fetched_at": "2026-11-09"
+  "fetched_at": "2026-11-10"
 }
