@@ -2,7 +2,7 @@
   "stars": {
     "https://github.com/1e12Leon/RemoteAgent": 28,
     "https://github.com/1e12Leon/RemoteReasoner": 18,
-    "https://github.com/1e12Leon/RemoteSAM": 256,
+    "https://github.com/1e12Leon/RemoteSAM": 255,
     "https://github.com/1e12Leon/RemoteZero": 1,
     "https://github.com/Chen-Yang-Liu/Text2Earth": 192,
     "https://github.com/ChenDelong1999/RemoteCLIP": 606,
@@ -36,14 +36,14 @@
     "https://github.com/earth-insights/SegEarth-R1": 159,
     "https://github.com/earth-insights/SegEarth-R2": 73,
     "https://github.com/earth-insights/ZoomEarth": 56,
-    "https://github.com/ermongroup/TEOChat": 157,
+    "https://github.com/ermongroup/TEOChat": 156,
     "https://github.com/floatingstarZ/OpenRSD": 44,
     "https://github.com/hexiao0275/CALNet-Dronevehicle": 70,
     "https://github.com/hexiao0275/LCMA_RGBT": 2,
     "https://github.com/hexiao0275/S2ADet": 50,
     "https://github.com/jaychempan/ETS": 59,
     "https://github.com/jaychempan/EarthSynth": 62,
-    "https://github.com/jaychempan/LAE-DINO": 303,
+    "https://github.com/jaychempan/LAE-DINO": 302,
     "https://github.com/jaychempan/PriorCLIP": 31,
     "https://github.com/jaychempan/SWAN-pytorch": 37,
     "https://github.com/jaychempan/pir-clip": 30,
@@ -67,7 +67,7 @@
     "https://github.com/xuliu-cyber/RSUniVLM": 48,
     "https://github.com/yida12345/FTransUNet": 1,
     "https://github.com/yangyifremad/FUSAR-KLIP": 33,
-    "https://github.com/Luo-Z13/SkySense-Chat": 154,
+    "https://github.com/Luo-Z13/SkySense-Chat": 155,
     "https://github.com/VisionXLab/CastDet": 87,
     "https://github.com/jaychempan/SWAN": 37,
     "https://github.com/mbzuai-oryx/GeoChat": 757,
@@ -149,5 +149,5 @@
     "https://github.com/nanocm/GeoEyes": "https://github.com/nanocm/GeoEyes",
     "https://github.com/wivizhang/EarthMarker": "https://github.com/wivizhang/EarthMarker"
   },
-  "fetched_at": "2026-11-11"
+  "fetched_at": "2026-11-12"
 }
