@@ -12,7 +12,7 @@
     "https://github.com/GeoX-Lab/Asking_like_Socrates": 27,
     "https://github.com/GeoX-Lab/RS-HyRe-R1": 1,
     "https://github.com/IntelliSensing/GeoChrono": 11,
-    "https://github.com/Junjue-Wang/EarthVL": 47,
+    "https://github.com/Junjue-Wang/EarthVL": 48,
     "https://github.com/Lavender105/RSGPT": 149,
     "https://github.com/Luo-Z13/SkySenseGPT": 149,
     "https://github.com/MiliLab/GeoLLaVA-8K": 60,
@@ -48,17 +48,17 @@
     "https://github.com/jaychempan/SWAN-pytorch": 37,
     "https://github.com/jaychempan/pir-clip": 30,
     "https://github.com/kiki-zyq/ZoomSearch": 27,
-    "https://github.com/like413/RSVG-ZeroOV": 30,
+    "https://github.com/like413/RSVG-ZeroOV": 31,
     "https://github.com/lizzy8587/CastDet": 85,
     "https://github.com/lyhnsn/GLOTS": 17,
-    "https://github.com/mbzuai-oryx/OpenEarthAgent": 137,
+    "https://github.com/mbzuai-oryx/OpenEarthAgent": 138,
     "https://github.com/mbzuai-oryx/geochat": 743,
     "https://github.com/microsoft/satclip": 381,
     "https://github.com/minglangL/GeoSolver": 4,
     "https://github.com/minglangL/RSThinker": 38,
     "https://github.com/mustansarfiaz/GeoVLM-R1-Toolkit": 35,
     "https://github.com/om-ai-lab/RS5M": 323,
-    "https://github.com/opendatalab/Earth-Agent": 232,
+    "https://github.com/opendatalab/Earth-Agent": 236,
     "https://github.com/ryan6073/GeoVista": 9,
     "https://github.com/shuyansy/Earth-Observation-VLMs": 149,
     "https://github.com/shuyansy/EarthMind": 138,
@@ -149,5 +149,5 @@
     "https://github.com/nanocm/GeoEyes": "https://github.com/nanocm/GeoEyes",
     "https://github.com/wivizhang/EarthMarker": "https://github.com/wivizhang/EarthMarker"
   },
-  "fetched_at": "2026-11-12"
+  "fetched_at": "2026-11-13"
 }
