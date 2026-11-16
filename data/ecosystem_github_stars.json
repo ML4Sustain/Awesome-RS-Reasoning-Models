@@ -58,7 +58,7 @@
     "https://github.com/minglangL/RSThinker": 38,
     "https://github.com/mustansarfiaz/GeoVLM-R1-Toolkit": 35,
     "https://github.com/om-ai-lab/RS5M": 323,
-    "https://github.com/opendatalab/Earth-Agent": 236,
+    "https://github.com/opendatalab/Earth-Agent": 237,
     "https://github.com/ryan6073/GeoVista": 9,
     "https://github.com/shuyansy/Earth-Observation-VLMs": 149,
     "https://github.com/shuyansy/EarthMind": 138,
@@ -70,9 +70,9 @@
     "https://github.com/Luo-Z13/SkySense-Chat": 155,
     "https://github.com/VisionXLab/CastDet": 87,
     "https://github.com/jaychempan/SWAN": 37,
-    "https://github.com/mbzuai-oryx/GeoChat": 757,
+    "https://github.com/mbzuai-oryx/GeoChat": 758,
     "https://github.com/nanocm/GeoEyes": 18,
-    "https://github.com/wivizhang/EarthMarker": 46
+    "https://github.com/wivizhang/EarthMarker": 47
   },
   "canonical": {
     "https://github.com/1e12Leon/RemoteAgent": "https://github.com/1e12Leon/RemoteAgent",
@@ -149,5 +149,5 @@
     "https://github.com/nanocm/GeoEyes": "https://github.com/nanocm/GeoEyes",
     "https://github.com/wivizhang/EarthMarker": "https://github.com/wivizhang/EarthMarker"
   },
-  "fetched_at": "2026-11-15"
+  "fetched_at": "2026-11-16"
 }
