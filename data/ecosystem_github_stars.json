@@ -59,8 +59,8 @@
     "https://github.com/mustansarfiaz/GeoVLM-R1-Toolkit": 35,
     "https://github.com/om-ai-lab/RS5M": 325,
     "https://github.com/opendatalab/Earth-Agent": 237,
-    "https://github.com/ryan6073/GeoVista": 9,
-    "https://github.com/shuyansy/Earth-Observation-VLMs": 150,
+    "https://github.com/ryan6073/GeoVista": 10,
+    "https://github.com/shuyansy/Earth-Observation-VLMs": 151,
     "https://github.com/shuyansy/EarthMind": 138,
     "https://github.com/wivizhang/EarthGPT": 161,
     "https://github.com/wivizhang/earthmarker": 46,
@@ -149,5 +149,5 @@
     "https://github.com/nanocm/GeoEyes": "https://github.com/nanocm/GeoEyes",
     "https://github.com/wivizhang/EarthMarker": "https://github.com/wivizhang/EarthMarker"
   },
-  "fetched_at": "2026-11-18"
+  "fetched_at": "2026-11-19"
 }
