@@ -34,7 +34,7 @@
     "https://github.com/canlanqianyan/GeoReason": 11,
     "https://github.com/earth-insights/EarthAgent": 13,
     "https://github.com/earth-insights/SegEarth-R1": 159,
-    "https://github.com/earth-insights/SegEarth-R2": 73,
+    "https://github.com/earth-insights/SegEarth-R2": 74,
     "https://github.com/earth-insights/ZoomEarth": 57,
     "https://github.com/ermongroup/TEOChat": 156,
     "https://github.com/floatingstarZ/OpenRSD": 44,
@@ -51,7 +51,7 @@
     "https://github.com/like413/RSVG-ZeroOV": 31,
     "https://github.com/lizzy8587/CastDet": 85,
     "https://github.com/lyhnsn/GLOTS": 17,
-    "https://github.com/mbzuai-oryx/OpenEarthAgent": 139,
+    "https://github.com/mbzuai-oryx/OpenEarthAgent": 140,
     "https://github.com/mbzuai-oryx/geochat": 743,
     "https://github.com/microsoft/satclip": 383,
     "https://github.com/minglangL/GeoSolver": 4,
@@ -149,5 +149,5 @@
     "https://github.com/nanocm/GeoEyes": "https://github.com/nanocm/GeoEyes",
     "https://github.com/wivizhang/EarthMarker": "https://github.com/wivizhang/EarthMarker"
   },
-  "fetched_at": "2026-11-21"
+  "fetched_at": "2026-11-22"
 }
