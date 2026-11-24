@@ -11,7 +11,7 @@
     "https://github.com/Geo-R1/geo-r1": 17,
     "https://github.com/GeoX-Lab/Asking_like_Socrates": 27,
     "https://github.com/GeoX-Lab/RS-HyRe-R1": 1,
-    "https://github.com/IntelliSensing/GeoChrono": 11,
+    "https://github.com/IntelliSensing/GeoChrono": 12,
     "https://github.com/Junjue-Wang/EarthVL": 48,
     "https://github.com/Lavender105/RSGPT": 149,
     "https://github.com/Luo-Z13/SkySenseGPT": 149,
@@ -58,13 +58,13 @@
     "https://github.com/minglangL/RSThinker": 38,
     "https://github.com/mustansarfiaz/GeoVLM-R1-Toolkit": 35,
     "https://github.com/om-ai-lab/RS5M": 325,
-    "https://github.com/opendatalab/Earth-Agent": 238,
+    "https://github.com/opendatalab/Earth-Agent": 237,
     "https://github.com/ryan6073/GeoVista": 10,
     "https://github.com/shuyansy/Earth-Observation-VLMs": 150,
     "https://github.com/shuyansy/EarthMind": 138,
     "https://github.com/wivizhang/EarthGPT": 161,
     "https://github.com/wivizhang/earthmarker": 46,
-    "https://github.com/xuliu-cyber/RSUniVLM": 49,
+    "https://github.com/xuliu-cyber/RSUniVLM": 50,
     "https://github.com/yida12345/FTransUNet": 1,
     "https://github.com/yangyifremad/FUSAR-KLIP": 33,
     "https://github.com/Luo-Z13/SkySense-Chat": 155,
@@ -149,5 +149,5 @@
     "https://github.com/nanocm/GeoEyes": "https://github.com/nanocm/GeoEyes",
     "https://github.com/wivizhang/EarthMarker": "https://github.com/wivizhang/EarthMarker"
   },
-  "fetched_at": "2026-11-23"
+  "fetched_at": "2026-11-24"
 }
